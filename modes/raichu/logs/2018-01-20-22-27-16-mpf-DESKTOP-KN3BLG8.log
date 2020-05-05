@@ -1,0 +1,33 @@
+2018-01-20 22:27:16,639 : Machine : Mission Pinball Framework Core Engine v0.33.49
+2018-01-20 22:27:16,639 : Machine : Command line arguments: {'force_platform': 'virtual', 'configfile': ['config'], 'bcp': False, 'force_assets_load': False, 'loglevel': 11, 'consoleloglevel': 20, 'create_config_cache': True, 'no_load_cache': False, 'mc_file_name': None, 'pause': False, 'logfile': 'logs\\2018-01-20-22-27-16-mpf-DESKTOP-KN3BLG8.log', 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'syslog_address': None}
+2018-01-20 22:27:16,639 : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2018-01-20 22:27:16,639 : Machine : Machine path: C:\Pinball\hey_dev\modes\base
+2018-01-20 22:27:16,639 : Machine : Platform: win32
+2018-01-20 22:27:16,654 : Machine : Python executable location: c:\python34\python.exe
+2018-01-20 22:27:16,654 : Machine : Python version: 3.4.4 (64-bit)
+2018-01-20 22:27:17,670 : Machine : Loading config from original files
+2018-01-20 22:27:17,967 : Machine : Machine config file #1: C:\Pinball\hey_dev\modes\base\config\config
+2018-01-20 22:27:17,982 : root : Could not find file C:\Pinball\hey_dev\modes\base\config\config
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\core\file_manager.py", line 147, in load
+    file = FileManager.locate_file(filename)
+  File "c:\python34\lib\site-packages\mpf\core\file_manager.py", line 120, in locate_file
+    raise FileNotFoundError("File not found: {}".format(filename))
+FileNotFoundError: File not found: C:\Pinball\hey_dev\modes\base\config\config
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\commands\game.py", line 181, in __init__
+    MachineController(mpf_path, machine_path, vars(args)).run()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 96, in __init__
+    self._load_config()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 414, in _load_config
+    self._load_config_from_files()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 434, in _load_config_from_files
+    config_type='machine'))
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 24, in load_config_file
+    config = FileManager.load(filename, verify_version, halt_on_error)
+  File "c:\python34\lib\site-packages\mpf\core\file_manager.py", line 150, in load
+    raise IOError("Could not find file {}".format(filename))
+OSError: Could not find file C:\Pinball\hey_dev\modes\base\config\config

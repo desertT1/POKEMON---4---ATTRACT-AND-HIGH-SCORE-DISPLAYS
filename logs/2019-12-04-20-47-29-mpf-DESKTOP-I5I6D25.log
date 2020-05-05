@@ -1,0 +1,924 @@
+2019-12-04 20:47:29,590 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-12-04 20:47:29,590 : INFO : Machine : Command line arguments: {'logfile': 'logs\\2019-12-04-20-47-29-mpf-DESKTOP-I5I6D25.log', 'configfile': ['config.yaml'], 'bcp': True, 'pause': False, 'text_ui': True, 'force_platform': None, 'mc_file_name': None, 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'syslog_address': None, 'create_config_cache': True, 'loglevel': 15, 'consoleloglevel': 20, 'no_load_cache': False, 'production': False, 'force_assets_load': False}
+2019-12-04 20:47:29,606 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-12-04 20:47:29,606 : INFO : Machine : Machine path: E:\POKEMON - 3 - GYMS DISPLAYS
+2019-12-04 20:47:29,606 : INFO : Machine : Platform: win32
+2019-12-04 20:47:29,606 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-12-04 20:47:29,606 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-12-04 20:47:31,106 : INFO : Machine : Machine config file #1: config.yaml
+2019-12-04 20:47:31,106 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\ea212a0c8bdfa5028f5ffb6b971ae718.mpf_cache
+2019-12-04 20:47:31,169 : INFO : Machine : Initialise MPF.
+2019-12-04 20:47:32,121 : INFO : FAST : Connecting to com4 at 921600bps
+2019-12-04 20:47:32,183 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-12-04 20:47:32,183 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-12-04 20:47:32,246 : INFO : FAST : Connecting to com5 at 921600bps
+2019-12-04 20:47:32,293 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-12-04 20:47:32,947 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\230c7edf879901b77e29ab003ecfd977.mpf_cache
+2019-12-04 20:47:32,978 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-12-04 20:47:33,025 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\ffc5df461fc927df7502c20268b6e23c.mpf_cache
+2019-12-04 20:47:33,041 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\d868708421ecefdd23b54f4fefaa5a63.mpf_cache
+2019-12-04 20:47:33,057 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\868965d45e8ef85973deb1cc43e3c6e9.mpf_cache
+2019-12-04 20:47:33,088 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\91c30393a7736530c48ab886a6ae90df.mpf_cache
+2019-12-04 20:47:33,103 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 3 - GYMS DISPLAYS\modes\gym1\config\gym1.yaml
+2019-12-04 20:47:33,103 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\modes\gym1\config\gym1.yaml.
+2019-12-04 20:47:33,150 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\modes\gym1\config\gym1.yaml
+2019-12-04 20:47:33,150 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\3512d3a51b29689f2a9a6db585213e7b.mpf_cache
+2019-12-04 20:47:33,182 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-12-04 20:47:33,228 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\325be8140670be7b4f7f24b4ea9ecf41.mpf_cache
+2019-12-04 20:47:33,244 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\9463ad916821e4687af4640a7d04ba98.mpf_cache
+2019-12-04 20:47:33,291 : DEBUG : coil.c_trough : Configuring device with settings: '{'label': '%', 'platform_settings': {}, 'default_pulse_power': None, 'tags': [], 'pulse_events': {}, 'platform': None, 'file_log': 'full', 'max_pulse_ms': None, 'max_pulse_power': 1.0, 'psu': <psu.default>, 'debug': True, 'disable_events': {}, 'default_recycle': False, 'enable_events': {}, 'default_hold_power': None, 'allow_enable': False, 'default_pulse_ms': 7, 'max_hold_power': None, 'console_log': 'full', 'number': '1-1'}'
+2019-12-04 20:47:33,291 : DEBUG : coil.c_trough : Configuring device with settings: '{'label': '%', 'platform_settings': {'recycle_ms': None, 'connection': 'auto'}, 'default_pulse_power': None, 'tags': [], 'pulse_events': {}, 'platform': None, 'file_log': 'full', 'max_pulse_ms': None, 'max_pulse_power': 1.0, 'psu': <psu.default>, 'debug': True, 'disable_events': {}, 'default_recycle': False, 'enable_events': {}, 'default_hold_power': None, 'allow_enable': False, 'default_pulse_ms': 7, 'max_hold_power': None, 'console_log': 'full', 'number': '1-1'}'
+2019-12-04 20:47:33,322 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'ball_switches': [<switch.s_trough>], 'eject_timeouts': [], 'eject_coil_max_wait_ms': 200, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'tags': ['home', 'trough'], 'hold_events': {}, 'eject_targets': [<ball_device.bd_plunger>], 'eject_coil_jam_pulse': None, 'ball_capacity': None, 'eject_all_events': {}, 'entrance_event_timeout': 5.0, 'retries_before_increasing_pulse': 4, 'entrance_events': {}, 'eject_events': {}, 'max_eject_attempts': 0, 'exit_count_delay': 500, 'file_log': 'full', 'mechanical_eject': False, 'entrance_switch_full_timeout': 0, 'console_log': 'full', 'entrance_count_delay': 500, 'entrance_switch': None, 'hold_switches': [], 'label': '%', 'confirm_eject_event': None, 'eject_coil_enable_time': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_type': 'target', 'player_controlled_eject_event': None, 'request_ball_events': [], 'confirm_eject_switch': None, 'target_on_unexpected_ball': None, 'debug': True, 'captures_from': <playfield.playfield>, 'eject_coil': <coil.c_trough>, 'idle_missing_ball_timeout': 5.0, 'hold_coil': None, 'auto_fire_on_unexpected_ball': True, 'ball_missing_timeouts': [], 'hold_coil_release_time': 1000, 'ball_search_order': 200, 'jam_switch': None}'
+2019-12-04 20:47:33,400 : INFO : SwitchController : Found active switch: s_trough
+2019-12-04 20:47:33,541 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-12-04 20:47:34,603 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-12-04 20:47:35,604 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-12-04 20:47:36,604 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-12-04 20:47:41,794 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-12-04 20:47:47,293 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-12-04 20:47:48,025 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-12-04 20:47:48,117 : DEBUG : ball_device.bd_trough : Counted 1 balls. Active switches: ['s_trough']. Old: None
+2019-12-04 20:47:48,123 : DEBUG : ball_device.bd_trough : State: idle
+2019-12-04 20:47:48,124 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2019-12-04 20:47:48,248 : DEBUG : ball_device.bd_trough : Counted 1 balls. Active switches: ['s_trough']. Old: 1
+2019-12-04 20:47:48,269 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,270 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,270 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,270 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,270 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,271 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,271 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,271 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,271 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,272 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,272 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,272 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,272 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,273 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,273 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,273 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,273 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,274 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,274 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,274 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,274 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,276 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,276 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,277 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,277 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,277 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,277 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,278 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,278 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,278 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,278 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,279 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,279 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,279 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,280 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,280 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,280 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,280 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,281 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,281 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,281 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,281 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,283 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,283 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,284 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,284 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,284 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,285 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,285 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,285 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,285 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,286 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,286 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,286 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,287 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-04 20:47:48,335 : INFO : coil.c_drop_reset : Enabling Driver for 400ms (1.0 pulse_power)
+2019-12-04 20:47:48,341 : INFO : Mode.attract : Started. Priority: 10
+2019-12-04 20:47:48,347 : INFO : Machine : Starting the main run loop.
+2019-12-04 20:47:48,715 : INFO : coil.c_drop_reset : Disabling Driver
+2019-12-04 20:47:56,805 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-12-04 20:47:56,902 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-12-04 20:47:56,950 : INFO : Mode.attract : Stopped.
+2019-12-04 20:47:56,954 : INFO : Mode.game : Started. Priority: 20
+2019-12-04 20:47:56,976 : INFO : Mode.game : Player added successfully. Total players: 1
+2019-12-04 20:47:56,998 : INFO : coil.c_drop_reset : Enabling Driver for 400ms (1.0 pulse_power)
+2019-12-04 20:47:57,000 : INFO : Mode.base : Started. Priority: 31
+2019-12-04 20:47:57,018 : INFO : Mode.pichu : Started. Priority: 75
+2019-12-04 20:47:57,032 : INFO : Mode.gym0 : Started. Priority: 200
+2019-12-04 20:47:57,040 : DEBUG : ball_device.bd_trough : Adding eject chain
+2019-12-04 20:47:57,045 : DEBUG : ball_device.bd_trough : Got eject request
+2019-12-04 20:47:57,049 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 1 Old count: 1
+2019-12-04 20:47:57,051 : DEBUG : ball_device.bd_trough : State: waiting_for_target_ready
+2019-12-04 20:47:57,054 : DEBUG : ball_device.bd_trough : State: ejecting
+2019-12-04 20:47:57,055 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-12-04 20:47:57,060 : DEBUG : ball_device.bd_trough : Entered eject mode.
+2019-12-04 20:47:57,064 : DEBUG : ball_device.bd_trough : Wait for ball to leave device
+2019-12-04 20:47:57,065 : INFO : coil.c_trough : Pulsing Driver for 7ms (1.0 pulse_power)
+2019-12-04 20:47:57,065 : DEBUG : ball_device.bd_trough : Firing eject coil. Current balls: 1.
+2019-12-04 20:47:57,108 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:47:57,143 : DEBUG : ball_device.bd_trough : Got ball left during eject
+2019-12-04 20:47:57,144 : DEBUG : ball_device.bd_trough : Switch 's_trough' changed too recently. Aborting count!
+2019-12-04 20:47:57,146 : DEBUG : ball_device.bd_trough : State: ball_left
+2019-12-04 20:47:57,147 : DEBUG : ball_device.bd_trough : Ball left
+2019-12-04 20:47:57,148 : DEBUG : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2019-12-04 20:47:57,387 : INFO : coil.c_drop_reset : Disabling Driver
+2019-12-04 20:47:57,607 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:48:04,228 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:48:04,266 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:48:05,060 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:48:05,103 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:48:05,135 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:48:05,154 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:48:05,174 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:48:05,268 : INFO : SwitchController : <<<<<<< 's_pop_top' active >>>>>>>
+2019-12-04 20:48:05,290 : INFO : SwitchController : <<<<<<< 's_pop_top' inactive >>>>>>>
+2019-12-04 20:48:05,365 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:48:05,396 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:48:05,476 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:48:07,138 : DEBUG : ball_device.bd_trough : State: failed_confirm
+2019-12-04 20:48:07,139 : DEBUG : ball_device.bd_trough : Got timeout (10.0s) before confirm from <ball_device.bd_plunger>
+2019-12-04 20:48:07,957 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:48:08,069 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:48:08,276 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2019-12-04 20:48:08,316 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2019-12-04 20:48:08,338 : DEBUG : ball_device.bd_trough : Eject successful
+2019-12-04 20:48:08,341 : DEBUG : ball_device.bd_trough : Exited eject mode. Eject success: True
+2019-12-04 20:48:08,343 : DEBUG : ball_device.bd_trough : State: idle
+2019-12-04 20:48:08,343 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2019-12-04 20:48:08,346 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:48:08,349 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:48:08,403 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:48:08,532 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:48:08,563 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:48:08,837 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:48:14,276 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-04 20:48:14,340 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-04 20:48:14,405 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-04 20:48:14,910 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:48:14,929 : INFO : Mode.base : Stopped.
+2019-12-04 20:48:14,932 : INFO : Mode.pichu : Stopped.
+2019-12-04 20:48:14,938 : INFO : Mode.gym0 : Stopped.
+2019-12-04 20:48:14,951 : DEBUG : ball_device.bd_trough : Ready to receive from <ball_device.bd_drain>. Free space 1 (Capacity: 1, Balls: 0), incoming_balls: 0
+2019-12-04 20:48:14,952 : INFO : ball_device.bd_drain : Ejecting ball to <ball_device.bd_trough>
+2019-12-04 20:48:14,960 : INFO : coil.c_drain : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-12-04 20:48:14,981 : INFO : coil.c_drop_reset : Enabling Driver for 400ms (1.0 pulse_power)
+2019-12-04 20:48:14,987 : INFO : Mode.gym0 : Started. Priority: 200
+2019-12-04 20:48:14,988 : INFO : Mode.base : Started. Priority: 31
+2019-12-04 20:48:15,005 : INFO : Mode.pichu : Started. Priority: 75
+2019-12-04 20:48:15,019 : DEBUG : ball_device.bd_trough : Adding eject chain
+2019-12-04 20:48:15,025 : DEBUG : ball_device.bd_trough : Got eject request
+2019-12-04 20:48:15,029 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:48:15,033 : DEBUG : ball_device.bd_trough : State: waiting_for_ball
+2019-12-04 20:48:15,037 : DEBUG : ball_device.bd_trough : No ball found. Waiting for balls.
+2019-12-04 20:48:15,043 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-04 20:48:15,064 : DEBUG : ball_device.bd_trough : Adding incoming ball from <ball_device.bd_drain>
+2019-12-04 20:48:15,371 : INFO : coil.c_drop_reset : Disabling Driver
+2019-12-04 20:48:15,412 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:48:15,474 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:48:15,539 : INFO : SwitchController : <<<<<<< 's_drop_left' active >>>>>>>
+2019-12-04 20:48:15,635 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:48:16,122 : DEBUG : ball_device.bd_trough : Counted 1 balls. Active switches: ['s_trough']. Old: 0
+2019-12-04 20:48:16,126 : DEBUG : ball_device.bd_trough : BCH: Found 1 new balls
+2019-12-04 20:48:16,127 : DEBUG : ball_device.bd_trough : Received ball from <ball_device.bd_drain>
+2019-12-04 20:48:16,127 : DEBUG : ball_device.bd_trough : Removing incoming ball from <ball_device.bd_drain>
+2019-12-04 20:48:16,128 : DEBUG : ball_device.bd_trough : Processing new ball
+2019-12-04 20:48:16,131 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 1 Old count: 1
+2019-12-04 20:48:16,137 : DEBUG : ball_device.bd_trough : A ball arrived. Progressing.
+2019-12-04 20:48:16,141 : DEBUG : ball_device.bd_trough : State: waiting_for_target_ready
+2019-12-04 20:48:16,148 : DEBUG : ball_device.bd_trough : State: ejecting
+2019-12-04 20:48:16,149 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-12-04 20:48:16,153 : DEBUG : ball_device.bd_trough : Entered eject mode.
+2019-12-04 20:48:16,159 : DEBUG : ball_device.bd_trough : Wait for ball to leave device
+2019-12-04 20:48:16,160 : INFO : coil.c_trough : Pulsing Driver for 7ms (1.0 pulse_power)
+2019-12-04 20:48:16,161 : DEBUG : ball_device.bd_trough : Firing eject coil. Current balls: 1.
+2019-12-04 20:48:16,195 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:48:16,222 : DEBUG : ball_device.bd_trough : Got ball left during eject
+2019-12-04 20:48:16,223 : DEBUG : ball_device.bd_trough : Switch 's_trough' changed too recently. Aborting count!
+2019-12-04 20:48:16,226 : DEBUG : ball_device.bd_trough : State: ball_left
+2019-12-04 20:48:16,227 : DEBUG : ball_device.bd_trough : Ball left
+2019-12-04 20:48:16,228 : DEBUG : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2019-12-04 20:48:16,684 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:48:23,468 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2019-12-04 20:48:23,969 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:48:23,977 : INFO : ball_device.bd_saucer : Ejecting ball to <playfield.playfield>
+2019-12-04 20:48:23,982 : INFO : coil.c_saucer : Pulsing Driver for 60ms (1.0 pulse_power)
+2019-12-04 20:48:24,019 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2019-12-04 20:48:25,796 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:48:25,867 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:48:26,215 : DEBUG : ball_device.bd_trough : State: failed_confirm
+2019-12-04 20:48:26,216 : DEBUG : ball_device.bd_trough : Got timeout (10.0s) before confirm from <ball_device.bd_plunger>
+2019-12-04 20:48:26,325 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:48:26,359 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:48:26,383 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:48:26,407 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:48:26,428 : DEBUG : ball_device.bd_trough : Eject successful
+2019-12-04 20:48:26,431 : DEBUG : ball_device.bd_trough : Exited eject mode. Eject success: True
+2019-12-04 20:48:26,432 : DEBUG : ball_device.bd_trough : State: idle
+2019-12-04 20:48:26,432 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2019-12-04 20:48:26,434 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:48:26,463 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:48:26,773 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:48:26,807 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:48:27,172 : INFO : SwitchController : <<<<<<< 's_pop_top' active >>>>>>>
+2019-12-04 20:48:27,200 : INFO : SwitchController : <<<<<<< 's_pop_top' inactive >>>>>>>
+2019-12-04 20:48:27,333 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:48:27,370 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:48:28,868 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:48:28,903 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:48:29,028 : INFO : SwitchController : <<<<<<< 's_pop_top' active >>>>>>>
+2019-12-04 20:48:29,066 : INFO : SwitchController : <<<<<<< 's_pop_top' inactive >>>>>>>
+2019-12-04 20:48:29,141 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:48:29,174 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:48:32,597 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:48:32,692 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:48:33,221 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:48:33,316 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:48:33,972 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:48:35,316 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:48:35,621 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:48:36,389 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:48:36,484 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:48:36,804 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:48:39,732 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-04 20:48:39,762 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-04 20:48:39,876 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-04 20:48:40,381 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:48:40,408 : INFO : Mode.base : Stopped.
+2019-12-04 20:48:40,413 : INFO : Mode.pichu : Stopped.
+2019-12-04 20:48:40,418 : INFO : Mode.gym0 : Stopped.
+2019-12-04 20:48:40,428 : DEBUG : ball_device.bd_trough : Ready to receive from <ball_device.bd_drain>. Free space 1 (Capacity: 1, Balls: 0), incoming_balls: 0
+2019-12-04 20:48:40,429 : INFO : ball_device.bd_drain : Ejecting ball to <ball_device.bd_trough>
+2019-12-04 20:48:40,435 : INFO : coil.c_drain : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-12-04 20:48:40,486 : INFO : coil.c_drop_reset : Enabling Driver for 400ms (1.0 pulse_power)
+2019-12-04 20:48:40,492 : INFO : Mode.gym0 : Started. Priority: 200
+2019-12-04 20:48:40,493 : INFO : Mode.base : Started. Priority: 31
+2019-12-04 20:48:40,512 : INFO : Mode.pichu : Started. Priority: 75
+2019-12-04 20:48:40,526 : DEBUG : ball_device.bd_trough : Adding eject chain
+2019-12-04 20:48:40,531 : DEBUG : ball_device.bd_trough : Got eject request
+2019-12-04 20:48:40,533 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-04 20:48:40,562 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:48:40,566 : DEBUG : ball_device.bd_trough : State: waiting_for_ball
+2019-12-04 20:48:40,568 : INFO : SwitchController : <<<<<<< 's_drop_left' inactive >>>>>>>
+2019-12-04 20:48:40,585 : DEBUG : ball_device.bd_trough : No ball found. Waiting for balls.
+2019-12-04 20:48:40,588 : DEBUG : ball_device.bd_trough : Adding incoming ball from <ball_device.bd_drain>
+2019-12-04 20:48:40,871 : INFO : coil.c_drop_reset : Disabling Driver
+2019-12-04 20:48:40,916 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:48:40,952 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:48:41,140 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:48:41,638 : DEBUG : ball_device.bd_trough : Counted 1 balls. Active switches: ['s_trough']. Old: 0
+2019-12-04 20:48:41,641 : DEBUG : ball_device.bd_trough : BCH: Found 1 new balls
+2019-12-04 20:48:41,642 : DEBUG : ball_device.bd_trough : Received ball from <ball_device.bd_drain>
+2019-12-04 20:48:41,643 : DEBUG : ball_device.bd_trough : Removing incoming ball from <ball_device.bd_drain>
+2019-12-04 20:48:41,644 : DEBUG : ball_device.bd_trough : Processing new ball
+2019-12-04 20:48:41,647 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 1 Old count: 1
+2019-12-04 20:48:41,652 : DEBUG : ball_device.bd_trough : A ball arrived. Progressing.
+2019-12-04 20:48:41,656 : DEBUG : ball_device.bd_trough : State: waiting_for_target_ready
+2019-12-04 20:48:41,663 : DEBUG : ball_device.bd_trough : State: ejecting
+2019-12-04 20:48:41,664 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-12-04 20:48:41,668 : DEBUG : ball_device.bd_trough : Entered eject mode.
+2019-12-04 20:48:41,674 : DEBUG : ball_device.bd_trough : Wait for ball to leave device
+2019-12-04 20:48:41,675 : INFO : coil.c_trough : Pulsing Driver for 7ms (1.0 pulse_power)
+2019-12-04 20:48:41,676 : DEBUG : ball_device.bd_trough : Firing eject coil. Current balls: 1.
+2019-12-04 20:48:41,715 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:48:41,733 : DEBUG : ball_device.bd_trough : Got ball left during eject
+2019-12-04 20:48:41,734 : DEBUG : ball_device.bd_trough : Switch 's_trough' changed too recently. Aborting count!
+2019-12-04 20:48:41,736 : DEBUG : ball_device.bd_trough : State: ball_left
+2019-12-04 20:48:41,737 : DEBUG : ball_device.bd_trough : Ball left
+2019-12-04 20:48:41,738 : DEBUG : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2019-12-04 20:48:42,215 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:48:48,164 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:48:48,291 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:48:48,339 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:48:48,644 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:48:48,820 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:48:48,916 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:48:49,219 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:48:49,380 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:48:49,476 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2019-12-04 20:48:49,514 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2019-12-04 20:48:49,635 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2019-12-04 20:48:49,656 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2019-12-04 20:48:51,715 : DEBUG : ball_device.bd_trough : State: failed_confirm
+2019-12-04 20:48:51,715 : DEBUG : ball_device.bd_trough : Got timeout (10.0s) before confirm from <ball_device.bd_plunger>
+2019-12-04 20:48:52,756 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:48:53,635 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:48:55,060 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:48:55,156 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:48:55,491 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2019-12-04 20:48:55,509 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2019-12-04 20:48:55,532 : DEBUG : ball_device.bd_trough : Eject successful
+2019-12-04 20:48:55,535 : DEBUG : ball_device.bd_trough : Exited eject mode. Eject success: True
+2019-12-04 20:48:55,535 : DEBUG : ball_device.bd_trough : State: idle
+2019-12-04 20:48:55,536 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2019-12-04 20:48:55,538 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:48:55,541 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:48:55,651 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2019-12-04 20:48:55,668 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2019-12-04 20:48:55,689 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2019-12-04 20:48:55,706 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2019-12-04 20:48:59,988 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:00,082 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:00,098 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:00,117 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2019-12-04 20:49:00,138 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2019-12-04 20:49:00,473 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:00,612 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:01,092 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:01,668 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:01,732 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:01,774 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:02,083 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:02,659 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:03,203 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:03,828 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:03,938 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:04,595 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:04,947 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:05,471 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:06,148 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:07,251 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:07,379 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:07,700 : INFO : SwitchController : <<<<<<< 's_gym' active >>>>>>>
+2019-12-04 20:49:07,775 : INFO : Mode.pichu : Stopped.
+2019-12-04 20:49:07,779 : INFO : Mode.evolve_pichu : Started. Priority: 101
+2019-12-04 20:49:07,781 : INFO : Mode.gym0 : Stopped.
+2019-12-04 20:49:07,783 : INFO : Mode.gym1 : Started. Priority: 201
+2019-12-04 20:49:07,785 : INFO : SwitchController : <<<<<<< 's_gym' inactive >>>>>>>
+2019-12-04 20:49:09,364 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:09,828 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:09,865 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:10,179 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:12,084 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:12,195 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:12,339 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:12,378 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:12,405 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:12,422 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:12,466 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:12,486 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:12,506 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:12,529 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:12,563 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:12,583 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:12,627 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:12,643 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:12,691 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:12,708 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:12,755 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:12,777 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:12,819 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:12,840 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:12,899 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:12,918 : INFO : Mode.gym1 : Stopped.
+2019-12-04 20:49:12,923 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:12,978 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:13,001 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:13,075 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:13,095 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:13,155 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:13,188 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:13,251 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:13,284 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:13,364 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:13,401 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:13,475 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:13,507 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:13,619 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:13,663 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:13,764 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:13,813 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:13,940 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:13,987 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:14,148 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:14,259 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:16,788 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2019-12-04 20:49:16,855 : INFO : Mode.evolve_pichu : Stopped.
+2019-12-04 20:49:16,857 : INFO : Mode.pikachu : Started. Priority: 125
+2019-12-04 20:49:16,914 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:17,027 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:17,287 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:49:17,306 : INFO : ball_device.bd_saucer : Ejecting ball to <playfield.playfield>
+2019-12-04 20:49:17,314 : INFO : coil.c_saucer : Pulsing Driver for 60ms (1.0 pulse_power)
+2019-12-04 20:49:17,364 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2019-12-04 20:49:19,092 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:19,133 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:19,539 : INFO : SwitchController : <<<<<<< 's_pop_top' active >>>>>>>
+2019-12-04 20:49:19,561 : INFO : SwitchController : <<<<<<< 's_pop_top' inactive >>>>>>>
+2019-12-04 20:49:19,972 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:20,013 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:21,427 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:21,487 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:21,504 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:21,520 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:22,980 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:23,019 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:24,723 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:25,267 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:27,140 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:27,283 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:27,556 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2019-12-04 20:49:27,591 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2019-12-04 20:49:27,618 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:27,716 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:27,751 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:27,891 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:28,179 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:28,531 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:29,237 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:31,779 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:32,660 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:32,804 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:34,419 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:35,299 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:36,195 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:36,323 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:36,483 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:36,507 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:36,530 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:36,550 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:36,594 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:36,614 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:36,659 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:36,675 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:36,706 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:36,728 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:36,787 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:36,803 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:36,851 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:36,871 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:36,914 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:36,934 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:36,994 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:37,015 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:37,074 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:37,095 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:37,171 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:37,194 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:37,268 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:37,302 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:37,362 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:37,383 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:37,475 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:37,514 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:37,602 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:37,634 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:37,731 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:37,779 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:37,892 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:37,939 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:38,083 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:38,162 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:38,356 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:49:38,471 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:49:42,323 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2019-12-04 20:49:42,833 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:49:42,849 : INFO : ball_device.bd_saucer : Ejecting ball to <playfield.playfield>
+2019-12-04 20:49:42,857 : INFO : coil.c_saucer : Pulsing Driver for 60ms (1.0 pulse_power)
+2019-12-04 20:49:42,899 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2019-12-04 20:49:44,455 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:44,477 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:44,495 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:44,514 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:44,534 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:44,557 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:45,170 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:45,203 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:45,300 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:45,342 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:47,747 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:48,307 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:48,339 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:48,979 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:49,494 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:49,571 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:49,780 : INFO : SwitchController : <<<<<<< 's_drop_center' active >>>>>>>
+2019-12-04 20:49:49,814 : INFO : SwitchController : <<<<<<< 's_drop_left' active >>>>>>>
+2019-12-04 20:49:49,882 : INFO : Mode.pikachu : Stopped.
+2019-12-04 20:49:49,889 : INFO : Mode.evolve_pikachu : Started. Priority: 135
+2019-12-04 20:49:50,307 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:50,564 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:51,555 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:51,667 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:51,987 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:52,026 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:53,555 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:49:53,591 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:49:56,675 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:57,059 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:58,082 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:58,243 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:58,658 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:59,458 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:49:59,490 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:49:59,602 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:49:59,634 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:49:59,890 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:00,146 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-04 20:50:00,641 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:50:00,652 : INFO : Mode.base : Stopped.
+2019-12-04 20:50:00,654 : INFO : Mode.evolve_pikachu : Stopped.
+2019-12-04 20:50:00,666 : DEBUG : ball_device.bd_trough : Ready to receive from <ball_device.bd_drain>. Free space 1 (Capacity: 1, Balls: 0), incoming_balls: 0
+2019-12-04 20:50:00,667 : INFO : ball_device.bd_drain : Ejecting ball to <ball_device.bd_trough>
+2019-12-04 20:50:00,674 : INFO : coil.c_drain : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-12-04 20:50:00,694 : INFO : Mode.attract : Started. Priority: 10
+2019-12-04 20:50:00,698 : INFO : Mode.game : Stopped.
+2019-12-04 20:50:00,738 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-04 20:50:00,772 : DEBUG : ball_device.bd_trough : Adding incoming ball from <ball_device.bd_drain>
+2019-12-04 20:50:01,153 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:50:01,172 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:50:01,362 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:50:01,857 : DEBUG : ball_device.bd_trough : Counted 1 balls. Active switches: ['s_trough']. Old: 0
+2019-12-04 20:50:01,861 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 1 Old count: 0
+2019-12-04 20:50:01,862 : DEBUG : ball_device.bd_trough : BCH: Found 1 new balls
+2019-12-04 20:50:01,863 : DEBUG : ball_device.bd_trough : Received ball from <ball_device.bd_drain>
+2019-12-04 20:50:01,863 : DEBUG : ball_device.bd_trough : Removing incoming ball from <ball_device.bd_drain>
+2019-12-04 20:50:01,864 : DEBUG : ball_device.bd_trough : Processing new ball
+2019-12-04 20:50:02,148 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-12-04 20:50:02,226 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-12-04 20:50:02,246 : INFO : Mode.attract : Stopped.
+2019-12-04 20:50:02,248 : INFO : Mode.game : Started. Priority: 20
+2019-12-04 20:50:02,258 : INFO : Mode.game : Player added successfully. Total players: 1
+2019-12-04 20:50:02,277 : INFO : coil.c_drop_reset : Enabling Driver for 400ms (1.0 pulse_power)
+2019-12-04 20:50:02,280 : INFO : Mode.base : Started. Priority: 31
+2019-12-04 20:50:02,298 : INFO : Mode.pichu : Started. Priority: 75
+2019-12-04 20:50:02,310 : INFO : Mode.gym0 : Started. Priority: 200
+2019-12-04 20:50:02,317 : DEBUG : ball_device.bd_trough : Adding eject chain
+2019-12-04 20:50:02,323 : DEBUG : ball_device.bd_trough : Got eject request
+2019-12-04 20:50:02,327 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 1 Old count: 1
+2019-12-04 20:50:02,330 : DEBUG : ball_device.bd_trough : State: waiting_for_target_ready
+2019-12-04 20:50:02,334 : DEBUG : ball_device.bd_trough : State: ejecting
+2019-12-04 20:50:02,334 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-12-04 20:50:02,337 : DEBUG : ball_device.bd_trough : Entered eject mode.
+2019-12-04 20:50:02,342 : DEBUG : ball_device.bd_trough : Wait for ball to leave device
+2019-12-04 20:50:02,342 : INFO : coil.c_trough : Pulsing Driver for 7ms (1.0 pulse_power)
+2019-12-04 20:50:02,343 : DEBUG : ball_device.bd_trough : Firing eject coil. Current balls: 1.
+2019-12-04 20:50:02,370 : INFO : SwitchController : <<<<<<< 's_drop_left' inactive >>>>>>>
+2019-12-04 20:50:02,396 : INFO : SwitchController : <<<<<<< 's_drop_center' inactive >>>>>>>
+2019-12-04 20:50:02,415 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:50:02,463 : DEBUG : ball_device.bd_trough : Got ball left during eject
+2019-12-04 20:50:02,463 : DEBUG : ball_device.bd_trough : Switch 's_trough' changed too recently. Aborting count!
+2019-12-04 20:50:02,466 : DEBUG : ball_device.bd_trough : State: ball_left
+2019-12-04 20:50:02,467 : DEBUG : ball_device.bd_trough : Ball left
+2019-12-04 20:50:02,467 : DEBUG : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2019-12-04 20:50:02,668 : INFO : coil.c_drop_reset : Disabling Driver
+2019-12-04 20:50:02,836 : INFO : SwitchController : <<<<<<< 's_drop_right' active >>>>>>>
+2019-12-04 20:50:02,903 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:50:07,780 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:50:07,842 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:50:08,003 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:50:08,130 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:50:08,435 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:08,514 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:08,947 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:10,387 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:10,420 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:10,595 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:10,658 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:10,722 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:10,754 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:10,834 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:10,866 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:10,898 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:11,027 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-04 20:50:11,075 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-04 20:50:11,139 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-04 20:50:11,644 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:50:11,662 : INFO : Mode.base : Stopped.
+2019-12-04 20:50:11,664 : INFO : Mode.pichu : Stopped.
+2019-12-04 20:50:11,671 : INFO : Mode.gym0 : Stopped.
+2019-12-04 20:50:11,683 : DEBUG : ball_device.bd_trough : Not ready to receive from <ball_device.bd_drain>. Not enough space. Free space 0 (Capacity: 1, Balls: 1), incoming_balls: 0
+2019-12-04 20:50:11,702 : INFO : coil.c_drop_reset : Enabling Driver for 400ms (1.0 pulse_power)
+2019-12-04 20:50:11,709 : INFO : Mode.gym0 : Started. Priority: 200
+2019-12-04 20:50:11,711 : INFO : Mode.base : Started. Priority: 31
+2019-12-04 20:50:11,729 : INFO : Mode.pichu : Started. Priority: 75
+2019-12-04 20:50:11,741 : DEBUG : ball_device.bd_trough : Adding eject chain
+2019-12-04 20:50:11,778 : INFO : SwitchController : <<<<<<< 's_drop_right' inactive >>>>>>>
+2019-12-04 20:50:12,090 : INFO : coil.c_drop_reset : Disabling Driver
+2019-12-04 20:50:12,275 : INFO : SwitchController : <<<<<<< 's_drop_center' active >>>>>>>
+2019-12-04 20:50:12,482 : DEBUG : ball_device.bd_trough : State: failed_confirm
+2019-12-04 20:50:12,483 : DEBUG : ball_device.bd_trough : Got timeout (10.0s) before confirm from <ball_device.bd_plunger>
+2019-12-04 20:50:14,291 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:14,356 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:14,473 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:14,498 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:19,699 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:19,737 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:19,811 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:19,846 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:21,186 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:21,267 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:21,362 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:21,481 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:21,517 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:21,586 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:21,618 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:21,714 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:21,732 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:21,811 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:22,484 : DEBUG : ball_device.bd_trough : Eject successful
+2019-12-04 20:50:22,488 : DEBUG : ball_device.bd_trough : Exited eject mode. Eject success: True
+2019-12-04 20:50:22,490 : DEBUG : ball_device.bd_trough : State: idle
+2019-12-04 20:50:22,490 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2019-12-04 20:50:22,494 : DEBUG : ball_device.bd_trough : Ready to receive from <ball_device.bd_drain>. Free space 1 (Capacity: 1, Balls: 0), incoming_balls: 0
+2019-12-04 20:50:22,495 : INFO : ball_device.bd_drain : Ejecting ball to <ball_device.bd_trough>
+2019-12-04 20:50:22,496 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:50:22,504 : DEBUG : ball_device.bd_trough : Got eject request
+2019-12-04 20:50:22,507 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:50:22,512 : INFO : coil.c_drain : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-12-04 20:50:22,513 : DEBUG : ball_device.bd_trough : State: waiting_for_ball
+2019-12-04 20:50:22,518 : DEBUG : ball_device.bd_trough : No ball found. Waiting for balls.
+2019-12-04 20:50:22,563 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-04 20:50:22,598 : DEBUG : ball_device.bd_trough : Adding incoming ball from <ball_device.bd_drain>
+2019-12-04 20:50:22,947 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:50:22,982 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:50:23,169 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:50:23,669 : DEBUG : ball_device.bd_trough : Counted 1 balls. Active switches: ['s_trough']. Old: 0
+2019-12-04 20:50:23,673 : DEBUG : ball_device.bd_trough : BCH: Found 1 new balls
+2019-12-04 20:50:23,674 : DEBUG : ball_device.bd_trough : Received ball from <ball_device.bd_drain>
+2019-12-04 20:50:23,674 : DEBUG : ball_device.bd_trough : Removing incoming ball from <ball_device.bd_drain>
+2019-12-04 20:50:23,675 : DEBUG : ball_device.bd_trough : Processing new ball
+2019-12-04 20:50:23,679 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 1 Old count: 1
+2019-12-04 20:50:23,684 : DEBUG : ball_device.bd_trough : A ball arrived. Progressing.
+2019-12-04 20:50:23,689 : DEBUG : ball_device.bd_trough : State: waiting_for_target_ready
+2019-12-04 20:50:23,695 : DEBUG : ball_device.bd_trough : State: ejecting
+2019-12-04 20:50:23,696 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-12-04 20:50:23,701 : DEBUG : ball_device.bd_trough : Entered eject mode.
+2019-12-04 20:50:23,706 : DEBUG : ball_device.bd_trough : Wait for ball to leave device
+2019-12-04 20:50:23,706 : INFO : coil.c_trough : Pulsing Driver for 7ms (1.0 pulse_power)
+2019-12-04 20:50:23,707 : DEBUG : ball_device.bd_trough : Firing eject coil. Current balls: 1.
+2019-12-04 20:50:23,746 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:50:23,763 : DEBUG : ball_device.bd_trough : Got ball left during eject
+2019-12-04 20:50:23,764 : DEBUG : ball_device.bd_trough : Switch 's_trough' changed too recently. Aborting count!
+2019-12-04 20:50:23,766 : DEBUG : ball_device.bd_trough : State: ball_left
+2019-12-04 20:50:23,767 : DEBUG : ball_device.bd_trough : Ball left
+2019-12-04 20:50:23,767 : DEBUG : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2019-12-04 20:50:24,246 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:50:29,923 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2019-12-04 20:50:30,425 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:50:30,471 : INFO : ball_device.bd_saucer : Ejecting ball to <playfield.playfield>
+2019-12-04 20:50:30,476 : INFO : coil.c_saucer : Pulsing Driver for 60ms (1.0 pulse_power)
+2019-12-04 20:50:30,514 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2019-12-04 20:50:33,762 : DEBUG : ball_device.bd_trough : State: failed_confirm
+2019-12-04 20:50:33,763 : DEBUG : ball_device.bd_trough : Got timeout (10.0s) before confirm from <ball_device.bd_plunger>
+2019-12-04 20:50:35,763 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:35,858 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:36,147 : INFO : SwitchController : <<<<<<< 's_drop_left' active >>>>>>>
+2019-12-04 20:50:36,190 : DEBUG : ball_device.bd_trough : Eject successful
+2019-12-04 20:50:36,194 : DEBUG : ball_device.bd_trough : Exited eject mode. Eject success: True
+2019-12-04 20:50:36,194 : DEBUG : ball_device.bd_trough : State: idle
+2019-12-04 20:50:36,195 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2019-12-04 20:50:36,197 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:50:36,201 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:50:36,610 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:38,002 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:38,979 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:39,074 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:41,185 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:41,250 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:44,643 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-04 20:50:44,677 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-04 20:50:44,770 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-04 20:50:45,269 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:50:45,290 : INFO : Mode.base : Stopped.
+2019-12-04 20:50:45,294 : INFO : Mode.pichu : Stopped.
+2019-12-04 20:50:45,301 : INFO : Mode.gym0 : Stopped.
+2019-12-04 20:50:45,314 : DEBUG : ball_device.bd_trough : Ready to receive from <ball_device.bd_drain>. Free space 1 (Capacity: 1, Balls: 0), incoming_balls: 0
+2019-12-04 20:50:45,314 : INFO : ball_device.bd_drain : Ejecting ball to <ball_device.bd_trough>
+2019-12-04 20:50:45,321 : INFO : coil.c_drain : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-12-04 20:50:45,342 : INFO : coil.c_drop_reset : Enabling Driver for 400ms (1.0 pulse_power)
+2019-12-04 20:50:45,350 : INFO : Mode.gym0 : Started. Priority: 200
+2019-12-04 20:50:45,351 : INFO : Mode.base : Started. Priority: 31
+2019-12-04 20:50:45,370 : INFO : Mode.pichu : Started. Priority: 75
+2019-12-04 20:50:45,385 : DEBUG : ball_device.bd_trough : Adding eject chain
+2019-12-04 20:50:45,389 : DEBUG : ball_device.bd_trough : Got eject request
+2019-12-04 20:50:45,393 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:50:45,396 : DEBUG : ball_device.bd_trough : State: waiting_for_ball
+2019-12-04 20:50:45,400 : DEBUG : ball_device.bd_trough : No ball found. Waiting for balls.
+2019-12-04 20:50:45,410 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-04 20:50:45,429 : DEBUG : ball_device.bd_trough : Adding incoming ball from <ball_device.bd_drain>
+2019-12-04 20:50:45,464 : INFO : SwitchController : <<<<<<< 's_drop_left' inactive >>>>>>>
+2019-12-04 20:50:45,482 : INFO : SwitchController : <<<<<<< 's_drop_center' inactive >>>>>>>
+2019-12-04 20:50:45,730 : INFO : coil.c_drop_reset : Disabling Driver
+2019-12-04 20:50:45,794 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:50:45,830 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:50:46,018 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:50:46,513 : DEBUG : ball_device.bd_trough : Counted 1 balls. Active switches: ['s_trough']. Old: 0
+2019-12-04 20:50:46,520 : DEBUG : ball_device.bd_trough : BCH: Found 1 new balls
+2019-12-04 20:50:46,522 : DEBUG : ball_device.bd_trough : Received ball from <ball_device.bd_drain>
+2019-12-04 20:50:46,523 : DEBUG : ball_device.bd_trough : Removing incoming ball from <ball_device.bd_drain>
+2019-12-04 20:50:46,524 : DEBUG : ball_device.bd_trough : Processing new ball
+2019-12-04 20:50:46,530 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 1 Old count: 1
+2019-12-04 20:50:46,538 : DEBUG : ball_device.bd_trough : A ball arrived. Progressing.
+2019-12-04 20:50:46,545 : DEBUG : ball_device.bd_trough : State: waiting_for_target_ready
+2019-12-04 20:50:46,555 : DEBUG : ball_device.bd_trough : State: ejecting
+2019-12-04 20:50:46,556 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-12-04 20:50:46,564 : DEBUG : ball_device.bd_trough : Entered eject mode.
+2019-12-04 20:50:46,571 : DEBUG : ball_device.bd_trough : Wait for ball to leave device
+2019-12-04 20:50:46,572 : INFO : coil.c_trough : Pulsing Driver for 7ms (1.0 pulse_power)
+2019-12-04 20:50:46,573 : DEBUG : ball_device.bd_trough : Firing eject coil. Current balls: 1.
+2019-12-04 20:50:46,611 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:50:46,649 : DEBUG : ball_device.bd_trough : Got ball left during eject
+2019-12-04 20:50:46,650 : DEBUG : ball_device.bd_trough : Switch 's_trough' changed too recently. Aborting count!
+2019-12-04 20:50:46,653 : DEBUG : ball_device.bd_trough : State: ball_left
+2019-12-04 20:50:46,654 : DEBUG : ball_device.bd_trough : Ball left
+2019-12-04 20:50:46,655 : DEBUG : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2019-12-04 20:50:47,106 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:50:52,627 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:50:52,738 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:50:53,283 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:53,394 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:53,666 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:53,714 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:53,794 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2019-12-04 20:50:53,816 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2019-12-04 20:50:53,842 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:54,146 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:56,034 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:56,162 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:56,637 : DEBUG : ball_device.bd_trough : State: failed_confirm
+2019-12-04 20:50:56,638 : DEBUG : ball_device.bd_trough : Got timeout (10.0s) before confirm from <ball_device.bd_plunger>
+2019-12-04 20:50:58,257 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:50:58,322 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:50:58,340 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:50:58,786 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:50:59,075 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:50:59,116 : DEBUG : ball_device.bd_trough : Eject successful
+2019-12-04 20:50:59,118 : DEBUG : ball_device.bd_trough : Exited eject mode. Eject success: True
+2019-12-04 20:50:59,119 : DEBUG : ball_device.bd_trough : State: idle
+2019-12-04 20:50:59,120 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2019-12-04 20:50:59,122 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:50:59,126 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 0 Old count: 0
+2019-12-04 20:50:59,186 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:51:00,307 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:00,351 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:00,609 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:00,631 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:03,826 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:04,098 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:04,210 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:04,323 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:04,578 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:04,621 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:05,138 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:05,250 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:05,763 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:05,906 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:51:05,942 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:06,161 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:51:07,635 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:07,857 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:09,122 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:09,250 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:09,603 : INFO : SwitchController : <<<<<<< 's_gym' active >>>>>>>
+2019-12-04 20:51:09,645 : INFO : Mode.gym0 : Stopped.
+2019-12-04 20:51:09,647 : INFO : Mode.gym1 : Started. Priority: 201
+2019-12-04 20:51:09,651 : INFO : SwitchController : <<<<<<< 's_gym' inactive >>>>>>>
+2019-12-04 20:51:11,314 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:51:11,794 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:51:11,873 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:12,018 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:12,227 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:51:12,546 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:12,579 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:51:12,658 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:15,874 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:15,914 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:16,354 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:16,802 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:17,138 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:17,282 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:17,618 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:17,986 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:19,377 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:19,489 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:19,714 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:19,751 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:19,768 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:19,786 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:19,971 : INFO : SwitchController : <<<<<<< 's_pop_top' active >>>>>>>
+2019-12-04 20:51:20,011 : INFO : SwitchController : <<<<<<< 's_pop_top' inactive >>>>>>>
+2019-12-04 20:51:20,065 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:20,088 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:20,112 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:20,147 : INFO : Mode.pichu : Stopped.
+2019-12-04 20:51:20,152 : INFO : Mode.evolve_pichu : Started. Priority: 101
+2019-12-04 20:51:20,155 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:20,174 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:20,192 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:21,330 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:21,858 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:22,434 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:25,186 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:26,162 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:26,290 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:27,138 : INFO : SwitchController : <<<<<<< 's_drop_right' active >>>>>>>
+2019-12-04 20:51:28,082 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:28,674 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:29,729 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:29,842 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:30,242 : INFO : SwitchController : <<<<<<< 's_drop_center' active >>>>>>>
+2019-12-04 20:51:33,233 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:33,346 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:33,730 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:51:33,772 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:51:34,082 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:34,120 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:34,149 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:34,166 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:36,578 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:37,058 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:39,042 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:39,153 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:39,346 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:51:39,386 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:51:39,454 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:51:39,491 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:51:39,520 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:51:39,552 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:51:39,633 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:51:39,654 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:51:39,729 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:51:39,761 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:51:39,841 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:51:39,875 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:51:39,969 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:51:40,001 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:51:40,129 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:51:40,167 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:51:40,289 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:51:40,353 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:51:40,513 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-04 20:51:40,537 : INFO : Mode.gym1 : Stopped.
+2019-12-04 20:51:40,625 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-04 20:51:44,417 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2019-12-04 20:51:44,461 : INFO : Mode.evolve_pichu : Stopped.
+2019-12-04 20:51:44,464 : INFO : Mode.pikachu : Started. Priority: 125
+2019-12-04 20:51:44,907 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:51:44,917 : INFO : ball_device.bd_saucer : Ejecting ball to <playfield.playfield>
+2019-12-04 20:51:44,923 : INFO : coil.c_saucer : Pulsing Driver for 60ms (1.0 pulse_power)
+2019-12-04 20:51:44,961 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2019-12-04 20:51:46,754 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:51:46,799 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:51:47,746 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:51:47,789 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:51:47,822 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:51:47,855 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:51:49,010 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:51:49,051 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:51:50,609 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:51:50,648 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:51:51,713 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:51:51,745 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:51:52,946 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:51:52,985 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:51:53,003 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:51:53,020 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:51:54,528 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:51:54,562 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:51:54,609 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-04 20:51:54,657 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-04 20:51:57,463 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:57,554 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:51:57,825 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-04 20:51:57,857 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-04 20:51:59,378 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-04 20:51:59,474 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-04 20:52:02,403 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-04 20:52:02,496 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-04 20:52:02,545 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-04 20:52:03,051 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-12-04 20:52:03,074 : INFO : Mode.base : Stopped.
+2019-12-04 20:52:03,077 : INFO : Mode.pikachu : Stopped.
+2019-12-04 20:52:03,098 : DEBUG : ball_device.bd_trough : Ready to receive from <ball_device.bd_drain>. Free space 1 (Capacity: 1, Balls: 0), incoming_balls: 0
+2019-12-04 20:52:03,098 : INFO : ball_device.bd_drain : Ejecting ball to <ball_device.bd_trough>
+2019-12-04 20:52:03,105 : INFO : coil.c_drain : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-12-04 20:52:03,121 : INFO : Mode.attract : Started. Priority: 10
+2019-12-04 20:52:03,124 : INFO : Mode.game : Stopped.
+2019-12-04 20:52:03,168 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-04 20:52:03,198 : DEBUG : ball_device.bd_trough : Adding incoming ball from <ball_device.bd_drain>
+2019-12-04 20:52:03,578 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:52:03,616 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-04 20:52:03,777 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-04 20:52:04,278 : DEBUG : ball_device.bd_trough : Counted 1 balls. Active switches: ['s_trough']. Old: 0
+2019-12-04 20:52:04,283 : DEBUG : ball_device.bd_trough : BCH: Counting. New count: 1 Old count: 0
+2019-12-04 20:52:04,283 : DEBUG : ball_device.bd_trough : BCH: Found 1 new balls
+2019-12-04 20:52:04,284 : DEBUG : ball_device.bd_trough : Received ball from <ball_device.bd_drain>
+2019-12-04 20:52:04,285 : DEBUG : ball_device.bd_trough : Removing incoming ball from <ball_device.bd_drain>
+2019-12-04 20:52:04,286 : DEBUG : ball_device.bd_trough : Processing new ball
+2019-12-04 20:52:05,137 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:52:05,170 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:52:05,282 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:52:05,316 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:52:05,424 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:52:05,472 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:52:05,552 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-04 20:52:05,616 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-04 20:52:08,497 : INFO : Machine : Shutting down...
+2019-12-04 20:52:08,497 : DEBUG : ball_device.bd_trough : Stopping ball device
+2019-12-04 20:52:08,513 : ERROR : FAST : Stop called on serial connection com5
+2019-12-04 20:52:08,529 : ERROR : FAST : Stop called on serial connection com4
+2019-12-04 20:52:08,779 : INFO : root : MPF run loop ended.

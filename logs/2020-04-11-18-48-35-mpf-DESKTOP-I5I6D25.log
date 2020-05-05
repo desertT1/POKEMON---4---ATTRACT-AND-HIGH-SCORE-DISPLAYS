@@ -1,0 +1,185 @@
+2020-04-11 18:48:35,855 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.9
+2020-04-11 18:48:35,855 : INFO : Machine : Command line arguments: {'consoleloglevel': 20, 'text_ui': True, 'logfile': 'logs\\2020-04-11-18-48-35-mpf-DESKTOP-I5I6D25.log', 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\mission pinball\\appdata\\local\\programs\\python\\python35\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'create_config_cache': True, 'production': False, 'no_load_cache': False, 'force_assets_load': False, 'bcp': True, 'jsonlogging': False, 'loglevel': 15, 'no_sound': False, 'force_platform': None, 'pause': False, 'syslog_address': None, 'mc_file_name': None}
+2020-04-11 18:48:35,855 : INFO : Machine : MPF path: c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf
+2020-04-11 18:48:35,855 : INFO : Machine : Machine path: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS
+2020-04-11 18:48:35,855 : INFO : Machine : Platform: win32
+2020-04-11 18:48:35,855 : INFO : Machine : Python executable location: c:\users\mission pinball\appdata\local\programs\python\python35\python.exe
+2020-04-11 18:48:35,855 : INFO : Machine : Python version: 3.5.4 (64-bit)
+2020-04-11 18:48:35,855 : INFO : Machine : Machine config file #1: config.yaml
+2020-04-11 18:48:35,871 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\1d59add9599c514c5f7c5be61c73be75.mpf_cache
+2020-04-11 18:48:35,902 : INFO : Machine : Initialise MPF.
+2020-04-11 18:48:36,743 : INFO : FAST : Connecting to com4 at 921600bps
+2020-04-11 18:48:36,805 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2020-04-11 18:48:36,805 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'prev_value': None, 'value': '01.01', 'change': True}
+2020-04-11 18:48:36,805 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'prev_value': None, 'value': 'FP-CPU-002-2', 'change': True}
+2020-04-11 18:48:36,805 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2020-04-11 18:48:36,868 : INFO : FAST : Connecting to com5 at 921600bps
+2020-04-11 18:48:36,915 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2020-04-11 18:48:36,915 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'prev_value': None, 'value': '01.00', 'change': True}
+2020-04-11 18:48:36,915 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'prev_value': None, 'value': 'FP-CPU-002-2', 'change': True}
+2020-04-11 18:48:36,915 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'prev_value': None, 'value': 'FREE PLAY', 'change': True}
+2020-04-11 18:48:37,259 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'prev_value': None, 'value': 107, 'change': True}
+2020-04-11 18:48:37,259 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'prev_value': None, 'value': 'MPF v0.52.9', 'change': True}
+2020-04-11 18:48:37,259 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'prev_value': None, 'value': 'MPF v0.52.9, Config version:5, Show version: 5, BCP version:1.1', 'change': True}
+2020-04-11 18:48:37,259 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'prev_value': None, 'value': '3.5.4', 'change': True}
+2020-04-11 18:48:37,259 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'prev_value': None, 'value': 'Windows-10-10.0.18362-SP0', 'change': True}
+2020-04-11 18:48:37,259 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'prev_value': None, 'value': 'Windows', 'change': True}
+2020-04-11 18:48:37,259 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'prev_value': None, 'value': '10', 'change': True}
+2020-04-11 18:48:37,259 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'prev_value': None, 'value': '10.0.18362', 'change': True}
+2020-04-11 18:48:37,259 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'prev_value': None, 'value': 'AMD64', 'change': True}
+2020-04-11 18:48:37,259 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-04-11 18:48:37,587 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\0378f93b62c546ad0a14fc16b8462c41.mpf_cache
+2020-04-11 18:48:37,587 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym7\config\gym7.yaml.
+2020-04-11 18:48:37,665 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym7\config\gym7.yaml
+2020-04-11 18:48:37,665 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\0378f93b62c546ad0a14fc16b8462c41.mpf_cache
+2020-04-11 18:48:37,680 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\5b0c10fb1ea3d696f3389c798402fbbd.mpf_cache
+2020-04-11 18:48:37,696 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\201769dfbc23cf51d44452c1bfe1f92e.mpf_cache
+2020-04-11 18:48:37,727 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\47fed2ef5afbaf0c19527a565aa191d9.mpf_cache
+2020-04-11 18:48:37,805 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\b9fac23b74e0b513c055e4621b74ad7e.mpf_cache
+2020-04-11 18:48:37,837 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\f9a13da868835514a4e555019188716d.mpf_cache
+2020-04-11 18:48:37,868 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\e316602f2754df2a40ebb1b620c83c27.mpf_cache
+2020-04-11 18:48:37,899 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\6dbb84b4a2bd3a6642f95ce5744c7797.mpf_cache
+2020-04-11 18:48:37,946 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\d6bb1cdfa60c1f50f35785cba55875d1.mpf_cache
+2020-04-11 18:48:37,993 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\b51fa6c1189029eac07bf57001e3c2a0.mpf_cache
+2020-04-11 18:48:38,024 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\5e332dad5466fb4d353f60c87864de4c.mpf_cache
+2020-04-11 18:48:38,071 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\0db36da4b9aa41dcdeae696ef4ec8d87.mpf_cache
+2020-04-11 18:48:38,102 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c721f48534ae43d3f9c4e17312560aaa.mpf_cache
+2020-04-11 18:48:38,149 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\ead1ab3e53925d446b3cb0becf429113.mpf_cache
+2020-04-11 18:48:38,196 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\a79159ab091a1f38ad921bad9a429f77.mpf_cache
+2020-04-11 18:48:38,196 : INFO : ConfigProcessor : Loading config from file c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2020-04-11 18:48:38,212 : INFO : ConfigProcessor : Loading config: c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2020-04-11 18:48:38,212 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml.
+2020-04-11 18:48:38,321 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+2020-04-11 18:48:38,321 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\a79159ab091a1f38ad921bad9a429f77.mpf_cache
+2020-04-11 18:48:38,368 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\high_score\config\high_score.yaml
+2020-04-11 18:48:38,368 : INFO : ConfigProcessor : Loading config from file c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\modes\high_score\config\high_score.yaml.
+2020-04-11 18:48:38,509 : INFO : ConfigProcessor : Loading config: c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\modes\high_score\config\high_score.yaml
+2020-04-11 18:48:38,509 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\high_score\config\high_score.yaml.
+2020-04-11 18:48:38,837 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\high_score\config\high_score.yaml
+2020-04-11 18:48:38,852 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\4c74177f109f95ed9599c78880646655.mpf_cache
+2020-04-11 18:48:38,899 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\3183d529c1c05723ae7f7f27f6d76374.mpf_cache
+2020-04-11 18:48:38,899 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\score_display\config\score_display.yaml.
+2020-04-11 18:48:39,102 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\score_display\config\score_display.yaml
+2020-04-11 18:48:39,102 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\3183d529c1c05723ae7f7f27f6d76374.mpf_cache
+2020-04-11 18:48:39,133 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\5e23017ae2bff2a0239ff499da948ac3.mpf_cache
+2020-04-11 18:48:39,133 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\evolve_pichu\config\evolve_pichu.yaml.
+2020-04-11 18:48:39,243 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\evolve_pichu\config\evolve_pichu.yaml
+2020-04-11 18:48:39,243 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\5e23017ae2bff2a0239ff499da948ac3.mpf_cache
+2020-04-11 18:48:39,274 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\5903aae11c08aba35176e5c1f4c1be59.mpf_cache
+2020-04-11 18:48:39,290 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\2476b3e7b98dcc7e56449320299b63be.mpf_cache
+2020-04-11 18:48:39,368 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\5a22bfd3cd388f17bd2b6acbd36605ae.mpf_cache
+2020-04-11 18:48:39,415 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\dd4913724ea8e05b50af346c964d02e0.mpf_cache
+2020-04-11 18:48:39,446 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\4ea733655e2f71aef4d6f646b7999fe0.mpf_cache
+2020-04-11 18:48:39,477 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\32e6b619402cb4da5981e97ecb1f6408.mpf_cache
+2020-04-11 18:48:39,477 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\pikachu\config\pikachu.yaml.
+2020-04-11 18:48:39,633 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\pikachu\config\pikachu.yaml
+2020-04-11 18:48:39,633 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\32e6b619402cb4da5981e97ecb1f6408.mpf_cache
+2020-04-11 18:48:39,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c81a0f1062502e33bbed66b9eae15858.mpf_cache
+2020-04-11 18:48:39,696 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\8e537f3f1075ad5ff3f7e8ba8228812c.mpf_cache
+2020-04-11 18:48:39,727 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\1a49828cb8454c90fd195e3886327b9d.mpf_cache
+2020-04-11 18:48:39,852 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2020-04-11 18:48:39,852 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-04-11 18:48:39,868 : INFO : SwitchController : Found active switch: (('11', 1), <Platform.FAST>)
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'prev_value': None, 'value': 'GRAND CHAMPION', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'prev_value': None, 'value': 'MPF', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'prev_value': None, 'value': 1000000, 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'prev_value': None, 'value': 'HIGH SCORE 1', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'prev_value': None, 'value': 'BRI', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'prev_value': None, 'value': 900000, 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'prev_value': None, 'value': 'HIGH SCORE 2', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'prev_value': None, 'value': 'JAN', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'prev_value': None, 'value': 800000, 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'prev_value': None, 'value': 'HIGH SCORE 3', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'prev_value': None, 'value': 'QUI', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'prev_value': None, 'value': 700000, 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'prev_value': None, 'value': 'HIGH SCORE 4', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'prev_value': None, 'value': 'MAR', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'prev_value': None, 'value': 600000, 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score6_label'====== Args={'prev_value': None, 'value': 'HIGH SCORE 5', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score6_name'====== Args={'prev_value': None, 'value': 'JOH', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score6_value'====== Args={'prev_value': None, 'value': 500000, 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score7_label'====== Args={'prev_value': None, 'value': 'HIGH SCORE 6', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score7_name'====== Args={'prev_value': None, 'value': 'ELI', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score7_value'====== Args={'prev_value': None, 'value': 400000, 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score8_label'====== Args={'prev_value': None, 'value': 'HIGH SCORE 7', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score8_name'====== Args={'prev_value': None, 'value': 'MIK', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score8_value'====== Args={'prev_value': None, 'value': 300000, 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score9_label'====== Args={'prev_value': None, 'value': 'HIGH SCORE 8', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score9_name'====== Args={'prev_value': None, 'value': 'ANT', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_score9_value'====== Args={'prev_value': None, 'value': 200000, 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_loops1_label'====== Args={'prev_value': None, 'value': 'LOOP CHAMP', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_loops1_name'====== Args={'prev_value': None, 'value': 'JAN', 'change': True}
+2020-04-11 18:48:39,977 : INFO : EventManager : Event: ======'machine_var_loops1_value'====== Args={'prev_value': None, 'value': 42, 'change': True}
+2020-04-11 18:48:39,993 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'host': 'localhost', 'name': 'local_display', 'port': 5050}
+2020-04-11 18:48:40,008 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2020-04-11 18:48:41,040 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2020-04-11 18:48:42,035 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2020-04-11 18:48:51,830 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2020-04-11 18:48:51,834 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2020-04-11 18:48:51,875 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'prev_value': None, 'value': 0.5, 'change': True}
+2020-04-11 18:48:51,984 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2020-04-11 18:48:52,011 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2020-04-11 18:48:52,021 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_left'====== Args={'prev_value': None, 'value': 624, 'change': True}
+2020-04-11 18:48:52,022 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_center'====== Args={'prev_value': None, 'value': 708, 'change': True}
+2020-04-11 18:48:52,023 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'prev_value': None, 'value': 3074, 'change': True}
+2020-04-11 18:48:52,024 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'prev_value': None, 'value': 7922, 'change': True}
+2020-04-11 18:48:52,025 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'prev_value': None, 'value': 88, 'change': True}
+2020-04-11 18:48:52,027 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_gym'====== Args={'prev_value': None, 'value': 514, 'change': True}
+2020-04-11 18:48:52,028 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'prev_value': None, 'value': 9530, 'change': True}
+2020-04-11 18:48:52,029 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'prev_value': None, 'value': 11731, 'change': True}
+2020-04-11 18:48:52,031 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'prev_value': None, 'value': 1265, 'change': True}
+2020-04-11 18:48:52,032 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'prev_value': None, 'value': 1127, 'change': True}
+2020-04-11 18:48:52,033 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'prev_value': None, 'value': 2900, 'change': True}
+2020-04-11 18:48:52,034 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'prev_value': None, 'value': 1715, 'change': True}
+2020-04-11 18:48:52,036 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'prev_value': None, 'value': 3955, 'change': True}
+2020-04-11 18:48:52,037 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right'====== Args={'prev_value': None, 'value': 552, 'change': True}
+2020-04-11 18:48:52,038 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'prev_value': None, 'value': 1271, 'change': True}
+2020-04-11 18:48:52,039 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'prev_value': None, 'value': 74, 'change': True}
+2020-04-11 18:48:52,040 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_top'====== Args={'prev_value': None, 'value': 1249, 'change': True}
+2020-04-11 18:48:52,042 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'prev_value': None, 'value': 10, 'change': True}
+2020-04-11 18:48:52,043 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'prev_value': None, 'value': {'total': 324, 'average': 240.55555555555554, 'top': [1053, 829, 828, 828, 808, 778, 726, 724, 722, 706]}, 'change': True}
+2020-04-11 18:48:52,044 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'prev_value': None, 'value': 374, 'change': True}
+2020-04-11 18:48:52,045 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'prev_value': None, 'value': 296, 'change': True}
+2020-04-11 18:48:52,047 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2020-04-11 18:48:52,049 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2020-04-11 18:48:52,050 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,051 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,051 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,051 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,052 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,052 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,052 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,052 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,052 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,053 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,053 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,053 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,053 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,053 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,054 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,054 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,054 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,054 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,055 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,055 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,055 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,055 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2020-04-11 18:48:52,058 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2020-04-11 18:48:52,073 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2020-04-11 18:48:52,076 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2020-04-11 18:48:52,081 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2020-04-11 18:48:52,096 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2020-04-11 18:48:52,099 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2020-04-11 18:48:52,100 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2020-04-11 18:48:52,102 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2020-04-11 18:48:52,104 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2020-04-11 18:48:52,106 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2020-04-11 18:48:52,106 : INFO : Mode.attract : Started. Priority: 10
+2020-04-11 18:48:52,108 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2020-04-11 18:48:52,109 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2020-04-11 18:48:52,112 : INFO : Machine : Starting the main run loop.
+2020-04-11 18:48:53,224 : INFO : Machine : Shutting down...
+2020-04-11 18:48:53,225 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-04-11 18:48:53,272 : ERROR : FAST : Stop called on serial connection com5
+2020-04-11 18:48:53,275 : ERROR : FAST : Stop called on serial connection com4
+2020-04-11 18:48:53,501 : INFO : root : MPF run loop ended.

@@ -1,0 +1,84 @@
+2019-10-11 14:36:43,787 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-10-11 14:36:43,787 : INFO : Machine : Command line arguments: {'logfile': 'logs\\2019-10-11-14-36-43-mpf-DESKTOP-I5I6D25.log', 'production': False, 'force_platform': None, 'no_load_cache': False, 'force_assets_load': False, 'create_config_cache': True, 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'pause': False, 'loglevel': 15, 'mc_file_name': None, 'configfile': ['config.yaml'], 'text_ui': True, 'consoleloglevel': 20, 'syslog_address': None, 'bcp': True}
+2019-10-11 14:36:43,787 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-10-11 14:36:43,787 : INFO : Machine : Machine path: D:\POKEMON - 2
+2019-10-11 14:36:43,787 : INFO : Machine : Platform: win32
+2019-10-11 14:36:43,787 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-10-11 14:36:43,787 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-10-11 14:36:46,709 : INFO : Machine : Machine config file #1: config.yaml
+2019-10-11 14:36:46,709 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\442e40140b44297973c0b074da7880ab.mpf_cache
+2019-10-11 14:36:46,741 : INFO : Machine : Initialise MPF.
+2019-10-11 14:36:48,022 : INFO : FAST : Connecting to com4 at 921600bps
+2019-10-11 14:36:48,069 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-10-11 14:36:48,069 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-10-11 14:36:48,225 : INFO : FAST : Connecting to com5 at 921600bps
+2019-10-11 14:36:48,287 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-10-11 14:36:48,772 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\4db3b4eb08bf5f2e1b30e7df1dec754e.mpf_cache
+2019-10-11 14:36:48,787 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-10-11 14:36:48,834 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\6f2a382b9c765c6a1f408e05b1d50db1.mpf_cache
+2019-10-11 14:36:48,834 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\b016e39aaa9fcc310b2c911cb998ccc7.mpf_cache
+2019-10-11 14:36:48,850 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-10-11 14:36:48,897 : WARNING : ConfigProcessor : Config file in cache changed: D:\POKEMON - 2\modes\evolve_pichu\config\evolve_pichu.yaml
+2019-10-11 14:36:48,897 : INFO : ConfigProcessor : Loading config from file D:\POKEMON - 2\modes\evolve_pichu\config\evolve_pichu.yaml.
+2019-10-11 14:36:49,006 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 2\modes\evolve_pichu\config\evolve_pichu.yaml
+2019-10-11 14:36:49,006 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\d7f8a5ee622046c7da753c9c40514d63.mpf_cache
+2019-10-11 14:36:49,053 : DEBUG : coil.c_trough : Configuring device with settings: '{'pulse_events': {}, 'platform': None, 'console_log': 'full', 'file_log': 'full', 'default_pulse_ms': 7, 'debug': True, 'number': '1-1', 'default_pulse_power': None, 'enable_events': {}, 'tags': [], 'max_pulse_power': 1.0, 'allow_enable': False, 'default_hold_power': None, 'max_pulse_ms': None, 'label': '%', 'psu': <psu.default>, 'platform_settings': {}, 'disable_events': {}, 'default_recycle': False, 'max_hold_power': None}'
+2019-10-11 14:36:49,053 : DEBUG : coil.c_trough : Configuring device with settings: '{'pulse_events': {}, 'platform': None, 'console_log': 'full', 'file_log': 'full', 'default_pulse_ms': 7, 'debug': True, 'number': '1-1', 'default_pulse_power': None, 'enable_events': {}, 'tags': [], 'max_pulse_power': 1.0, 'allow_enable': False, 'default_hold_power': None, 'max_pulse_ms': None, 'label': '%', 'psu': <psu.default>, 'platform_settings': {'connection': 'auto', 'recycle_ms': None}, 'disable_events': {}, 'default_recycle': False, 'max_hold_power': None}'
+2019-10-11 14:36:49,084 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'ball_switches': [<switch.s_trough>], 'hold_events': {}, 'max_eject_attempts': 0, 'ball_capacity': None, 'eject_coil_retry_pulse': None, 'ball_search_order': 200, 'entrance_event_timeout': 5.0, 'entrance_switch_full_timeout': 0, 'eject_events': {}, 'tags': ['home', 'trough'], 'eject_targets': [<ball_device.bd_plunger>], 'captures_from': <playfield.playfield>, 'mechanical_eject': False, 'eject_coil_enable_time': [], 'hold_coil_release_time': 1000, 'eject_coil_max_wait_ms': 200, 'retries_before_increasing_pulse': 4, 'ball_missing_timeouts': [], 'confirm_eject_switch': None, 'confirm_eject_event': None, 'hold_switches': [], 'label': '%', 'entrance_count_delay': 500, 'console_log': 'full', 'file_log': 'full', 'entrance_switch': None, 'eject_timeouts': [], 'eject_coil': <coil.c_trough>, 'confirm_eject_type': 'target', 'debug': True, 'auto_fire_on_unexpected_ball': True, 'player_controlled_eject_event': None, 'eject_coil_jam_pulse': None, 'eject_coil_reorder_pulse': None, 'ball_missing_target': <playfield.playfield>, 'exit_count_delay': 500, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'hold_coil': None, 'eject_all_events': {}, 'request_ball_events': [], 'target_on_unexpected_ball': None, 'entrance_events': {}}'
+2019-10-11 14:36:49,162 : INFO : SwitchController : Found active switch: s_trough
+2019-10-11 14:36:49,412 : ERROR : asyncio : Exception in callback EventManager._done(<Task finishe...gym_active'))>)
+handle: <Handle EventManager._done(<Task finishe...gym_active'))>)>
+Traceback (most recent call last):
+  File "c:\python34\lib\asyncio\events.py", line 125, in _run
+    self._callback(*self._args)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 686, in _done
+    future.result()
+  File "c:\python34\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "c:\python34\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 614, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 98, in initialise_modes
+    mode.initialise_mode()
+  File "c:\python34\lib\site-packages\mpf\core\mode.py", line 580, in initialise_mode
+    **item.kwargs)
+  File "c:\python34\lib\site-packages\mpf\core\config_player.py", line 132, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\python34\lib\site-packages\mpf\core\config_player.py", line 104, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\python34\lib\site-packages\mpf\config_players\variable_player.py", line 108, in validate_config_entry
+    value_dict = self._parse_config(s, name)
+  File "c:\python34\lib\site-packages\mpf\core\config_player.py", line 126, in _parse_config
+    return self.get_full_config(config)
+  File "c:\python34\lib\site-packages\mpf\core\config_player.py", line 194, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "c:\python34\lib\site-packages\mpf\core\config_validator.py", line 169, in validate_config
+    validation_failure_info=(validation_failure_info, k))
+  File "c:\python34\lib\site-packages\mpf\core\config_validator.py", line 208, in validate_config_item
+    validation_failure_info)
+  File "c:\python34\lib\site-packages\mpf\core\config_validator.py", line 596, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info)
+  File "c:\python34\lib\site-packages\mpf\core\config_validator.py", line 414, in _validate_type_template_int
+    return self.machine.placeholder_manager.build_int_template(item)
+  File "c:\python34\lib\site-packages\mpf\core\placeholder_manager.py", line 633, in build_int_template
+    return IntTemplate(self._parse_template(template_str), self, default_value)
+  File "c:\python34\lib\site-packages\mpf\core\placeholder_manager.py", line 506, in _parse_template
+    return ast.parse(template_str, mode='eval').body
+  File "c:\python34\lib\ast.py", line 35, in parse
+    return compile(source, filename, mode, PyCF_ONLY_AST)
+  File "<unknown>", line 1
+    20 check_s_gym_active
+                        ^
+SyntaxError: unexpected EOF while parsing
+2019-10-11 14:36:50,147 : ERROR : root : Exception is not set.
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\commands\game.py", line 208, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 661, in run
+    self.initialise_mpf()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 653, in initialise_mpf
+    if init.exception():
+  File "c:\python34\lib\asyncio\futures.py", line 288, in exception
+    raise InvalidStateError('Exception is not set.')
+asyncio.futures.InvalidStateError: Exception is not set.

@@ -1,0 +1,122 @@
+2020-05-02 17:29:03,514 : kivy : Factory: 184 symbols loaded
+2020-05-02 17:29:03,645 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2020-05-02 17:29:03,708 : kivy : VideoGstplayer: Using Gstreamer 1.16.0.0
+2020-05-02 17:29:03,709 : kivy : Video: Provider: gstplayer
+2020-05-02 17:29:03,795 : kivy : Loading MPF-MC controller
+2020-05-02 17:29:03,795 : mpfmc : Mission Pinball Framework Media Controller v0.53.3
+2020-05-02 17:29:03,796 : mpfmc : Mission Pinball Framework Game Engine v0.53.3
+2020-05-02 17:29:03,796 : mpfmc : Machine path: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS
+2020-05-02 17:29:03,797 : ConfigProcessor : Config file in cache changed: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\config
+2020-05-02 17:29:03,798 : ConfigProcessor : Loading config from file c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2020-05-02 17:29:03,852 : ConfigProcessor : Loading config: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2020-05-02 17:29:03,863 : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\config.
+2020-05-02 17:29:03,926 : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\config
+2020-05-02 17:29:03,933 : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\player_variables.yaml
+2020-05-02 17:29:03,939 : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\key_mapping.yaml
+2020-05-02 17:29:03,941 : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\c7b7ab19e78ecc520344b1352e3b06b9.mpf_cache
+2020-05-02 17:29:03,942 : mpfmc : Starting clock at 60.0Hz
+2020-05-02 17:29:03,955 : kivy : Text: Provider: sdl2
+2020-05-02 17:29:03,997 : kivy : Window: Provider: sdl2
+2020-05-02 17:29:04,833 : kivy : GL: Using the "OpenGL" graphics system
+2020-05-02 17:29:04,835 : kivy : GL: GLEW initialization succeeded
+2020-05-02 17:29:04,835 : kivy : GL: Backend used <glew>
+2020-05-02 17:29:04,835 : kivy : GL: OpenGL version <b'4.5.0 NVIDIA 377.83'>
+2020-05-02 17:29:04,835 : kivy : GL: OpenGL vendor <b'NVIDIA Corporation'>
+2020-05-02 17:29:04,835 : kivy : GL: OpenGL renderer <b'Quadro 2000/PCIe/SSE2'>
+2020-05-02 17:29:04,835 : kivy : GL: OpenGL parsed version: 4, 5
+2020-05-02 17:29:04,835 : kivy : GL: Shading version <b'4.50 NVIDIA'>
+2020-05-02 17:29:04,835 : kivy : GL: Texture max size <16384>
+2020-05-02 17:29:04,835 : kivy : GL: Texture max units <32>
+2020-05-02 17:29:04,853 : kivy : Window: auto add sdl2 input provider
+2020-05-02 17:29:04,853 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2020-05-02 17:29:04,863 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2020-05-02 17:29:05,098 : AudioInterface : Initialized
+2020-05-02 17:29:05,098 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2020-05-02 17:29:05,101 : kivy : Base: Start application main loop
+2020-05-02 17:29:05,101 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2020-05-02 17:29:05,101 : EventManager : Event: ======'display_top_initialized'====== Args={}
+2020-05-02 17:29:05,102 : EventManager : Event: ======'display_middle_initialized'====== Args={}
+2020-05-02 17:29:05,102 : EventManager : Event: ======'display_bottom_initialized'====== Args={}
+2020-05-02 17:29:05,127 : mpfmc : Display: Setting 'window' as default display
+2020-05-02 17:29:05,134 : EventManager : Event: ======'displays_initialized'====== Args={}
+2020-05-02 17:29:05,136 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2020-05-02 17:29:05,136 : EventManager : Event: ======'display_window_ready'====== Args={}
+2020-05-02 17:29:05,136 : EventManager : Event: ======'slide_top_blank_created'====== Args={}
+2020-05-02 17:29:05,136 : EventManager : Event: ======'display_top_ready'====== Args={}
+2020-05-02 17:29:05,137 : EventManager : Event: ======'slide_middle_blank_created'====== Args={}
+2020-05-02 17:29:05,137 : EventManager : Event: ======'display_middle_ready'====== Args={}
+2020-05-02 17:29:05,138 : EventManager : Event: ======'slide_bottom_blank_created'====== Args={}
+2020-05-02 17:29:05,138 : EventManager : Event: ======'display_bottom_ready'====== Args={}
+2020-05-02 17:29:05,150 : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-05-02 17:29:05,154 : EventManager : Event: ======'mc_ready'====== Args={}
+2020-05-02 17:29:05,154 : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-05-02 17:29:05,156 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0378f93b62c546ad0a14fc16b8462c41.mpf_cache
+2020-05-02 17:29:05,157 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\c81a0f1062502e33bbed66b9eae15858.mpf_cache
+2020-05-02 17:29:05,158 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5e332dad5466fb4d353f60c87864de4c.mpf_cache
+2020-05-02 17:29:05,159 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5e23017ae2bff2a0239ff499da948ac3.mpf_cache
+2020-05-02 17:29:05,160 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\6dbb84b4a2bd3a6642f95ce5744c7797.mpf_cache
+2020-05-02 17:29:05,161 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\1a49828cb8454c90fd195e3886327b9d.mpf_cache
+2020-05-02 17:29:05,162 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5a22bfd3cd388f17bd2b6acbd36605ae.mpf_cache
+2020-05-02 17:29:05,163 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0db36da4b9aa41dcdeae696ef4ec8d87.mpf_cache
+2020-05-02 17:29:05,164 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\4ea733655e2f71aef4d6f646b7999fe0.mpf_cache
+2020-05-02 17:29:05,164 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\f9a13da868835514a4e555019188716d.mpf_cache
+2020-05-02 17:29:05,165 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5b0c10fb1ea3d696f3389c798402fbbd.mpf_cache
+2020-05-02 17:29:05,166 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\201769dfbc23cf51d44452c1bfe1f92e.mpf_cache
+2020-05-02 17:29:05,167 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\ead1ab3e53925d446b3cb0becf429113.mpf_cache
+2020-05-02 17:29:05,168 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\3183d529c1c05723ae7f7f27f6d76374.mpf_cache
+2020-05-02 17:29:05,170 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\6a2515e5578170ee7c481918e8ad2f89.mpf_cache
+2020-05-02 17:29:05,170 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\2476b3e7b98dcc7e56449320299b63be.mpf_cache
+2020-05-02 17:29:05,171 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0e7d1a1c3907f6958e06eb127bcf3b99.mpf_cache
+2020-05-02 17:29:05,176 : kivy : Base: Leaving application in progress...
+2020-05-02 17:29:05,176 : kivy : Exception while processing RegisteredHandler(callback=<bound method ModeController._load_modes of <mpfmc.core.mode_controller.ModeController object at 0x000001865E4A77B8>>, priority=1, kwargs={}, key=UUID('b7d872bf-9817-4f19-a494-925e8cc24d71'), condition=None, blocking_facility=None) for event init_phase_2
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 665, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mode_controller.py", line 59, in _load_modes
+    self.mc.modes[mode] = self._load_mode(mode)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mode_controller.py", line 140, in _load_mode
+    return Mode(self.mc, config, mode_string, mode_path)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mode.py", line 46, in __init__
+    **item.kwargs)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 133, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\config_players\slide_player.py", line 251, in validate_config
+    slide))
+AssertionError: Expected a dict in slide_player mode_attract_started:slide_mode_attract_started.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\commands\mc.py", line 213, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\app.py", line 855, in run
+    runTouchApp()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\base.py", line 504, in runTouchApp
+    EventLoop.window.mainloop()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\core\window\window_sdl2.py", line 747, in mainloop
+    self._mainloop()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\core\window\window_sdl2.py", line 479, in _mainloop
+    EventLoop.idle()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\base.py", line 339, in idle
+    Clock.tick()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\clock.py", line 591, in tick
+    self._process_events()
+  File "kivy\_clock.pyx", line 384, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 414, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 412, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 167, in kivy._clock.ClockEvent.tick
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\display.py", line 205, in _displays_initialized
+    self.mc.displays_initialized()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mc.py", line 336, in displays_initialized
+    self._init()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mc.py", line 380, in _init
+    self.events.process_event_queue()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 752, in process_event_queue
+    **event[3])
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 711, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 667, in _run_handlers
+    raise Exception("Exception while processing {} for event {}".format(handler, event)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method ModeController._load_modes of <mpfmc.core.mode_controller.ModeController object at 0x000001865E4A77B8>>, priority=1, kwargs={}, key=UUID('b7d872bf-9817-4f19-a494-925e8cc24d71'), condition=None, blocking_facility=None) for event init_phase_2
+2020-05-02 17:29:05,201 : kivy : Stopping child threads... (1 remaining)
+2020-05-02 17:29:06,107 : kivy : All child threads stopped.

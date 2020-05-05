@@ -1,0 +1,61 @@
+2019-11-25 19:23:05,962 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-11-25 19:23:05,962 : INFO : Machine : Command line arguments: {'consoleloglevel': 20, 'create_config_cache': True, 'no_load_cache': False, 'pause': False, 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'mc_file_name': None, 'syslog_address': None, 'text_ui': True, 'force_assets_load': False, 'production': False, 'configfile': ['config.yaml'], 'force_platform': None, 'logfile': 'logs\\2019-11-25-19-23-05-mpf-DESKTOP-I5I6D25.log', 'loglevel': 15, 'bcp': True}
+2019-11-25 19:23:05,962 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-11-25 19:23:05,962 : INFO : Machine : Machine path: D:\POKEMON - 3 - GYMS DISPLAYS
+2019-11-25 19:23:05,977 : INFO : Machine : Platform: win32
+2019-11-25 19:23:05,977 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-11-25 19:23:05,977 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-11-25 19:23:07,555 : INFO : Machine : Machine config file #1: config.yaml
+2019-11-25 19:23:07,555 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\397fad0162a41b7db123b3957565a4ff.mpf_cache
+2019-11-25 19:23:07,571 : INFO : Machine : Initialise MPF.
+2019-11-25 19:23:08,383 : INFO : FAST : Connecting to com4 at 921600bps
+2019-11-25 19:23:08,430 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-11-25 19:23:08,430 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-11-25 19:23:08,493 : INFO : FAST : Connecting to com5 at 921600bps
+2019-11-25 19:23:08,524 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-11-25 19:23:09,040 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\050cf1c6f86beee4aa95d4daa6cae486.mpf_cache
+2019-11-25 19:23:09,087 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-11-25 19:23:09,118 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-11-25 19:23:09,133 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\7f23218709f44a41086dfd04f42f7c3f.mpf_cache
+2019-11-25 19:23:09,165 : DEBUG : coil.c_trough : Configuring device with settings: '{'max_pulse_ms': None, 'enable_events': {}, 'platform': None, 'debug': True, 'pulse_events': {}, 'default_pulse_power': None, 'disable_events': {}, 'label': '%', 'max_hold_power': None, 'tags': [], 'number': '1-1', 'file_log': 'full', 'default_hold_power': None, 'default_recycle': False, 'platform_settings': {}, 'console_log': 'full', 'psu': <psu.default>, 'default_pulse_ms': 7, 'max_pulse_power': 1.0, 'allow_enable': False}'
+2019-11-25 19:23:09,165 : DEBUG : coil.c_trough : Configuring device with settings: '{'max_pulse_ms': None, 'enable_events': {}, 'platform': None, 'debug': True, 'pulse_events': {}, 'default_pulse_power': None, 'disable_events': {}, 'label': '%', 'max_hold_power': None, 'tags': [], 'number': '1-1', 'file_log': 'full', 'default_hold_power': None, 'default_recycle': False, 'platform_settings': {'recycle_ms': None, 'connection': 'auto'}, 'console_log': 'full', 'psu': <psu.default>, 'default_pulse_ms': 7, 'max_pulse_power': 1.0, 'allow_enable': False}'
+2019-11-25 19:23:09,196 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'request_ball_events': [], 'eject_coil_enable_time': [], 'ball_switches': [<switch.s_trough>], 'ball_missing_target': <playfield.playfield>, 'eject_coil_retry_pulse': None, 'target_on_unexpected_ball': None, 'mechanical_eject': False, 'entrance_event_timeout': 5.0, 'label': '%', 'eject_coil_max_wait_ms': 200, 'captures_from': <playfield.playfield>, 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'file_log': 'full', 'eject_coil_jam_pulse': None, 'hold_coil_release_time': 1000, 'idle_missing_ball_timeout': 5.0, 'ball_search_order': 200, 'eject_all_events': {}, 'entrance_events': {}, 'entrance_switch': None, 'ball_missing_timeouts': [], 'eject_events': {}, 'ball_capacity': None, 'exit_count_delay': 500, 'confirm_eject_type': 'target', 'confirm_eject_event': None, 'hold_switches': [], 'jam_switch': None, 'eject_targets': [<ball_device.bd_plunger>], 'max_eject_attempts': 0, 'confirm_eject_switch': None, 'tags': ['home', 'trough'], 'eject_timeouts': [], 'eject_coil': <coil.c_trough>, 'debug': True, 'hold_events': {}, 'console_log': 'full', 'eject_coil_reorder_pulse': None, 'entrance_count_delay': 500, 'auto_fire_on_unexpected_ball': True, 'player_controlled_eject_event': None, 'entrance_switch_full_timeout': 0}'
+2019-11-25 19:23:09,227 : INFO : SwitchController : Found active switch: s_trough
+2019-11-25 19:23:09,336 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-11-25 19:23:10,352 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:23:11,352 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:23:12,508 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:23:18,008 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:23:23,513 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:23:29,013 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:23:34,518 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:23:40,007 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:23:45,513 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:23:51,019 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:23:56,519 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:24:02,020 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:24:07,519 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:24:13,019 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:24:18,508 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:24:24,012 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:24:29,518 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:24:35,022 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:24:40,522 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:24:46,022 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:24:51,514 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:24:57,014 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:25:02,514 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:25:08,014 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:25:13,514 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:25:19,013 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:25:24,513 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:25:30,013 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:25:35,513 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:25:41,013 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:25:46,518 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:25:52,010 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:25:57,514 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:26:03,020 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:26:08,509 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:26:14,014 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:26:19,514 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!

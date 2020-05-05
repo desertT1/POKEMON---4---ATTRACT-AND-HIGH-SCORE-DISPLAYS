@@ -1,0 +1,219 @@
+2020-05-02 16:58:49,384 : kivy : Factory: 184 symbols loaded
+2020-05-02 16:58:49,523 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2020-05-02 16:58:49,585 : kivy : VideoGstplayer: Using Gstreamer 1.16.0.0
+2020-05-02 16:58:49,585 : kivy : Video: Provider: gstplayer
+2020-05-02 16:58:49,672 : kivy : Loading MPF-MC controller
+2020-05-02 16:58:49,673 : mpfmc : Mission Pinball Framework Media Controller v0.53.3
+2020-05-02 16:58:49,673 : mpfmc : Mission Pinball Framework Game Engine v0.53.3
+2020-05-02 16:58:49,673 : mpfmc : Machine path: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS
+2020-05-02 16:58:49,675 : ConfigProcessor : Config file in cache changed: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\config
+2020-05-02 16:58:49,675 : ConfigProcessor : Loading config from file c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2020-05-02 16:58:49,731 : ConfigProcessor : Loading config: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2020-05-02 16:58:49,742 : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\config.
+2020-05-02 16:58:49,810 : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\config
+2020-05-02 16:58:49,818 : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\player_variables.yaml
+2020-05-02 16:58:49,823 : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\key_mapping.yaml
+2020-05-02 16:58:49,826 : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\c7b7ab19e78ecc520344b1352e3b06b9.mpf_cache
+2020-05-02 16:58:49,826 : mpfmc : Starting clock at 60.0Hz
+2020-05-02 16:58:49,841 : kivy : Text: Provider: sdl2
+2020-05-02 16:58:49,885 : kivy : Window: Provider: sdl2
+2020-05-02 16:58:50,805 : kivy : GL: Using the "OpenGL" graphics system
+2020-05-02 16:58:50,807 : kivy : GL: GLEW initialization succeeded
+2020-05-02 16:58:50,807 : kivy : GL: Backend used <glew>
+2020-05-02 16:58:50,807 : kivy : GL: OpenGL version <b'4.5.0 NVIDIA 377.83'>
+2020-05-02 16:58:50,807 : kivy : GL: OpenGL vendor <b'NVIDIA Corporation'>
+2020-05-02 16:58:50,808 : kivy : GL: OpenGL renderer <b'Quadro 2000/PCIe/SSE2'>
+2020-05-02 16:58:50,808 : kivy : GL: OpenGL parsed version: 4, 5
+2020-05-02 16:58:50,808 : kivy : GL: Shading version <b'4.50 NVIDIA'>
+2020-05-02 16:58:50,808 : kivy : GL: Texture max size <16384>
+2020-05-02 16:58:50,808 : kivy : GL: Texture max units <32>
+2020-05-02 16:58:50,830 : kivy : Window: auto add sdl2 input provider
+2020-05-02 16:58:50,830 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2020-05-02 16:58:50,839 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2020-05-02 16:58:51,074 : AudioInterface : Initialized
+2020-05-02 16:58:51,074 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2020-05-02 16:58:51,076 : kivy : Base: Start application main loop
+2020-05-02 16:58:51,077 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2020-05-02 16:58:51,077 : EventManager : Event: ======'display_top_initialized'====== Args={}
+2020-05-02 16:58:51,077 : EventManager : Event: ======'display_middle_initialized'====== Args={}
+2020-05-02 16:58:51,078 : EventManager : Event: ======'display_bottom_initialized'====== Args={}
+2020-05-02 16:58:51,105 : mpfmc : Display: Setting 'window' as default display
+2020-05-02 16:58:51,112 : EventManager : Event: ======'displays_initialized'====== Args={}
+2020-05-02 16:58:51,113 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2020-05-02 16:58:51,113 : EventManager : Event: ======'display_window_ready'====== Args={}
+2020-05-02 16:58:51,114 : EventManager : Event: ======'slide_top_blank_created'====== Args={}
+2020-05-02 16:58:51,114 : EventManager : Event: ======'display_top_ready'====== Args={}
+2020-05-02 16:58:51,114 : EventManager : Event: ======'slide_middle_blank_created'====== Args={}
+2020-05-02 16:58:51,114 : EventManager : Event: ======'display_middle_ready'====== Args={}
+2020-05-02 16:58:51,115 : EventManager : Event: ======'slide_bottom_blank_created'====== Args={}
+2020-05-02 16:58:51,115 : EventManager : Event: ======'display_bottom_ready'====== Args={}
+2020-05-02 16:58:51,125 : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-05-02 16:58:51,130 : EventManager : Event: ======'mc_ready'====== Args={}
+2020-05-02 16:58:51,130 : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-05-02 16:58:51,132 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\ead1ab3e53925d446b3cb0becf429113.mpf_cache
+2020-05-02 16:58:51,134 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\dd4913724ea8e05b50af346c964d02e0.mpf_cache
+2020-05-02 16:58:51,135 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\f9a13da868835514a4e555019188716d.mpf_cache
+2020-05-02 16:58:51,135 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\d6bb1cdfa60c1f50f35785cba55875d1.mpf_cache
+2020-05-02 16:58:51,136 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5b0c10fb1ea3d696f3389c798402fbbd.mpf_cache
+2020-05-02 16:58:51,137 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\47fed2ef5afbaf0c19527a565aa191d9.mpf_cache
+2020-05-02 16:58:51,138 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\3183d529c1c05723ae7f7f27f6d76374.mpf_cache
+2020-05-02 16:58:51,140 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\1a49828cb8454c90fd195e3886327b9d.mpf_cache
+2020-05-02 16:58:51,141 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\c81a0f1062502e33bbed66b9eae15858.mpf_cache
+2020-05-02 16:58:51,141 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5e23017ae2bff2a0239ff499da948ac3.mpf_cache
+2020-05-02 16:58:51,142 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\e316602f2754df2a40ebb1b620c83c27.mpf_cache
+2020-05-02 16:58:51,143 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\b51fa6c1189029eac07bf57001e3c2a0.mpf_cache
+2020-05-02 16:58:51,144 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5a22bfd3cd388f17bd2b6acbd36605ae.mpf_cache
+2020-05-02 16:58:51,145 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5903aae11c08aba35176e5c1f4c1be59.mpf_cache
+2020-05-02 16:58:51,146 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0db36da4b9aa41dcdeae696ef4ec8d87.mpf_cache
+2020-05-02 16:58:51,147 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\6a2515e5578170ee7c481918e8ad2f89.mpf_cache
+2020-05-02 16:58:51,147 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\b9fac23b74e0b513c055e4621b74ad7e.mpf_cache
+2020-05-02 16:58:51,148 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\2476b3e7b98dcc7e56449320299b63be.mpf_cache
+2020-05-02 16:58:51,149 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\201769dfbc23cf51d44452c1bfe1f92e.mpf_cache
+2020-05-02 16:58:51,150 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0e7d1a1c3907f6958e06eb127bcf3b99.mpf_cache
+2020-05-02 16:58:51,169 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\6dbb84b4a2bd3a6642f95ce5744c7797.mpf_cache
+2020-05-02 16:58:51,171 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0378f93b62c546ad0a14fc16b8462c41.mpf_cache
+2020-05-02 16:58:51,171 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5e332dad5466fb4d353f60c87864de4c.mpf_cache
+2020-05-02 16:58:51,172 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0c61b9df659d8368945fe529f085132e.mpf_cache
+2020-05-02 16:58:51,175 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\32e6b619402cb4da5981e97ecb1f6408.mpf_cache
+2020-05-02 16:58:51,176 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\8e537f3f1075ad5ff3f7e8ba8228812c.mpf_cache
+2020-05-02 16:58:51,177 : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\4ea733655e2f71aef4d6f646b7999fe0.mpf_cache
+2020-05-02 16:58:51,178 : EventManager : Event: ======'init_phase_3'====== Args={}
+2020-05-02 16:58:51,182 : EventManager : Event: ======'init_phase_4'====== Args={}
+2020-05-02 16:58:51,182 : EventManager : Event: ======'init_phase_5'====== Args={}
+2020-05-02 16:58:51,182 : EventManager : Event: ======'init_done'====== Args={}
+2020-05-02 16:58:51,183 : MPF-MC BCP Server : Starting up on localhost port 5050
+2020-05-02 16:58:51,186 : MPF-MC BCP Server : Waiting for a connection...
+2020-05-02 16:58:51,187 : mpfmc : SlidePlayer: Play called with settings={'slides': {welcome_slide-None-None: {'priority': None, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None}}}
+2020-05-02 16:58:51,192 : kivy : GL: NPOT texture support is available
+2020-05-02 16:58:51,192 : EventManager : Event: ======'slide_welcome_slide_created'====== Args={}
+2020-05-02 16:58:51,197 : EventManager : Event: ======'slide_welcome_slide_active'====== Args={}
+2020-05-02 16:58:51,201 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2020-05-02 16:58:51,746 : MPF-MC BCP Server : Received connection from: 127.0.0.1:61403
+2020-05-02 16:58:51,753 : EventManager : Event: ======'client_connected'====== Args={'host': '127.0.0.1', 'port': 61403}
+2020-05-02 16:58:51,766 : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,766 : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 107, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,766 : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.53.3', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,766 : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.53.3, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,766 : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,766 : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,766 : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,766 : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,767 : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.18362', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,767 : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,767 : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,767 : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'MPF', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,767 : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 1000000, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,767 : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,767 : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'BRI', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,767 : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 900000, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,767 : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,767 : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'JAN', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 800000, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'QUI', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 700000, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'MAR', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 600000, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score6_label'====== Args={'value': 'HIGH SCORE 5', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score6_name'====== Args={'value': 'JOH', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score6_value'====== Args={'value': 500000, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score7_label'====== Args={'value': 'HIGH SCORE 6', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,768 : EventManager : Event: ======'machine_var_score7_name'====== Args={'value': 'ELI', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,769 : EventManager : Event: ======'machine_var_score7_value'====== Args={'value': 400000, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,769 : EventManager : Event: ======'machine_var_score8_label'====== Args={'value': 'HIGH SCORE 7', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,769 : EventManager : Event: ======'machine_var_score8_name'====== Args={'value': 'MIK', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,769 : EventManager : Event: ======'machine_var_score8_value'====== Args={'value': 300000, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,769 : EventManager : Event: ======'machine_var_score9_label'====== Args={'value': 'HIGH SCORE 8', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,769 : EventManager : Event: ======'machine_var_score9_name'====== Args={'value': 'ANT', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,769 : EventManager : Event: ======'machine_var_score9_value'====== Args={'value': 200000, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,769 : EventManager : Event: ======'machine_var_loops1_label'====== Args={'value': 'LOOP CHAMP', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,769 : EventManager : Event: ======'machine_var_loops1_name'====== Args={'value': 'JAN', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,769 : EventManager : Event: ======'machine_var_loops1_value'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,769 : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.53.3', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,770 : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.53.3 (config_version=5, BCP v1.1, Requires MPF v0.53.0)', 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,770 : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,815 : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 296, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,815 : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 374, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,815 : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 240.55555555555554, 'top': [1053, 829, 828, 828, 808, 778, 726, 724, 722, 706], 'total': 324}, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,815 : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'value': 2900, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,815 : EventManager : Event: ======'machine_var_audits_switches_s_drop_center'====== Args={'value': 708, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,815 : EventManager : Event: ======'machine_var_audits_switches_s_drop_left'====== Args={'value': 624, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,815 : EventManager : Event: ======'machine_var_audits_switches_s_drop_right'====== Args={'value': 552, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,815 : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 7922, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,816 : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 11731, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,816 : EventManager : Event: ======'machine_var_audits_switches_s_gym'====== Args={'value': 514, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,827 : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 88, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,827 : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'value': 3074, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,827 : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,827 : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 3955, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,827 : EventManager : Event: ======'machine_var_audits_switches_s_pop_top'====== Args={'value': 1249, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,827 : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 1265, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,827 : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 1127, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,827 : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 1271, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,827 : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 9530, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,828 : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 74, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,828 : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 1715, 'prev_value': None, 'change': True}
+2020-05-02 16:58:51,839 : EventManager : Event: ======'slides_play'====== Args={'settings': {'welcome_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': '_global', 'calling_context': 'init_done', 'priority': 0}
+2020-05-02 16:58:51,839 : EventManager : Event: ======'mc_reset_phase_1'====== Args={}
+2020-05-02 16:58:51,839 : mpfmc : SlidePlayer: Play called with settings={'welcome_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2020-05-02 16:58:51,840 : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={}
+2020-05-02 16:58:51,842 : EventManager : Event: ======'slide_welcome_slide_created'====== Args={}
+2020-05-02 16:58:51,842 : EventManager : Event: ======'mc_reset_phase_2'====== Args={}
+2020-05-02 16:58:51,843 : EventManager : Event: ======'mc_reset_phase_3'====== Args={}
+2020-05-02 16:58:51,843 : EventManager : Event: ======'mc_reset_complete'====== Args={}
+2020-05-02 16:58:51,843 : EventManager : Event: ======'slide_welcome_slide_active'====== Args={}
+2020-05-02 16:58:51,862 : EventManager : Event: ======'slides_play'====== Args={'settings': {'slide_mode_attract_started': {'target': 'middle', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'attract', 'calling_context': 'mode_attract_started', 'priority': 10}
+2020-05-02 16:58:51,862 : EventManager : Event: ======'slides_play'====== Args={'settings': {'attract_started': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': '_global', 'calling_context': 'mode_attract_started', 'priority': 0}
+2020-05-02 16:58:51,863 : mpfmc : SlidePlayer: Play called with settings={'slide_mode_attract_started': {'target': 'middle', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2020-05-02 16:58:51,866 : EventManager : Event: ======'slide_slide_mode_attract_started_created'====== Args={}
+2020-05-02 16:58:51,866 : mpfmc : SlidePlayer: Play called with settings={'attract_started': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2020-05-02 16:58:51,867 : kivy : Base: Leaving application in progress...
+2020-05-02 16:58:51,867 : kivy : Exception while processing RegisteredHandler(callback=<bound method McConfigPlayer.play_from_trigger of McConfigPlayer.slides>, priority=1, kwargs={}, key=UUID('933447ab-8605-4c62-95a0-842fd9944339'), condition=None, blocking_facility=None) for event slides_play
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 665, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mc_config_player.py", line 56, in play_from_trigger
+    self.play(settings=settings, context=context, calling_context=calling_context, priority=priority, **kwargs)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\config_players\slide_player.py", line 161, in play
+    target.show_slide(slide_name=slide, key=full_context, play_kwargs=s['tokens'], **s)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\display.py", line 346, in show_slide
+    config=self.mc.slides[slide_name],
+KeyError: 'attract_started'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\commands\mc.py", line 213, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\app.py", line 855, in run
+    runTouchApp()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\base.py", line 504, in runTouchApp
+    EventLoop.window.mainloop()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\core\window\window_sdl2.py", line 747, in mainloop
+    self._mainloop()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\core\window\window_sdl2.py", line 479, in _mainloop
+    EventLoop.idle()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\base.py", line 339, in idle
+    Clock.tick()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\kivy\clock.py", line 591, in tick
+    self._process_events()
+  File "kivy\_clock.pyx", line 384, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 414, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 412, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 167, in kivy._clock.ClockEvent.tick
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mc.py", line 558, in tick
+    self.events.process_event_queue()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 752, in process_event_queue
+    **event[3])
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 711, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 667, in _run_handlers
+    raise Exception("Exception while processing {} for event {}".format(handler, event)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method McConfigPlayer.play_from_trigger of McConfigPlayer.slides>, priority=1, kwargs={}, key=UUID('933447ab-8605-4c62-95a0-842fd9944339'), condition=None, blocking_facility=None) for event slides_play
+2020-05-02 16:58:51,942 : kivy : Stopping child threads... (3 remaining)
+2020-05-02 16:58:51,996 : mpfmc : Stopping...
+2020-05-02 16:58:51,996 : EventManager : Event: ======'shutdown'====== Args={}
+2020-05-02 16:58:52,074 : mpfmc : Loop rate 57.12 Hz
+2020-05-02 16:58:52,867 : MPF-MC BCP Server : Stopping BCP sending thread
+2020-05-02 16:58:52,879 : kivy : All child threads stopped.

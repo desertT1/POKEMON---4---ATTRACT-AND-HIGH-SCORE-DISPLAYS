@@ -1,0 +1,119 @@
+#config_version=5
+
+mode:
+  start_events: start_mode_pikachu
+  restart_on_next_ball: true
+  stop_events: evolve_pikachu_event 
+  priority: 125
+
+slides:
+  slide_mode_pikachu_started:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 140
+        x: 10
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: PIKACHU EXP (pikachu_exp)/500
+        number_grouping: true
+        min_digits: 2
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+        y: 70
+        x: 10
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+      - type: text
+        text: PIKACHU
+        y: 70
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+
+slide_player:
+  mode_pikachu_started:
+    slide_mode_pikachu_started:
+      target: top   
+
+variable_player:
+  s_drop_left_active:
+    score: 7
+    pikachu_exp: 7
+  s_drop_center_active:
+    score: 7
+    pikachu_exp: 7
+  s_drop_right_active:
+    score: 7
+    pikachu_exp: 7
+  s_saucer_active:
+    score: 15
+    pikachu_exp: 15
+  s_pop_right_active:
+    score: 5
+    pikachu_exp: 5
+  s_pop_top_active:
+    score: 5
+    pikachu_exp: 5
+  s_pop_bottom_active:
+    score: 5
+    pikachu_exp: 5
+  s_sling_right_active:
+    score: 1
+    pikachu_exp: 1
+  s_sling_left_active:
+    score: 1
+    pikachu_exp: 1
+  s_gym_active:
+    score: 20
+    pikachu_exp: 20
+  s_spinner_active:
+    score: 1
+    pikachu_exp: 1
+
+event_player:
+  check_evolve_pikachu{current_player.pikachu_exp >= 500}:
+    - evolve_pikachu_event
+
+
+  s_drop_left_active:
+    check_evolve_pikachu
+  s_drop_center_active:
+    check_evolve_pikachu
+  s_drop_right_active:
+    check_evolve_pikachu
+  s_saucer_active:
+    check_evolve_pikachu
+  s_pop_right_active:
+    check_evolve_pikachu
+  s_pop_top_active:
+    check_evolve_pikachu
+  s_pop_bottom_active:
+    check_evolve_pikachu
+  s_sling_right_active:
+    check_evolve_pikachu
+  s_sling_left_active:
+    check_evolve_pikachu
+  s_gym_active:
+    check_evolve_pikachu
+  s_spinner_active:
+    check_evolve_pikachu
+

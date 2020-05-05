@@ -1,0 +1,76 @@
+#config_version=5
+
+mode:
+    start_events: evolve_pikachu_event
+    stop_events: start_mode_raichu
+    restart_on_next_ball: True
+    priority: 135
+
+slides:
+  slide_mode_evolve_pikachu_started:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 140
+        x: 10
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: SHOOT SAUCER!
+        number_grouping: true
+        min_digits: 2
+        y: 70
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+
+slide_player:
+  mode_evolve_pikachu_started:
+    slide_mode_evolve_pikachu_started:
+      target: top   
+
+variable_player:
+  s_drop_left_active:
+    score: 7
+  s_drop_center_active:
+    score: 7
+  s_drop_right_active:
+    score: 7
+  s_saucer_active:
+    score: 15
+  s_pop_right_active:
+    score: 5
+  s_pop_top_active:
+    score: 5
+  s_pop_bottom_active:
+    score: 5
+  s_sling_right_active:
+    score: 1
+  s_sling_left_active:
+    score: 1
+  s_gym_active:
+    score: 20
+  s_spinner_active:
+    score: 1
+
+event_player:
+  s_saucer_active:
+    start_mode_raichu

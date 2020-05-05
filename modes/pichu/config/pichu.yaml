@@ -1,0 +1,115 @@
+#config_version=5
+
+mode:
+  start_events: start_mode_pichu
+  restart_on_next_ball: false
+  stop_events: evolve_pichu_event 
+  events_when_started:
+  events_when_stopped:
+  priority: 75
+
+
+slides:
+  slide_mode_pichu_started:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 140
+        x: 10
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: PICHU EXP (pichu_exp)/200
+        number_grouping: true
+        min_digits: 2
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+        y: 70
+        x: 10
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+   
+slide_player:
+  mode_pichu_started:
+    slide_mode_pichu_started:
+      target: top   
+
+
+variable_player:
+  s_drop_left_active:
+    score: 7
+    pichu_exp: 7
+  s_drop_center_active:
+    score: 7
+    pichu_exp: 7
+  s_drop_right_active:
+    score: 7
+    pichu_exp: 7
+  s_saucer_active:
+    score: 15
+    pichu_exp: 15
+  s_pop_right_active:
+    score: 5
+    pichu_exp: 5
+  s_pop_top_active:
+    score: 5
+    pichu_exp: 5
+  s_pop_bottom_active:
+    score: 5
+    pichu_exp: 5
+  s_sling_right_active:
+    score: 1
+    pichu_exp: 1
+  s_sling_left_active:
+    score: 1
+    pichu_exp: 1
+  s_gym_active:
+    score: 20
+    pichu_exp: 20
+  s_spinner_active:
+    score: 1
+    pichu_exp: 1
+
+event_player:
+  check_evolve_pichu{current_player.pichu_exp >= 200}:
+    - evolve_pichu_event
+
+
+  s_drop_left_active:
+    check_evolve_pichu
+  s_drop_center_active:
+    check_evolve_pichu
+  s_drop_right_active:
+    check_evolve_pichu
+  s_saucer_active:
+    check_evolve_pichu
+  s_pop_right_active:
+    check_evolve_pichu
+  s_pop_top_active:
+    check_evolve_pichu
+  s_pop_bottom_active:
+    check_evolve_pichu
+  s_sling_right_active:
+    check_evolve_pichu
+  s_sling_left_active:
+    check_evolve_pichu
+  s_gym_active:
+    check_evolve_pichu
+  s_spinner_active:
+    check_evolve_pichu

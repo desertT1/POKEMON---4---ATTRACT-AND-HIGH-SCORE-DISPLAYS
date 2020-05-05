@@ -1,0 +1,10 @@
+#config_version=5
+mode:
+    start_events: ball_starting
+    priority: 31
+
+event_player:
+  mode_base_started{current_player.pichu_exp < 200}: start_mode_pichu
+
+  ball_started{current_player.ball==1}:
+   - start_gym0_event

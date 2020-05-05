@@ -1,0 +1,50 @@
+#config_version=5
+
+mode:
+  start_events: start_gym8_event
+  restart_on_next_ball: true
+  stop_events: stop_gym8_event 
+  events_when_started:
+  events_when_stopped:
+  priority: 215 
+
+slides:
+  slide_mode_gym8_started:
+    widgets:
+      - type: text
+        text: GYM 8
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 60
+        x: 10
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: SPINNER (gym8_spinner)/10
+        number_grouping: true
+        min_digits: 2
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+        y: 10
+        x: 10
+  
+slide_player:
+  mode_gym8_started:
+    slide_mode_gym8_started:
+      target: middle   
+
+
+
+variable_player:
+  s_spinner_active:
+    gym8_spinner: 1
+
+event_player:
+  check_gym8_spinner{current_player.gym8_spinner >= 10}:
+    - stop_gym8_event
+
+
+  s_spinner_active:
+    check_gym8_spinner

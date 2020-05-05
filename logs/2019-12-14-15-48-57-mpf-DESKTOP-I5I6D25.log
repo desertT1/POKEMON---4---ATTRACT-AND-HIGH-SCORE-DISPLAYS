@@ -1,0 +1,72 @@
+2019-12-14 15:48:58,238 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.9
+2019-12-14 15:48:58,238 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\mission pinball\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-12-14-15-48-57-mpf-DESKTOP-I5I6D25.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-12-14 15:48:58,238 : INFO : Machine : MPF path: c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-12-14 15:48:58,238 : INFO : Machine : Machine path: E:\POKEMON - 3 - GYMS DISPLAYS
+2019-12-14 15:48:58,238 : INFO : Machine : Platform: win32
+2019-12-14 15:48:58,238 : INFO : Machine : Python executable location: c:\users\mission pinball\appdata\local\programs\python\python36\python.exe
+2019-12-14 15:48:58,238 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-12-14 15:48:58,238 : INFO : Machine : Machine config file #1: config.yaml
+2019-12-14 15:48:58,254 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 3 - GYMS DISPLAYS\config\config.yaml
+2019-12-14 15:48:58,254 : INFO : ConfigProcessor : Loading config from file c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml.
+2019-12-14 15:48:58,675 : INFO : ConfigProcessor : Loading config: c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2019-12-14 15:48:58,707 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\config\config.yaml.
+2019-12-14 15:48:58,941 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\config.yaml
+2019-12-14 15:48:59,196 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\player_variables.yaml
+2019-12-14 15:48:59,227 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\key_mapping.yaml
+2019-12-14 15:48:59,227 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\da9833b65bba8487c845b9baf72a53be.mpf_cache
+2019-12-14 15:48:59,243 : INFO : Machine : Initialise MPF.
+2019-12-14 15:48:59,633 : INFO : FAST : Connecting to com4 at 921600bps
+2019-12-14 15:48:59,680 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-12-14 15:48:59,680 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.01', 'prev_value': None, 'change': True}
+2019-12-14 15:48:59,680 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-12-14 15:48:59,680 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-12-14 15:48:59,774 : INFO : FAST : Connecting to com5 at 921600bps
+2019-12-14 15:48:59,821 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-12-14 15:48:59,821 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2019-12-14 15:48:59,821 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-12-14 15:48:59,821 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-12-14 15:49:00,024 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 548, 'prev_value': None, 'change': True}
+2019-12-14 15:49:00,024 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.9', 'prev_value': None, 'change': True}
+2019-12-14 15:49:00,024 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.9, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-12-14 15:49:00,024 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-12-14 15:49:00,024 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None, 'change': True}
+2019-12-14 15:49:00,024 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-12-14 15:49:00,024 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2019-12-14 15:49:00,024 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.18362', 'prev_value': None, 'change': True}
+2019-12-14 15:49:00,024 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-12-14 15:49:00,024 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-12-14 15:49:00,211 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c4c39d8157ba863610e7d2b8306a4087.mpf_cache
+2019-12-14 15:49:00,243 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\ffc5df461fc927df7502c20268b6e23c.mpf_cache
+2019-12-14 15:49:00,274 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\00b811264d7e79f39b66bcbc6609bb6e.mpf_cache
+2019-12-14 15:49:00,290 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\aacde2a5df2e44f5e01226064ab4c3c5.mpf_cache
+2019-12-14 15:49:00,305 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\9463ad916821e4687af4640a7d04ba98.mpf_cache
+2019-12-14 15:49:00,352 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\da1c75dbc5d48bb99b7ea9aec7919bfa.mpf_cache
+2019-12-14 15:49:00,383 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\868965d45e8ef85973deb1cc43e3c6e9.mpf_cache
+2019-12-14 15:49:00,415 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\0c90eb48fda27bb17da0cfa70b6cea42.mpf_cache
+2019-12-14 15:49:00,446 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\91c30393a7736530c48ab886a6ae90df.mpf_cache
+2019-12-14 15:49:00,477 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\2bf399aa483f8a887eec2aa10342ca9f.mpf_cache
+2019-12-14 15:49:00,508 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\aad48548988dd5e95d839b70bde2a6c9.mpf_cache
+2019-12-14 15:49:00,540 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\4ed449c86f3920ad38c9f19e6b1fcd80.mpf_cache
+2019-12-14 15:49:00,571 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\d868708421ecefdd23b54f4fefaa5a63.mpf_cache
+2019-12-14 15:49:00,602 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\3512d3a51b29689f2a9a6db585213e7b.mpf_cache
+2019-12-14 15:49:00,633 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\2ad3e4afc7b8ab807ff1625862e58922.mpf_cache
+2019-12-14 15:49:00,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\03465e6905c319de2817a60078df797b.mpf_cache
+2019-12-14 15:49:00,696 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\e94996e3615e593edab21d6f0e7b4569.mpf_cache
+2019-12-14 15:49:00,727 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\31d36942b6dd457222076fb92d13832c.mpf_cache
+2019-12-14 15:49:00,774 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\230c7edf879901b77e29ab003ecfd977.mpf_cache
+2019-12-14 15:49:00,805 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\691014465c877a30c4e85c0b37ef7391.mpf_cache
+2019-12-14 15:49:00,836 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\1b6068dc0dcf1445cf37058c25ad802b.mpf_cache
+2019-12-14 15:49:00,868 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\7c8a3dbd3a1f76b71c509d64239c80b0.mpf_cache
+2019-12-14 15:49:00,899 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\325be8140670be7b4f7f24b4ea9ecf41.mpf_cache
+2019-12-14 15:49:00,930 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\37af0ab3cb4984093f408b6580ccda04.mpf_cache
+2019-12-14 15:49:00,962 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c85e938ce77c7988aa69fb6b28849683.mpf_cache
+2019-12-14 15:49:01,071 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2019-12-14 15:49:01,071 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-12-14 15:49:01,071 : INFO : SwitchController : Found active switch: (('08', 1), <Platform.FAST>)
+2019-12-14 15:49:01,071 : INFO : SwitchController : Found active switch: (('09', 1), <Platform.FAST>)
+2019-12-14 15:49:01,071 : INFO : SwitchController : Found active switch: (('0A', 1), <Platform.FAST>)
+2019-12-14 15:49:01,071 : INFO : SwitchController : Found active switch: (('10', 1), <Platform.FAST>)
+2019-12-14 15:49:01,165 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2019-12-14 15:49:01,180 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-12-14 15:49:02,186 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-12-14 15:49:03,186 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!

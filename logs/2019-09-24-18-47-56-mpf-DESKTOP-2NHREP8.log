@@ -1,0 +1,65 @@
+2019-09-24 18:47:56,067 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.6
+2019-09-24 18:47:56,068 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'J:\\Python\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-09-24-18-47-56-mpf-DESKTOP-2NHREP8.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-09-24 18:47:56,068 : INFO : Machine : MPF path: J:\Python\lib\site-packages\mpf
+2019-09-24 18:47:56,068 : INFO : Machine : Machine path: J:\Pinball Code\POKEMON
+2019-09-24 18:47:56,068 : INFO : Machine : Platform: win32
+2019-09-24 18:47:56,068 : INFO : Machine : Python executable location: J:\Python\python.exe
+2019-09-24 18:47:56,068 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-09-24 18:47:56,068 : INFO : Machine : Machine config file #1: config.yaml
+2019-09-24 18:47:56,069 : WARNING : ConfigProcessor : Config file in cache changed: J:\Pinball Code\POKEMON\config\config.yaml
+2019-09-24 18:47:56,069 : INFO : ConfigProcessor : Loading config from file J:\Python\lib\site-packages\mpf\mpfconfig.yaml.
+2019-09-24 18:47:56,157 : INFO : ConfigProcessor : Loading config: J:\Python\lib\site-packages\mpf\mpfconfig.yaml
+2019-09-24 18:47:56,164 : INFO : ConfigProcessor : Loading config from file J:\Pinball Code\POKEMON\config\config.yaml.
+2019-09-24 18:47:56,201 : INFO : ConfigProcessor : Loading config: J:\Pinball Code\POKEMON\config\config.yaml
+2019-09-24 18:47:56,202 : INFO : ConfigProcessor : Config file cache created: C:\Users\Chris\AppData\Local\Temp\69e0444c0f6138f6d2261c567bcf50ad.mpf_cache
+2019-09-24 18:47:56,204 : INFO : Machine : Initialise MPF.
+2019-09-24 18:47:56,306 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-09-24 18:47:56,633 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-09-24 18:47:56,634 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.6', 'prev_value': None, 'change': True}
+2019-09-24 18:47:56,634 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.6, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-09-24 18:47:56,634 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-09-24 18:47:56,634 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.17134-SP0', 'prev_value': None, 'change': True}
+2019-09-24 18:47:56,634 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-09-24 18:47:56,634 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2019-09-24 18:47:56,634 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.17134', 'prev_value': None, 'change': True}
+2019-09-24 18:47:56,634 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-09-24 18:47:56,634 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-09-24 18:47:56,654 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\0557c8573691a949dbe0d19a228380a0.mpf_cache
+2019-09-24 18:47:56,657 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\b026998c18788086646f1fdaa380134c.mpf_cache
+2019-09-24 18:47:56,700 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\206a85769bf0b844ba22633966100a87.mpf_cache
+2019-09-24 18:47:56,715 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...modes_all.',)>) at J:\Python\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...modes_all.',)>) at J:\Python\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "J:\Python\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "J:\Python\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "J:\Python\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "J:\Python\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "J:\Python\lib\site-packages\mpf\core\mode_controller.py", line 180, in _load_mode_config
+    raise AssertionError("Did not find any config for mode {}.".format(mode_string))
+AssertionError: Did not find any config for mode modes_all.
+2019-09-24 18:47:56,751 : INFO : Machine : Starting the main run loop.
+2019-09-24 18:47:56,751 : INFO : Machine : Shutting down...
+2019-09-24 18:47:56,751 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-09-24 18:47:56,758 : ERROR : root : Did not find any config for mode modes_all.
+Traceback (most recent call last):
+  File "J:\Python\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "J:\Python\lib\site-packages\mpf\core\machine.py", line 709, in run
+    self._run_loop()
+  File "J:\Python\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "J:\Python\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "J:\Python\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "J:\Python\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "J:\Python\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "J:\Python\lib\site-packages\mpf\core\mode_controller.py", line 180, in _load_mode_config
+    raise AssertionError("Did not find any config for mode {}.".format(mode_string))
+AssertionError: Did not find any config for mode modes_all.

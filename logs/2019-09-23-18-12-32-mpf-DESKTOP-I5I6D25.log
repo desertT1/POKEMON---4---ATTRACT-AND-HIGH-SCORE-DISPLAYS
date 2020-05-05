@@ -1,0 +1,53 @@
+2019-09-23 18:12:33,032 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-09-23 18:12:33,032 : INFO : Machine : Command line arguments: {'pause': False, 'create_config_cache': True, 'no_load_cache': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'production': False, 'logfile': 'logs\\2019-09-23-18-12-32-mpf-DESKTOP-I5I6D25.log', 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'configfile': ['config.yaml'], 'mc_file_name': None, 'bcp': True, 'force_assets_load': False, 'force_platform': None, 'syslog_address': None}
+2019-09-23 18:12:33,047 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-09-23 18:12:33,047 : INFO : Machine : Machine path: D:\POKEMON
+2019-09-23 18:12:33,047 : INFO : Machine : Platform: win32
+2019-09-23 18:12:33,047 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-09-23 18:12:33,047 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-09-23 18:12:34,500 : INFO : Machine : Machine config file #1: config.yaml
+2019-09-23 18:12:34,516 : WARNING : ConfigProcessor : Config file in cache changed: D:\POKEMON\config\config.yaml
+2019-09-23 18:12:34,516 : INFO : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpf\mpfconfig.yaml.
+2019-09-23 18:12:34,891 : INFO : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpf\mpfconfig.yaml
+2019-09-23 18:12:34,891 : INFO : ConfigProcessor : Loading config from file D:\POKEMON\config\config.yaml.
+2019-09-23 18:12:35,063 : INFO : ConfigProcessor : Loading config: D:\POKEMON\config\config.yaml
+2019-09-23 18:12:35,063 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\d99dba3f33c3bdd270e8cf6c1a53f44e.mpf_cache
+2019-09-23 18:12:35,110 : INFO : Machine : Initialise MPF.
+2019-09-23 18:12:35,828 : INFO : FAST : Connecting to com4 at 921600bps
+2019-09-23 18:12:35,891 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-09-23 18:12:35,891 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-09-23 18:12:35,953 : INFO : FAST : Connecting to com5 at 921600bps
+2019-09-23 18:12:36,000 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-09-23 18:12:36,422 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-09-23 18:12:36,469 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\01c5ea7020f20fc8cd2609416c749c9a.mpf_cache
+2019-09-23 18:12:36,469 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-09-23 18:12:36,500 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\3468305e031c5bbf036e7bdff3037650.mpf_cache
+2019-09-23 18:12:36,500 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...modes_all.',)>) at c:\python34\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...modes_all.',)>) at c:\python34\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\python34\lib\asyncio\events.py", line 125, in _run
+    self._callback(*self._args)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\python34\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "c:\python34\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 113, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 262, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 176, in _load_mode_config
+    raise AssertionError("Did not find any config for mode {}.".format(mode_string))
+AssertionError: Did not find any config for mode modes_all.
+2019-09-23 18:12:37,031 : ERROR : root : Exception is not set.
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\commands\game.py", line 208, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 661, in run
+    self.initialise_mpf()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 653, in initialise_mpf
+    if init.exception():
+  File "c:\python34\lib\asyncio\futures.py", line 288, in exception
+    raise InvalidStateError('Exception is not set.')
+asyncio.futures.InvalidStateError: Exception is not set.

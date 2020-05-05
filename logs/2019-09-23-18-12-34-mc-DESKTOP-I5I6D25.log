@@ -1,0 +1,55 @@
+2019-09-23 18:12:34,328 : kivy : Factory: 194 symbols loaded
+2019-09-23 18:12:34,907 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-09-23 18:12:35,282 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-09-23 18:12:35,282 : kivy : Video: Provider: gstplayer
+2019-09-23 18:12:35,625 : kivy : Loading MPF-MC controller
+2019-09-23 18:12:35,625 : mpfmc : Mission Pinball Framework Media Controller v0.50.8
+2019-09-23 18:12:35,625 : mpfmc : Mission Pinball Framework Game Engine v0.50.17
+2019-09-23 18:12:35,625 : mpfmc : Machine path: D:\POKEMON
+2019-09-23 18:12:35,641 : ConfigProcessor : Config file in cache changed: D:\POKEMON\config\config
+2019-09-23 18:12:37,172 : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-09-23 18:12:37,360 : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpfmc\mcconfig.yaml
+2019-09-23 18:12:37,492 : ConfigProcessor : Loading config from file D:\POKEMON\config\config.
+2019-09-23 18:12:37,695 : ConfigProcessor : Loading config: D:\POKEMON\config\config
+2019-09-23 18:12:37,695 : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\42582fcba572e096272241837be67618.mpf_cache
+2019-09-23 18:12:37,710 : mpfmc : Starting clock at 60.0Hz
+2019-09-23 18:12:37,866 : kivy : Text: Provider: sdl2
+2019-09-23 18:12:39,507 : kivy : OSC: using <thread> for socket
+2019-09-23 18:12:39,538 : kivy : Window: Provider: sdl2
+2019-09-23 18:12:39,780 : kivy : GL: Using the "OpenGL" graphics system
+2019-09-23 18:12:39,784 : kivy : GL: GLEW initialization succeeded
+2019-09-23 18:12:39,785 : kivy : GL: Backend used <glew>
+2019-09-23 18:12:39,786 : kivy : GL: OpenGL version <b'4.4.0 - Build 20.19.15.4835'>
+2019-09-23 18:12:39,786 : kivy : GL: OpenGL vendor <b'Intel'>
+2019-09-23 18:12:39,787 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics'>
+2019-09-23 18:12:39,787 : kivy : GL: OpenGL parsed version: 4, 4
+2019-09-23 18:12:39,788 : kivy : GL: Shading version <b'4.40 - Build 20.19.15.4835'>
+2019-09-23 18:12:39,788 : kivy : GL: Texture max size <16384>
+2019-09-23 18:12:39,789 : kivy : GL: Texture max units <32>
+2019-09-23 18:12:39,840 : kivy : Shader: fragment shader: <b"WARNING: 0:7: '' :  #version directive missing">
+2019-09-23 18:12:39,841 : kivy : Shader: vertex shader: <b"WARNING: 0:7: '' :  #version directive missing">
+2019-09-23 18:12:39,859 : kivy : Window: auto add sdl2 input provider
+2019-09-23 18:12:39,861 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2019-09-23 18:12:39,902 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2019-09-23 18:12:41,850 : AudioInterface : Initialized
+2019-09-23 18:12:41,851 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2019-09-23 18:12:41,864 : kivy : Base: Start application main loop
+2019-09-23 18:12:41,916 : mpfmc : Display: Setting 'window' as default display
+2019-09-23 18:12:42,088 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-09-23 18:12:42,091 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\3468305e031c5bbf036e7bdff3037650.mpf_cache
+2019-09-23 18:12:42,107 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-09-23 18:12:42,110 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\01c5ea7020f20fc8cd2609416c749c9a.mpf_cache
+2019-09-23 18:12:42,127 : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\d41d8cd98f00b204e9800998ecf8427e.mpf_cache
+2019-09-23 18:12:42,129 : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\d41d8cd98f00b204e9800998ecf8427e.mpf_cache
+2019-09-23 18:12:42,154 : MPF-MC BCP Server : Starting up on localhost port 5050
+2019-09-23 18:12:42,182 : MPF-MC BCP Server : Waiting for a connection...
+2019-09-23 18:12:42,183 : mpfmc : SlidePlayer: Play called with settings={'slides': {'welcome_slide': {'background_color': [0.0, 0.0, 0.0, 1.0], 'force': False, 'show': True, 'expire': None, 'transition': None, 'priority': None, 'slide': None, 'action': 'play', 'target': None, 'transition_out': None}}}
+2019-09-23 18:12:42,357 : kivy : GL: NPOT texture support is available
+2019-09-23 18:13:00,379 : kivy : Base: Leaving application in progress...
+2019-09-23 18:13:00,669 : mpfmc : Stopping...
+2019-09-23 18:13:00,669 : mpfmc : Loop rate 71.41 Hz
+2019-09-23 18:13:00,669 : kivy : MC run loop ended.
+2019-09-23 18:13:00,669 : kivy : Stopping child threads... (3 remaining)
+2019-09-23 18:13:01,208 : MPF-MC BCP Server : Stopping BCP sending thread
+2019-09-23 18:13:01,208 : MPF-MC BCP Server : Stopping BCP listener thread
+2019-09-23 18:13:01,317 : kivy : All child threads stopped.

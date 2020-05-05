@@ -1,0 +1,47 @@
+2019-09-24 17:15:41,685 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-09-24 17:15:41,701 : INFO : Machine : Command line arguments: {'text_ui': True, 'consoleloglevel': 20, 'no_load_cache': False, 'configfile': ['config.yaml'], 'force_platform': None, 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'production': False, 'logfile': 'logs\\2019-09-24-17-15-41-mpf-DESKTOP-I5I6D25.log', 'mc_file_name': None, 'syslog_address': None, 'force_assets_load': False, 'bcp': True, 'create_config_cache': True, 'loglevel': 15, 'pause': False}
+2019-09-24 17:15:41,701 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-09-24 17:15:41,701 : INFO : Machine : Machine path: D:\POKEMON - 2
+2019-09-24 17:15:41,701 : INFO : Machine : Platform: win32
+2019-09-24 17:15:41,701 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-09-24 17:15:41,701 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-09-24 17:15:43,263 : INFO : Machine : Machine config file #1: config.yaml
+2019-09-24 17:15:43,279 : WARNING : ConfigProcessor : Config file in cache changed: D:\POKEMON - 2\config\config.yaml
+2019-09-24 17:15:43,279 : INFO : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpf\mpfconfig.yaml.
+2019-09-24 17:15:43,670 : INFO : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpf\mpfconfig.yaml
+2019-09-24 17:15:43,670 : INFO : ConfigProcessor : Loading config from file D:\POKEMON - 2\config\config.yaml.
+2019-09-24 17:15:43,841 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 2\config\config.yaml
+2019-09-24 17:15:43,857 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 2\config\player_variables.yaml
+2019-09-24 17:15:43,873 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 2\config\key_mapping.yaml
+2019-09-24 17:15:43,888 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\442e40140b44297973c0b074da7880ab.mpf_cache
+2019-09-24 17:15:43,935 : INFO : Machine : Initialise MPF.
+2019-09-24 17:15:45,045 : WARNING : ConfigProcessor : Config file in cache changed: D:\POKEMON - 2\modes\evolve_pichu\config\evolve_pichu.yaml
+2019-09-24 17:15:45,045 : INFO : ConfigProcessor : Loading config from file D:\POKEMON - 2\modes\evolve_pichu\config\evolve_pichu.yaml.
+2019-09-24 17:15:45,107 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 2\modes\evolve_pichu\config\evolve_pichu.yaml
+2019-09-24 17:15:45,107 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\d7f8a5ee622046c7da753c9c40514d63.mpf_cache
+2019-09-24 17:15:45,154 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-09-24 17:15:45,201 : WARNING : ConfigProcessor : Config file in cache changed: D:\POKEMON - 2\modes\base\config\base.yaml
+2019-09-24 17:15:45,201 : INFO : ConfigProcessor : Loading config from file D:\POKEMON - 2\modes\base\config\base.yaml.
+2019-09-24 17:15:45,201 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 2\modes\base\config\base.yaml
+2019-09-24 17:15:45,201 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\6f2a382b9c765c6a1f408e05b1d50db1.mpf_cache
+2019-09-24 17:15:45,248 : WARNING : ConfigProcessor : Config file in cache changed: D:\POKEMON - 2\modes\pichu\config\pichu.yaml
+2019-09-24 17:15:45,248 : INFO : ConfigProcessor : Loading config from file D:\POKEMON - 2\modes\pichu\config\pichu.yaml.
+2019-09-24 17:15:45,341 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 2\modes\pichu\config\pichu.yaml
+2019-09-24 17:15:45,341 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\4db3b4eb08bf5f2e1b30e7df1dec754e.mpf_cache
+2019-09-24 17:15:45,373 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-09-24 17:15:45,419 : DEBUG : coil.c_trough : Configuring device with settings: '{'platform_settings': {}, 'label': '%', 'console_log': 'full', 'disable_events': {}, 'default_recycle': False, 'platform': None, 'file_log': 'full', 'debug': True, 'pulse_events': {}, 'allow_enable': False, 'default_hold_power': None, 'default_pulse_power': None, 'default_pulse_ms': 7, 'psu': <psu.default>, 'enable_events': {}, 'max_pulse_power': 1.0, 'max_hold_power': None, 'number': '1-1', 'max_pulse_ms': None, 'tags': []}'
+2019-09-24 17:15:45,419 : DEBUG : coil.c_trough : Configuring device with settings: '{'platform_settings': {}, 'label': '%', 'console_log': 'full', 'disable_events': {}, 'default_recycle': False, 'platform': None, 'file_log': 'full', 'debug': True, 'pulse_events': {}, 'allow_enable': False, 'default_hold_power': None, 'default_pulse_power': None, 'default_pulse_ms': 7, 'psu': <psu.default>, 'enable_events': {}, 'max_pulse_power': 1.0, 'max_hold_power': None, 'number': '1-1', 'max_pulse_ms': None, 'tags': []}'
+2019-09-24 17:15:45,451 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'idle_missing_ball_timeout': 5.0, 'entrance_switch_full_timeout': 0, 'auto_fire_on_unexpected_ball': True, 'eject_all_events': {}, 'entrance_count_delay': 500, 'console_log': 'full', 'confirm_eject_type': 'target', 'file_log': 'full', 'eject_targets': [<ball_device.bd_plunger>], 'max_eject_attempts': 0, 'entrance_event_timeout': 5.0, 'eject_coil': <coil.c_trough>, 'mechanical_eject': False, 'ball_search_order': 200, 'entrance_events': {}, 'confirm_eject_event': None, 'eject_coil_reorder_pulse': None, 'eject_events': {}, 'confirm_eject_switch': None, 'captures_from': <playfield.playfield>, 'ball_missing_target': <playfield.playfield>, 'entrance_switch': None, 'retries_before_increasing_pulse': 4, 'eject_timeouts': [], 'ball_missing_timeouts': [], 'eject_coil_max_wait_ms': 200, 'request_ball_events': [], 'hold_switches': [], 'eject_coil_enable_time': [], 'exit_count_delay': 500, 'ball_capacity': None, 'debug': True, 'jam_switch': None, 'target_on_unexpected_ball': None, 'eject_coil_retry_pulse': None, 'eject_coil_jam_pulse': None, 'hold_coil': None, 'hold_coil_release_time': 1000, 'label': '%', 'tags': ['home', 'trough'], 'hold_events': {}, 'ball_switches': [<switch.s_trough>], 'player_controlled_eject_event': None}'
+2019-09-24 17:15:45,607 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-09-24 17:15:51,399 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-09-24 17:15:51,467 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: None
+2019-09-24 17:15:51,469 : DEBUG : ball_device.bd_trough : State: idle
+2019-09-24 17:15:51,470 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2019-09-24 17:15:51,551 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-09-24 17:15:52,224 : INFO : coil.c_drop_reset : Enabling Driver for 400ms (1.0 pulse_power)
+2019-09-24 17:15:52,230 : INFO : Mode.attract : Started. Priority: 10
+2019-09-24 17:15:52,236 : INFO : Machine : Starting the main run loop.
+2019-09-24 17:15:52,633 : INFO : coil.c_drop_reset : Disabling Driver
+2019-09-24 17:16:02,112 : INFO : Machine : Shutting down...
+2019-09-24 17:16:02,112 : DEBUG : ball_device.bd_trough : Stopping ball device
+2019-09-24 17:16:02,127 : INFO : root : MPF run loop ended.

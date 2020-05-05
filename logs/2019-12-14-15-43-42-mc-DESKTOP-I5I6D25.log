@@ -1,0 +1,587 @@
+2019-12-14 15:43:43,051 : kivy : Factory: 184 symbols loaded
+2019-12-14 15:43:44,175 : kivy : Image: Providers: img_tex, img_dds, img_pil, img_gif (img_sdl2, img_ffpyplayer ignored)
+2019-12-14 15:43:44,941 : kivy : Video: Provider: null(['video_ffmpeg', 'video_ffpyplayer'] ignored)
+2019-12-14 15:43:45,754 : kivy : Loading MPF-MC controller
+2019-12-14 15:43:45,754 : mpfmc : Mission Pinball Framework Media Controller v0.52.5
+2019-12-14 15:43:45,754 : mpfmc : Mission Pinball Framework Game Engine v0.52.9
+2019-12-14 15:43:45,754 : mpfmc : Machine path: E:\POKEMON - 3 - GYMS DISPLAYS
+2019-12-14 15:43:45,769 : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\a2484f31940cb12f42d988e7eb1f161d.mpf_cache
+2019-12-14 15:43:45,769 : ConfigProcessor : Loading config from file c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-12-14 15:43:46,050 : ConfigProcessor : Loading config: c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2019-12-14 15:43:46,097 : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\config\config.
+2019-12-14 15:43:46,347 : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\config
+2019-12-14 15:43:46,379 : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\player_variables.yaml
+2019-12-14 15:43:46,394 : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\key_mapping.yaml
+2019-12-14 15:43:46,410 : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\a2484f31940cb12f42d988e7eb1f161d.mpf_cache
+2019-12-14 15:43:46,410 : mpfmc : Starting clock at 60.0Hz
+2019-12-14 15:43:46,425 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,660 : kivy : Text: Provider: sdl2
+2019-12-14 15:43:46,738 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,738 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,738 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,738 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,738 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,738 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,738 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,738 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,738 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,738 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('7132c11a-a88e-47ee-933f-7700be5d8d49'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,754 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('7132c11a-a88e-47ee-933f-7700be5d8d49'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,754 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('7132c11a-a88e-47ee-933f-7700be5d8d49'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,754 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('7132c11a-a88e-47ee-933f-7700be5d8d49'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,754 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('7132c11a-a88e-47ee-933f-7700be5d8d49'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,754 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('7132c11a-a88e-47ee-933f-7700be5d8d49'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,754 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('7132c11a-a88e-47ee-933f-7700be5d8d49'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,754 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('7132c11a-a88e-47ee-933f-7700be5d8d49'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,754 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('7132c11a-a88e-47ee-933f-7700be5d8d49'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,754 : EventManager : Duplicate handler for class {} on event init_phase_1 with priority 1. Handlers: [RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('22aa7bf3-b5b1-4c51-9e6d-dbebf79bebb8'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('e11c5712-5523-4dcc-afe5-4243d40ddb3a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('69ac4ecf-f2bc-4db5-82bd-08b2dc50348a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('84df5103-c627-4334-be8a-7c120194c079'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('4a587075-a8a9-49bd-bd08-d7fc3d1d5974'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigCollection.create_entries_from_root_config of {}>, priority=1, kwargs={}, key=UUID('7132c11a-a88e-47ee-933f-7700be5d8d49'), condition=None, blocking_facility=None)]
+2019-12-14 15:43:46,941 : kivy : Window: Provider: sdl2
+2019-12-14 15:43:47,631 : kivy : GL: Using the "OpenGL" graphics system
+2019-12-14 15:43:47,637 : kivy : GL: GLEW initialization succeeded
+2019-12-14 15:43:47,638 : kivy : GL: Backend used <glew>
+2019-12-14 15:43:47,639 : kivy : GL: OpenGL version <b'4.4.0 - Build 20.19.15.4835'>
+2019-12-14 15:43:47,639 : kivy : GL: OpenGL vendor <b'Intel'>
+2019-12-14 15:43:47,639 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics'>
+2019-12-14 15:43:47,640 : kivy : GL: OpenGL parsed version: 4, 4
+2019-12-14 15:43:47,640 : kivy : GL: Shading version <b'4.40 - Build 20.19.15.4835'>
+2019-12-14 15:43:47,640 : kivy : GL: Texture max size <16384>
+2019-12-14 15:43:47,641 : kivy : GL: Texture max units <32>
+2019-12-14 15:43:48,207 : kivy : Window: auto add sdl2 input provider
+2019-12-14 15:43:48,208 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2019-12-14 15:43:48,249 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2019-12-14 15:44:03,169 : AudioInterface : Initialized
+2019-12-14 15:44:03,170 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2019-12-14 15:44:03,179 : kivy : Base: Start application main loop
+2019-12-14 15:44:03,181 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2019-12-14 15:44:03,182 : EventManager : Event: ======'display_top_initialized'====== Args={}
+2019-12-14 15:44:03,184 : EventManager : Event: ======'display_middle_initialized'====== Args={}
+2019-12-14 15:44:03,185 : EventManager : Event: ======'display_bottom_initialized'====== Args={}
+2019-12-14 15:44:03,297 : mpfmc : Display: Setting 'window' as default display
+2019-12-14 15:44:03,324 : kivy : Base: Leaving application in progress...
+2019-12-14 15:44:03,325 : kivy : maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\commands\mc.py", line 209, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\app.py", line 855, in run
+    runTouchApp()
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\base.py", line 504, in runTouchApp
+    EventLoop.window.mainloop()
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\core\window\window_sdl2.py", line 747, in mainloop
+    self._mainloop()
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\core\window\window_sdl2.py", line 479, in _mainloop
+    EventLoop.idle()
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\base.py", line 339, in idle
+    Clock.tick()
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\clock.py", line 591, in tick
+    self._process_events()
+  File "kivy\_clock.pyx", line 384, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 414, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 412, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 167, in kivy._clock.ClockEvent.tick
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\display.py", line 200, in _displays_initialized
+    self.mc.displays_initialized()
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mc.py", line 314, in displays_initialized
+    Window.initialize(self)
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\window.py", line 60, in initialize
+    display_widget = DisplayWidget(mc, config=config)
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\widgets\display.py", line 27, in __init__
+    super().__init__(mc=mc, config=config, key=key)
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 107, in __init__
+    self._container = WidgetContainer(self, z=self.config['z'])
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 953, in __init__
+    super().__init__(size_hint=(1, 1))
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\uix\relativelayout.py", line 265, in __init__
+    super(RelativeLayout, self).__init__(**kw)
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\uix\floatlayout.py", line 65, in __init__
+    super(FloatLayout, self).__init__(**kwargs)
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\uix\layout.py", line 76, in __init__
+    super(Layout, self).__init__(**kwargs)
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\uix\widget.py", line 361, in __init__
+    rule_children=rule_children)
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\uix\widget.py", line 469, in apply_class_lang_rules
+    rule_children=rule_children)
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\kivy\lang\builder.py", line 529, in apply
+    trace('Lang: Found %d rules for %s' % (len(rules), widget))
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+  File "c:\users\mission pinball\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\widget.py", line 960, in __repr__
+    return '<WidgetContainer id={} z={} key={}>'.format(self.id, self.z, self.key)
+  File "kivy\properties.pyx", line 506, in kivy.properties.Property.__get__
+RecursionError: maximum recursion depth exceeded while calling a Python object
+2019-12-14 15:44:03,641 : kivy : Stopping child threads... (1 remaining)
+2019-12-14 15:44:04,246 : kivy : All child threads stopped.

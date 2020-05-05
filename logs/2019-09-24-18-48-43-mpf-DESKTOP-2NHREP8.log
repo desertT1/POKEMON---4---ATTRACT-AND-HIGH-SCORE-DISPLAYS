@@ -1,0 +1,73 @@
+2019-09-24 18:48:43,729 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.6
+2019-09-24 18:48:43,730 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'J:\\Python\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-09-24-18-48-43-mpf-DESKTOP-2NHREP8.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-09-24 18:48:43,730 : INFO : Machine : MPF path: J:\Python\lib\site-packages\mpf
+2019-09-24 18:48:43,730 : INFO : Machine : Machine path: J:\Pinball Code\POKEMON
+2019-09-24 18:48:43,730 : INFO : Machine : Platform: win32
+2019-09-24 18:48:43,730 : INFO : Machine : Python executable location: J:\Python\python.exe
+2019-09-24 18:48:43,730 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-09-24 18:48:43,730 : INFO : Machine : Machine config file #1: config.yaml
+2019-09-24 18:48:43,731 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\69e0444c0f6138f6d2261c567bcf50ad.mpf_cache
+2019-09-24 18:48:43,734 : INFO : Machine : Initialise MPF.
+2019-09-24 18:48:43,811 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-09-24 18:48:43,842 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-09-24 18:48:43,842 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.6', 'prev_value': None, 'change': True}
+2019-09-24 18:48:43,842 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.6, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-09-24 18:48:43,842 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-09-24 18:48:43,842 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.17134-SP0', 'prev_value': None, 'change': True}
+2019-09-24 18:48:43,842 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-09-24 18:48:43,842 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2019-09-24 18:48:43,842 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.17134', 'prev_value': None, 'change': True}
+2019-09-24 18:48:43,843 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-09-24 18:48:43,843 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-09-24 18:48:43,863 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\0557c8573691a949dbe0d19a228380a0.mpf_cache
+2019-09-24 18:48:43,866 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\2f6c6435e826e441dccd53350c4e6995.mpf_cache
+2019-09-24 18:48:43,868 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\206a85769bf0b844ba22633966100a87.mpf_cache
+2019-09-24 18:48:43,872 : WARNING : ConfigProcessor : Cache file not found: C:\Users\Chris\AppData\Local\Temp\9d5a078bb7ae6bf0c84aa1e20e128e4e.mpf_cache
+2019-09-24 18:48:43,872 : INFO : ConfigProcessor : Loading config from file J:\Pinball Code\POKEMON\modes\modes_all\config\modes_all.yaml.
+2019-09-24 18:48:43,875 : INFO : ConfigProcessor : Loading config: J:\Pinball Code\POKEMON\modes\modes_all\config\modes_all.yaml
+2019-09-24 18:48:43,875 : INFO : ConfigProcessor : Config file cache created: C:\Users\Chris\AppData\Local\Temp\9d5a078bb7ae6bf0c84aa1e20e128e4e.mpf_cache
+2019-09-24 18:48:43,878 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\b026998c18788086646f1fdaa380134c.mpf_cache
+2019-09-24 18:48:43,892 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...at switch.",)>) at J:\Python\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...at switch.",)>) at J:\Python\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "J:\Python\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "J:\Python\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "J:\Python\lib\site-packages\mpf\core\device_manager.py", line 117, in _load_device_modules
+    yield from self.initialize_devices()
+  File "J:\Python\lib\site-packages\mpf\core\device_manager.py", line 214, in initialize_devices
+    yield from collection[device_name].device_added_system_wide()
+  File "J:\Python\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    yield from self._initialize()
+  File "J:\Python\lib\site-packages\mpf\devices\autofire.py", line 73, in _initialize
+    self.config['playfield'].name), 1)
+  File "J:\Python\lib\site-packages\mpf\core\logging.py", line 139, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name, context)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in autofire.slingshot_left: Autofire device 'slingshot_left' uses switch 's_sling_left' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire.slingshot_left-1
+2019-09-24 18:48:43,918 : INFO : Machine : Starting the main run loop.
+2019-09-24 18:48:43,918 : INFO : Machine : Shutting down...
+2019-09-24 18:48:43,918 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-09-24 18:48:43,933 : ERROR : root : Config File Error in autofire.slingshot_left: Autofire device 'slingshot_left' uses switch 's_sling_left' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire.slingshot_left-1
+Traceback (most recent call last):
+  File "J:\Python\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "J:\Python\lib\site-packages\mpf\core\machine.py", line 709, in run
+    self._run_loop()
+  File "J:\Python\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "J:\Python\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "J:\Python\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "J:\Python\lib\site-packages\mpf\core\device_manager.py", line 117, in _load_device_modules
+    yield from self.initialize_devices()
+  File "J:\Python\lib\site-packages\mpf\core\device_manager.py", line 214, in initialize_devices
+    yield from collection[device_name].device_added_system_wide()
+  File "J:\Python\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    yield from self._initialize()
+  File "J:\Python\lib\site-packages\mpf\devices\autofire.py", line 73, in _initialize
+    self.config['playfield'].name), 1)
+  File "J:\Python\lib\site-packages\mpf\core\logging.py", line 139, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name, context)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in autofire.slingshot_left: Autofire device 'slingshot_left' uses switch 's_sling_left' which has a 'playfield_active' tag. This is handled internally by the device. Remove the redundant 'playfield_active' tag from that switch. Error Code: CFE-autofire.slingshot_left-1

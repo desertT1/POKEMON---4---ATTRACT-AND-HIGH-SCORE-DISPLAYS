@@ -1,0 +1,192 @@
+2020-04-25 14:52:45,908 : INFO : Machine : Mission Pinball Framework Core Engine v0.53.3
+2020-04-25 14:52:45,909 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\almac\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2020-04-25-14-52-45-mpf-DESKTOP-G75O39F.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2020-04-25 14:52:45,909 : INFO : Machine : MPF path: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf
+2020-04-25 14:52:45,909 : INFO : Machine : Machine path: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS
+2020-04-25 14:52:45,909 : INFO : Machine : Platform: win32
+2020-04-25 14:52:45,910 : INFO : Machine : Python executable location: c:\users\almac\appdata\local\programs\python\python36\python.exe
+2020-04-25 14:52:45,910 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2020-04-25 14:52:45,910 : INFO : Machine : Machine config file #1: config.yaml
+2020-04-25 14:52:45,913 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\17efbceb844bb805dffe6c87f22744fb.mpf_cache
+2020-04-25 14:52:45,913 : INFO : ConfigProcessor : Loading config from file c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml.
+2020-04-25 14:52:46,032 : INFO : ConfigProcessor : Loading config: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2020-04-25 14:52:46,044 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\config.yaml.
+2020-04-25 14:52:46,107 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\config.yaml
+2020-04-25 14:52:46,352 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\player_variables.yaml
+2020-04-25 14:52:46,833 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\key_mapping.yaml
+2020-04-25 14:52:46,836 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\17efbceb844bb805dffe6c87f22744fb.mpf_cache
+2020-04-25 14:52:46,838 : INFO : Machine : Initialise MPF.
+2020-04-25 14:52:47,167 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-04-25 14:52:47,463 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 107, 'prev_value': None, 'change': True}
+2020-04-25 14:52:47,463 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.53.3', 'prev_value': None, 'change': True}
+2020-04-25 14:52:47,464 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.53.3, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-04-25 14:52:47,464 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2020-04-25 14:52:47,464 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None, 'change': True}
+2020-04-25 14:52:47,464 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2020-04-25 14:52:47,464 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2020-04-25 14:52:47,464 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.18362', 'prev_value': None, 'change': True}
+2020-04-25 14:52:47,464 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2020-04-25 14:52:47,464 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-04-25 14:52:47,548 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\5e23017ae2bff2a0239ff499da948ac3.mpf_cache
+2020-04-25 14:52:47,549 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\evolve_pichu\config\evolve_pichu.yaml.
+2020-04-25 14:52:47,797 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\evolve_pichu\config\evolve_pichu.yaml
+2020-04-25 14:52:47,798 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\5e23017ae2bff2a0239ff499da948ac3.mpf_cache
+2020-04-25 14:52:48,032 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\ead1ab3e53925d446b3cb0becf429113.mpf_cache
+2020-04-25 14:52:48,032 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\pichu\config\pichu.yaml.
+2020-04-25 14:52:48,297 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\pichu\config\pichu.yaml
+2020-04-25 14:52:48,298 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\ead1ab3e53925d446b3cb0becf429113.mpf_cache
+2020-04-25 14:52:48,302 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\dd4913724ea8e05b50af346c964d02e0.mpf_cache
+2020-04-25 14:52:48,302 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym2\config\gym2.yaml.
+2020-04-25 14:52:48,408 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym2\config\gym2.yaml
+2020-04-25 14:52:48,408 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\dd4913724ea8e05b50af346c964d02e0.mpf_cache
+2020-04-25 14:52:48,420 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\5a22bfd3cd388f17bd2b6acbd36605ae.mpf_cache
+2020-04-25 14:52:48,420 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym4\config\gym4.yaml.
+2020-04-25 14:52:48,489 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym4\config\gym4.yaml
+2020-04-25 14:52:48,490 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\5a22bfd3cd388f17bd2b6acbd36605ae.mpf_cache
+2020-04-25 14:52:48,515 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\5b0c10fb1ea3d696f3389c798402fbbd.mpf_cache
+2020-04-25 14:52:48,515 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym6_ended\config\gym6_ended.yaml.
+2020-04-25 14:52:48,566 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym6_ended\config\gym6_ended.yaml
+2020-04-25 14:52:48,567 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\5b0c10fb1ea3d696f3389c798402fbbd.mpf_cache
+2020-04-25 14:52:48,571 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\0e7d1a1c3907f6958e06eb127bcf3b99.mpf_cache
+2020-04-25 14:52:48,572 : INFO : ConfigProcessor : Loading config from file c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2020-04-25 14:52:48,585 : INFO : ConfigProcessor : Loading config: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2020-04-25 14:52:48,585 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml.
+2020-04-25 14:52:48,608 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+2020-04-25 14:52:48,609 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\0e7d1a1c3907f6958e06eb127bcf3b99.mpf_cache
+2020-04-25 14:52:48,616 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\4ea733655e2f71aef4d6f646b7999fe0.mpf_cache
+2020-04-25 14:52:48,627 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\5903aae11c08aba35176e5c1f4c1be59.mpf_cache
+2020-04-25 14:52:48,627 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym2_ended\config\gym2_ended.yaml.
+2020-04-25 14:52:48,868 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym2_ended\config\gym2_ended.yaml
+2020-04-25 14:52:48,869 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\5903aae11c08aba35176e5c1f4c1be59.mpf_cache
+2020-04-25 14:52:49,102 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\2476b3e7b98dcc7e56449320299b63be.mpf_cache
+2020-04-25 14:52:49,103 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym7_ended\config\gym7_ended.yaml.
+2020-04-25 14:52:49,351 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym7_ended\config\gym7_ended.yaml
+2020-04-25 14:52:49,352 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\2476b3e7b98dcc7e56449320299b63be.mpf_cache
+2020-04-25 14:52:49,358 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\3183d529c1c05723ae7f7f27f6d76374.mpf_cache
+2020-04-25 14:52:49,358 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\score_display\config\score_display.yaml.
+2020-04-25 14:52:49,861 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\score_display\config\score_display.yaml
+2020-04-25 14:52:49,862 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\3183d529c1c05723ae7f7f27f6d76374.mpf_cache
+2020-04-25 14:52:49,871 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\b51fa6c1189029eac07bf57001e3c2a0.mpf_cache
+2020-04-25 14:52:49,871 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\evolve_pikachu\config\evolve_pikachu.yaml.
+2020-04-25 14:52:50,336 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\evolve_pikachu\config\evolve_pikachu.yaml
+2020-04-25 14:52:50,337 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\b51fa6c1189029eac07bf57001e3c2a0.mpf_cache
+2020-04-25 14:52:50,341 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\1a49828cb8454c90fd195e3886327b9d.mpf_cache
+2020-04-25 14:52:50,341 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym6\config\gym6.yaml.
+2020-04-25 14:52:50,511 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym6\config\gym6.yaml
+2020-04-25 14:52:50,511 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\1a49828cb8454c90fd195e3886327b9d.mpf_cache
+2020-04-25 14:52:50,518 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\d6bb1cdfa60c1f50f35785cba55875d1.mpf_cache
+2020-04-25 14:52:50,518 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym1\config\gym1.yaml.
+2020-04-25 14:52:50,663 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym1\config\gym1.yaml
+2020-04-25 14:52:50,664 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\d6bb1cdfa60c1f50f35785cba55875d1.mpf_cache
+2020-04-25 14:52:50,839 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\c81a0f1062502e33bbed66b9eae15858.mpf_cache
+2020-04-25 14:52:50,839 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\base\config\base.yaml.
+2020-04-25 14:52:51,087 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\base\config\base.yaml
+2020-04-25 14:52:51,088 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\c81a0f1062502e33bbed66b9eae15858.mpf_cache
+2020-04-25 14:52:51,095 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\f9a13da868835514a4e555019188716d.mpf_cache
+2020-04-25 14:52:51,095 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym5_ended\config\gym5_ended.yaml.
+2020-04-25 14:52:51,343 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym5_ended\config\gym5_ended.yaml
+2020-04-25 14:52:51,344 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\f9a13da868835514a4e555019188716d.mpf_cache
+2020-04-25 14:52:51,576 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\e316602f2754df2a40ebb1b620c83c27.mpf_cache
+2020-04-25 14:52:51,576 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym3\config\gym3.yaml.
+2020-04-25 14:52:51,835 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym3\config\gym3.yaml
+2020-04-25 14:52:51,836 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\e316602f2754df2a40ebb1b620c83c27.mpf_cache
+2020-04-25 14:52:51,840 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5e332dad5466fb4d353f60c87864de4c.mpf_cache
+2020-04-25 14:52:51,854 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\6a2515e5578170ee7c481918e8ad2f89.mpf_cache
+2020-04-25 14:52:51,865 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\8e537f3f1075ad5ff3f7e8ba8228812c.mpf_cache
+2020-04-25 14:52:51,878 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\6dbb84b4a2bd3a6642f95ce5744c7797.mpf_cache
+2020-04-25 14:52:52,069 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\47fed2ef5afbaf0c19527a565aa191d9.mpf_cache
+2020-04-25 14:52:52,069 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym4_ended\config\gym4_ended.yaml.
+2020-04-25 14:52:52,170 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\gym4_ended\config\gym4_ended.yaml
+2020-04-25 14:52:52,171 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\47fed2ef5afbaf0c19527a565aa191d9.mpf_cache
+2020-04-25 14:52:52,175 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0db36da4b9aa41dcdeae696ef4ec8d87.mpf_cache
+2020-04-25 14:52:52,187 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\b9fac23b74e0b513c055e4621b74ad7e.mpf_cache
+2020-04-25 14:52:52,192 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\201769dfbc23cf51d44452c1bfe1f92e.mpf_cache
+2020-04-25 14:52:52,195 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\32e6b619402cb4da5981e97ecb1f6408.mpf_cache
+2020-04-25 14:52:52,204 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0378f93b62c546ad0a14fc16b8462c41.mpf_cache
+2020-04-25 14:52:52,207 : WARNING : ConfigProcessor : Cache file not found: C:\Users\almac\AppData\Local\Temp\0c61b9df659d8368945fe529f085132e.mpf_cache
+2020-04-25 14:52:52,207 : INFO : ConfigProcessor : Loading config from file c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\high_score\config\high_score.yaml.
+2020-04-25 14:52:52,231 : INFO : ConfigProcessor : Loading config: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\high_score\config\high_score.yaml
+2020-04-25 14:52:52,231 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\high_score\config\high_score.yaml.
+2020-04-25 14:52:52,262 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\high_score\config\high_score.yaml
+2020-04-25 14:52:52,262 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\0c61b9df659d8368945fe529f085132e.mpf_cache
+2020-04-25 14:52:52,281 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2020-04-25 14:52:52,282 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-04-25 14:52:52,289 : ERROR : ConfigValidator : Your config contains a value for the setting "show_player:show_high_scores", but this is not a valid setting name.
+2020-04-25 14:52:52,290 : ERROR : asyncio : Exception in callback EventManager._done(<Task finishe...-600'}]}}}",)>)
+handle: <Handle EventManager._done(<Task finishe...-600'}]}}}",)>)>
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\device_config_player.py", line 49, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\device_config_player.py", line 75, in _validate_config_item
+    device_settings = self._parse_config(device_settings, device)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 127, in _parse_config
+    return self.get_full_config(config)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 199, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 251, in validate_config
+    validation_failure_info)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 418, in check_for_invalid_sections
+    'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "show_player:show_high_scores", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.53/logs/CFE-ConfigValidator-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 698, in _done
+    future.result()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 615, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 96, in initialise_modes
+    mode.initialise_mode()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode.py", line 577, in initialise_mode
+    **item.kwargs)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 133, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 105, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    name, self.show_section, settings), 1, self.log.name) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in show_player: Failed to load config player mode_attract_started:shows {'slides': {'show_high_scores': {'widgets': [{'type': 'Text', 'text': 'HIGH SCORES', 'font_size': 60, 'bold': True, 'anchor_x': 'center', 'anchor_y': 'center', 'x': 'center', 'y': 'top-100'}, {'type': 'Text', 'text': '(machine|score1_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score1_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score1_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score2_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score2_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score2_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score3_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-280'}, {'type': 'Text', 'text': '(machine|score3_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-280'}, {'type': 'Text', 'text': '(machine|score3_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-280'}, {'type': 'Text', 'text': 'LOOP CHAMPION', 'font_size': 60, 'bold': True, 'anchor_x': 'center', 'anchor_y': 'center', 'x': 'center', 'y': 'top-500'}, {'type': 'Text', 'text': '(machine|loops1_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-600'}, {'type': 'Text', 'text': '(machine|loops1_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-600'}, {'type': 'Text', 'text': '(machine|loops1_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-600'}]}}} Error Code: CFE-show_player-1 (https://docs.missionpinball.org/en/0.53/logs/CFE-show_player-1.html)
+2020-04-25 14:52:52,297 : INFO : Machine : Starting the main run loop.
+2020-04-25 14:52:52,301 : INFO : Machine : Shutting down...
+2020-04-25 14:52:52,302 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-04-25 14:52:52,303 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\device_config_player.py", line 49, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\device_config_player.py", line 75, in _validate_config_item
+    device_settings = self._parse_config(device_settings, device)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 127, in _parse_config
+    return self.get_full_config(config)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 199, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 251, in validate_config
+    validation_failure_info)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 418, in check_for_invalid_sections
+    'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "show_player:show_high_scores", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.53/logs/CFE-ConfigValidator-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 765, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 698, in _done
+    future.result()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 615, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 96, in initialise_modes
+    mode.initialise_mode()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode.py", line 577, in initialise_mode
+    **item.kwargs)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 133, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 105, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    name, self.show_section, settings), 1, self.log.name) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in show_player: Failed to load config player mode_attract_started:shows {'slides': {'show_high_scores': {'widgets': [{'type': 'Text', 'text': 'HIGH SCORES', 'font_size': 60, 'bold': True, 'anchor_x': 'center', 'anchor_y': 'center', 'x': 'center', 'y': 'top-100'}, {'type': 'Text', 'text': '(machine|score1_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score1_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score1_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score2_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score2_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score2_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score3_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-280'}, {'type': 'Text', 'text': '(machine|score3_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-280'}, {'type': 'Text', 'text': '(machine|score3_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-280'}, {'type': 'Text', 'text': 'LOOP CHAMPION', 'font_size': 60, 'bold': True, 'anchor_x': 'center', 'anchor_y': 'center', 'x': 'center', 'y': 'top-500'}, {'type': 'Text', 'text': '(machine|loops1_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-600'}, {'type': 'Text', 'text': '(machine|loops1_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-600'}, {'type': 'Text', 'text': '(machine|loops1_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-600'}]}}} Error Code: CFE-show_player-1 (https://docs.missionpinball.org/en/0.53/logs/CFE-show_player-1.html)
+2020-04-25 14:52:52,305 : INFO : root : MPF run loop ended.

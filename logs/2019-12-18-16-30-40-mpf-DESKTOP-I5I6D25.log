@@ -1,0 +1,188 @@
+2019-12-18 16:30:41,105 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.9
+2019-12-18 16:30:41,105 : INFO : Machine : Command line arguments: {'loglevel': 15, 'mpfconfigfile': 'c:\\users\\mission pinball\\appdata\\local\\programs\\python\\python35\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'jsonlogging': False, 'consoleloglevel': 20, 'production': False, 'text_ui': True, 'create_config_cache': True, 'mc_file_name': None, 'syslog_address': None, 'pause': False, 'configfile': ['config.yaml'], 'no_load_cache': False, 'force_assets_load': False, 'logfile': 'logs\\2019-12-18-16-30-40-mpf-DESKTOP-I5I6D25.log', 'force_platform': None, 'bcp': True, 'no_sound': False}
+2019-12-18 16:30:41,105 : INFO : Machine : MPF path: c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf
+2019-12-18 16:30:41,105 : INFO : Machine : Machine path: E:\POKEMON - 3 - GYMS DISPLAYS
+2019-12-18 16:30:41,105 : INFO : Machine : Platform: win32
+2019-12-18 16:30:41,105 : INFO : Machine : Python executable location: c:\users\mission pinball\appdata\local\programs\python\python35\python.exe
+2019-12-18 16:30:41,105 : INFO : Machine : Python version: 3.5.4 (64-bit)
+2019-12-18 16:30:41,105 : INFO : Machine : Machine config file #1: config.yaml
+2019-12-18 16:30:41,121 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\e9c23ebab43a14b7e211b4dd18480f15.mpf_cache
+2019-12-18 16:30:41,152 : INFO : Machine : Initialise MPF.
+2019-12-18 16:30:41,976 : INFO : FAST : Connecting to com4 at 921600bps
+2019-12-18 16:30:42,039 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-12-18 16:30:42,039 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.01', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,039 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,039 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-12-18 16:30:42,117 : INFO : FAST : Connecting to com5 at 921600bps
+2019-12-18 16:30:42,164 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-12-18 16:30:42,164 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,164 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,164 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,655 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 159, 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,655 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.9', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,655 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.9, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,655 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.5.4', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,671 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,671 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,671 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,671 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.18362', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,671 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-12-18 16:30:42,671 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-12-18 16:30:42,921 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\ffc5df461fc927df7502c20268b6e23c.mpf_cache
+2019-12-18 16:30:42,954 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\3585cb1a70d2f2b7c5655afaacf1bc74.mpf_cache
+2019-12-18 16:30:42,970 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\db69f4aeb06b399317225bf0f2d24564.mpf_cache
+2019-12-18 16:30:43,017 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\d868708421ecefdd23b54f4fefaa5a63.mpf_cache
+2019-12-18 16:30:43,048 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\4ed449c86f3920ad38c9f19e6b1fcd80.mpf_cache
+2019-12-18 16:30:43,079 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\91c30393a7736530c48ab886a6ae90df.mpf_cache
+2019-12-18 16:30:43,095 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c4c39d8157ba863610e7d2b8306a4087.mpf_cache
+2019-12-18 16:30:43,362 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\230c7edf879901b77e29ab003ecfd977.mpf_cache
+2019-12-18 16:30:43,409 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\3512d3a51b29689f2a9a6db585213e7b.mpf_cache
+2019-12-18 16:30:43,471 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\aacde2a5df2e44f5e01226064ab4c3c5.mpf_cache
+2019-12-18 16:30:43,723 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\868965d45e8ef85973deb1cc43e3c6e9.mpf_cache
+2019-12-18 16:30:43,741 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\9463ad916821e4687af4640a7d04ba98.mpf_cache
+2019-12-18 16:30:43,756 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\2bf399aa483f8a887eec2aa10342ca9f.mpf_cache
+2019-12-18 16:30:43,788 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\2ad3e4afc7b8ab807ff1625862e58922.mpf_cache
+2019-12-18 16:30:43,819 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\37af0ab3cb4984093f408b6580ccda04.mpf_cache
+2019-12-18 16:30:43,850 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\aad48548988dd5e95d839b70bde2a6c9.mpf_cache
+2019-12-18 16:30:43,881 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\691014465c877a30c4e85c0b37ef7391.mpf_cache
+2019-12-18 16:30:43,913 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\1b6068dc0dcf1445cf37058c25ad802b.mpf_cache
+2019-12-18 16:30:43,944 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\7c8a3dbd3a1f76b71c509d64239c80b0.mpf_cache
+2019-12-18 16:30:43,975 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 3 - GYMS DISPLAYS\modes\1player\config\1player.yaml
+2019-12-18 16:30:43,975 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\modes\1player\config\1player.yaml.
+2019-12-18 16:30:44,003 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe... column 38',)>) at c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe... column 38',)>) at c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 198, in load
+    config = self.process(f)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 224, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\main.py", line 639, in load
+    return loader._constructor.get_single_data()  # type: ignore
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\constructor.py", line 102, in get_single_data
+    node = self.composer.get_single_node()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 75, in get_single_node
+    document = self.compose_document()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 96, in compose_document
+    node = self.compose_node(None, None)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 132, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 194, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 132, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 187, in compose_mapping_node
+    while not self.parser.check_event(MappingEndEvent):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\parser.py", line 144, in check_event
+    self.current_event = self.state()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\parser.py", line 547, in parse_block_mapping_key
+    if self.scanner.check_token(KeyToken):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\scanner.py", line 160, in check_token
+    self.fetch_more_tokens()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\scanner.py", line 273, in fetch_more_tokens
+    return self.fetch_value()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\scanner.py", line 626, in fetch_value
+    self.reader.get_mark())
+ruamel.yaml.scanner.ScannerError: mapping values are not allowed here
+  in "E:\POKEMON - 3 - GYMS DISPLAYS\modes\1player\config\1player.yaml", line 3, column 38
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\events.py", line 127, in _run
+    self._callback(*self._args)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\futures.py", line 294, in result
+    raise self._exception
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\tasks.py", line 240, in _step
+    result = coro.send(None)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\config_processor.py", line 132, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\file_manager.py", line 99, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 205, in load
+    raise ValueError(msg)
+ValueError: YAML error found in file E:\POKEMON - 3 - GYMS DISPLAYS\modes\1player\config\1player.yaml. Line 3,Position 38: mapping values are not allowed here
+  in "E:\POKEMON - 3 - GYMS DISPLAYS\modes\1player\config\1player.yaml", line 3, column 38
+2019-12-18 16:30:44,348 : INFO : Machine : Starting the main run loop.
+2019-12-18 16:30:44,348 : INFO : Machine : Shutting down...
+2019-12-18 16:30:44,348 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-12-18 16:30:44,364 : ERROR : FAST : Stop called on serial connection com4
+2019-12-18 16:30:44,379 : ERROR : FAST : Stop called on serial connection com5
+2019-12-18 16:30:44,649 : ERROR : root : YAML error found in file E:\POKEMON - 3 - GYMS DISPLAYS\modes\1player\config\1player.yaml. Line 3,Position 38: mapping values are not allowed here
+  in "E:\POKEMON - 3 - GYMS DISPLAYS\modes\1player\config\1player.yaml", line 3, column 38
+Traceback (most recent call last):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 198, in load
+    config = self.process(f)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 224, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\main.py", line 639, in load
+    return loader._constructor.get_single_data()  # type: ignore
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\constructor.py", line 102, in get_single_data
+    node = self.composer.get_single_node()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 75, in get_single_node
+    document = self.compose_document()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 96, in compose_document
+    node = self.compose_node(None, None)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 132, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 194, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 132, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\composer.py", line 187, in compose_mapping_node
+    while not self.parser.check_event(MappingEndEvent):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\parser.py", line 144, in check_event
+    self.current_event = self.state()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\parser.py", line 547, in parse_block_mapping_key
+    if self.scanner.check_token(KeyToken):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\scanner.py", line 160, in check_token
+    self.fetch_more_tokens()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\scanner.py", line 273, in fetch_more_tokens
+    return self.fetch_value()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\ruamel\yaml\scanner.py", line 626, in fetch_value
+    self.reader.get_mark())
+ruamel.yaml.scanner.ScannerError: mapping values are not allowed here
+  in "E:\POKEMON - 3 - GYMS DISPLAYS\modes\1player\config\1player.yaml", line 3, column 38
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\machine.py", line 709, in run
+    self._run_loop()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\events.py", line 127, in _run
+    self._callback(*self._args)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\futures.py", line 294, in result
+    raise self._exception
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\tasks.py", line 240, in _step
+    result = coro.send(None)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\config_processor.py", line 132, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\file_manager.py", line 99, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 205, in load
+    raise ValueError(msg)
+ValueError: YAML error found in file E:\POKEMON - 3 - GYMS DISPLAYS\modes\1player\config\1player.yaml. Line 3,Position 38: mapping values are not allowed here
+  in "E:\POKEMON - 3 - GYMS DISPLAYS\modes\1player\config\1player.yaml", line 3, column 38

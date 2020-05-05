@@ -1,0 +1,75 @@
+2019-05-27 10:45:59,318 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-05-27 10:45:59,318 : INFO : Machine : Command line arguments: {'loglevel': 15, 'consoleloglevel': 20, 'mc_file_name': None, 'syslog_address': None, 'configfile': ['config.yaml'], 'text_ui': True, 'bcp': True, 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'create_config_cache': True, 'no_load_cache': False, 'production': False, 'logfile': 'logs\\2019-05-27-10-45-59-mpf-DESKTOP-I5I6D25.log', 'force_assets_load': False, 'pause': False, 'force_platform': None}
+2019-05-27 10:45:59,318 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-05-27 10:45:59,318 : INFO : Machine : Machine path: D:\POKEMON
+2019-05-27 10:45:59,318 : INFO : Machine : Platform: win32
+2019-05-27 10:45:59,318 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-05-27 10:45:59,318 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-05-27 10:46:02,490 : INFO : Machine : Machine config file #1: config.yaml
+2019-05-27 10:46:02,501 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\d99dba3f33c3bdd270e8cf6c1a53f44e.mpf_cache
+2019-05-27 10:46:02,610 : INFO : Machine : Initialise MPF.
+2019-05-27 10:46:05,327 : INFO : FAST : Connecting to com4 at 921600bps
+2019-05-27 10:46:05,405 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-05-27 10:46:05,405 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-05-27 10:46:05,474 : INFO : FAST : Connecting to com5 at 921600bps
+2019-05-27 10:46:05,521 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-05-27 10:46:07,649 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-05-27 10:46:07,828 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-05-27 10:46:07,935 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\01c5ea7020f20fc8cd2609416c749c9a.mpf_cache
+2019-05-27 10:46:07,935 : INFO : ConfigProcessor : Loading config from file D:\POKEMON\modes\pichu\config\pichu.yaml.
+2019-05-27 10:46:08,035 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...column 9\'',)>) at c:\python34\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...column 9\'',)>) at c:\python34\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 194, in load
+    config = self.process(f)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 220, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\python34\lib\site-packages\ruamel\yaml\main.py", line 75, in load
+    return loader.get_single_data()
+  File "c:\python34\lib\site-packages\ruamel\yaml\constructor.py", line 59, in get_single_data
+    return self.construct_document(node)
+  File "c:\python34\lib\site-packages\ruamel\yaml\constructor.py", line 68, in construct_document
+    for dummy in generator:
+  File "c:\python34\lib\site-packages\ruamel\yaml\constructor.py", line 481, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 135, in construct_mapping
+    format(key, key_node.start_mark))
+KeyError: 'Key "text" was defined multiple times in config   in "D:\\POKEMON\\modes\\pichu\\config\\pichu.yaml", line 11, column 9'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\asyncio\events.py", line 125, in _run
+    self._callback(*self._args)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\python34\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "c:\python34\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 113, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 262, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 180, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 111, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 131, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\python34\lib\site-packages\mpf\core\file_manager.py", line 154, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 208, in load
+    raise ValueError(msg)
+ValueError: Error found in file D:\POKEMON\modes\pichu\config\pichu.yaml: 'Key "text" was defined multiple times in config   in "D:\\POKEMON\\modes\\pichu\\config\\pichu.yaml", line 11, column 9'
+2019-05-27 10:46:09,028 : ERROR : root : Exception is not set.
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\commands\game.py", line 208, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 661, in run
+    self.initialise_mpf()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 653, in initialise_mpf
+    if init.exception():
+  File "c:\python34\lib\asyncio\futures.py", line 288, in exception
+    raise InvalidStateError('Exception is not set.')
+asyncio.futures.InvalidStateError: Exception is not set.

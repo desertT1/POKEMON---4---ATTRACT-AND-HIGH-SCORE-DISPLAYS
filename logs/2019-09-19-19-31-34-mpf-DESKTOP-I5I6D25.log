@@ -1,0 +1,99 @@
+2019-09-19 19:31:34,233 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-09-19 19:31:34,233 : INFO : Machine : Command line arguments: {'mc_file_name': None, 'configfile': ['config.yaml'], 'create_config_cache': True, 'bcp': True, 'force_platform': None, 'consoleloglevel': 20, 'force_assets_load': False, 'text_ui': True, 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'logfile': 'logs\\2019-09-19-19-31-34-mpf-DESKTOP-I5I6D25.log', 'no_load_cache': False, 'loglevel': 15, 'production': False, 'pause': False, 'syslog_address': None}
+2019-09-19 19:31:34,233 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-09-19 19:31:34,233 : INFO : Machine : Machine path: D:\POKEMON
+2019-09-19 19:31:34,233 : INFO : Machine : Platform: win32
+2019-09-19 19:31:34,233 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-09-19 19:31:34,233 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-09-19 19:31:35,717 : INFO : Machine : Machine config file #1: config.yaml
+2019-09-19 19:31:35,717 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\d99dba3f33c3bdd270e8cf6c1a53f44e.mpf_cache
+2019-09-19 19:31:35,748 : INFO : Machine : Initialise MPF.
+2019-09-19 19:31:36,561 : INFO : FAST : Connecting to com4 at 921600bps
+2019-09-19 19:31:36,592 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-09-19 19:31:36,592 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-09-19 19:31:36,686 : INFO : FAST : Connecting to com5 at 921600bps
+2019-09-19 19:31:36,733 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-09-19 19:31:37,201 : WARNING : ConfigProcessor : Config file in cache changed: D:\POKEMON\modes\pichu\config\pichu.yaml
+2019-09-19 19:31:37,201 : INFO : ConfigProcessor : Loading config from file D:\POKEMON\modes\pichu\config\pichu.yaml.
+2019-09-19 19:31:37,279 : INFO : ConfigProcessor : Loading config: D:\POKEMON\modes\pichu\config\pichu.yaml
+2019-09-19 19:31:37,295 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\01c5ea7020f20fc8cd2609416c749c9a.mpf_cache
+2019-09-19 19:31:37,326 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-09-19 19:31:37,342 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-09-19 19:31:37,373 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\3468305e031c5bbf036e7bdff3037650.mpf_cache
+2019-09-19 19:31:37,404 : DEBUG : coil.c_trough : Configuring device with settings: '{'default_pulse_power': None, 'number': '1-1', 'default_pulse_ms': 7, 'debug': True, 'console_log': 'full', 'psu': <psu.default>, 'file_log': 'full', 'label': '%', 'platform_settings': {}, 'tags': [], 'max_pulse_power': 1.0, 'default_recycle': False, 'enable_events': {}, 'platform': None, 'max_pulse_ms': None, 'default_hold_power': None, 'disable_events': {}, 'max_hold_power': None, 'allow_enable': False, 'pulse_events': {}}'
+2019-09-19 19:31:37,404 : DEBUG : coil.c_trough : Configuring device with settings: '{'default_pulse_power': None, 'number': '1-1', 'default_pulse_ms': 7, 'debug': True, 'console_log': 'full', 'psu': <psu.default>, 'file_log': 'full', 'label': '%', 'platform_settings': {'recycle_ms': None, 'connection': 'auto'}, 'tags': [], 'max_pulse_power': 1.0, 'default_recycle': False, 'enable_events': {}, 'platform': None, 'max_pulse_ms': None, 'default_hold_power': None, 'disable_events': {}, 'max_hold_power': None, 'allow_enable': False, 'pulse_events': {}}'
+2019-09-19 19:31:37,436 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'eject_events': {}, 'eject_coil_jam_pulse': None, 'confirm_eject_type': 'target', 'debug': True, 'player_controlled_eject_event': None, 'file_log': 'full', 'eject_coil_reorder_pulse': None, 'hold_switches': [], 'tags': ['home', 'trough'], 'eject_coil_retry_pulse': None, 'hold_coil': None, 'exit_count_delay': 500, 'mechanical_eject': False, 'eject_coil_enable_time': [], 'ball_missing_timeouts': [], 'confirm_eject_switch': None, 'captures_from': <playfield.playfield>, 'target_on_unexpected_ball': None, 'jam_switch': None, 'eject_all_events': {}, 'eject_timeouts': [], 'auto_fire_on_unexpected_ball': True, 'retries_before_increasing_pulse': 4, 'entrance_event_timeout': 5.0, 'entrance_switch_full_timeout': 0, 'console_log': 'full', 'ball_switches': [<switch.s_trough>], 'label': '%', 'idle_missing_ball_timeout': 5.0, 'entrance_count_delay': 500, 'entrance_switch': None, 'max_eject_attempts': 0, 'ball_missing_target': <playfield.playfield>, 'eject_coil': <coil.c_trough>, 'ball_capacity': None, 'request_ball_events': [], 'entrance_events': {}, 'ball_search_order': 200, 'hold_coil_release_time': 1000, 'confirm_eject_event': None, 'eject_targets': [<ball_device.bd_plunger>], 'eject_coil_max_wait_ms': 200, 'hold_events': {}}'
+2019-09-19 19:31:37,483 : INFO : SwitchController : Found active switch: s_drop_center
+2019-09-19 19:31:37,608 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-09-19 19:31:38,623 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-09-19 19:31:39,623 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-09-19 19:31:40,719 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-09-19 19:31:43,409 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-09-19 19:31:43,464 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: None
+2019-09-19 19:31:43,467 : DEBUG : ball_device.bd_trough : State: idle
+2019-09-19 19:31:43,467 : DEBUG : ball_device.bd_trough : Waiting for eject request.
+2019-09-19 19:31:43,554 : DEBUG : ball_device.bd_trough : Counted 0 balls. Active switches: []. Old: 0
+2019-09-19 19:31:43,575 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,576 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,576 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,576 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,576 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,577 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,577 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,577 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,578 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,578 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,578 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,578 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,579 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,579 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,579 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,579 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,580 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,580 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,580 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,580 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,582 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,582 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,582 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,583 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,583 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,583 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,583 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,584 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,584 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,584 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,584 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,585 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,585 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-09-19 19:31:43,625 : INFO : coil.c_drop_reset : Enabling Driver for 400ms (1.0 pulse_power)
+2019-09-19 19:31:43,630 : INFO : Mode.attract : Started. Priority: 10
+2019-09-19 19:31:43,636 : INFO : Machine : Starting the main run loop.
+2019-09-19 19:31:43,680 : INFO : SwitchController : <<<<<<< 's_drop_center' inactive >>>>>>>
+2019-09-19 19:31:44,015 : INFO : coil.c_drop_reset : Disabling Driver
+2019-09-19 19:31:47,585 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-09-19 19:31:47,729 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-09-19 19:31:47,762 : WARNING : BallController : WARNING: BallController denies game start. Not enough balls. 0 found. 1 required
+2019-09-19 19:31:53,762 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-09-19 19:31:54,433 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-09-19 19:31:54,467 : WARNING : BallController : WARNING: BallController denies game start. Not enough balls. 0 found. 1 required
+2019-09-19 19:31:54,976 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-09-19 19:31:55,169 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-09-19 19:31:55,198 : WARNING : BallController : WARNING: BallController denies game start. Not enough balls. 0 found. 1 required
+2019-09-19 19:31:55,697 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-09-19 19:31:55,840 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-09-19 19:31:55,867 : WARNING : BallController : WARNING: BallController denies game start. Not enough balls. 0 found. 1 required
+2019-09-19 19:31:56,033 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-09-19 19:31:56,129 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-09-19 19:31:56,159 : WARNING : BallController : WARNING: BallController denies game start. Not enough balls. 0 found. 1 required
+2019-09-19 19:31:56,865 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-09-19 19:31:57,007 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-09-19 19:31:57,024 : WARNING : BallController : WARNING: BallController denies game start. Not enough balls. 0 found. 1 required
+2019-09-19 19:31:57,137 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-09-19 19:31:57,265 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-09-19 19:31:57,298 : WARNING : BallController : WARNING: BallController denies game start. Not enough balls. 0 found. 1 required
+2019-09-19 19:32:12,976 : INFO : Machine : Shutting down...
+2019-09-19 19:32:12,992 : DEBUG : ball_device.bd_trough : Stopping ball device
+2019-09-19 19:32:13,007 : ERROR : FAST : Stop called on serial connection com5
+2019-09-19 19:32:13,023 : ERROR : FAST : Stop called on serial connection com4
+2019-09-19 19:32:13,273 : INFO : root : MPF run loop ended.

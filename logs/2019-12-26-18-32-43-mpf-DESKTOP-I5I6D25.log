@@ -1,0 +1,853 @@
+2019-12-26 18:32:43,296 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.9
+2019-12-26 18:32:43,296 : INFO : Machine : Command line arguments: {'configfile': ['config.yaml'], 'logfile': 'logs\\2019-12-26-18-32-43-mpf-DESKTOP-I5I6D25.log', 'no_load_cache': False, 'text_ui': True, 'syslog_address': None, 'mpfconfigfile': 'c:\\users\\mission pinball\\appdata\\local\\programs\\python\\python35\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'production': False, 'force_platform': None, 'force_assets_load': False, 'jsonlogging': False, 'no_sound': False, 'mc_file_name': None, 'consoleloglevel': 20, 'bcp': True, 'loglevel': 15, 'pause': False, 'create_config_cache': True}
+2019-12-26 18:32:43,296 : INFO : Machine : MPF path: c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf
+2019-12-26 18:32:43,296 : INFO : Machine : Machine path: E:\POKEMON - 3 - GYMS DISPLAYS
+2019-12-26 18:32:43,296 : INFO : Machine : Platform: win32
+2019-12-26 18:32:43,296 : INFO : Machine : Python executable location: c:\users\mission pinball\appdata\local\programs\python\python35\python.exe
+2019-12-26 18:32:43,296 : INFO : Machine : Python version: 3.5.4 (64-bit)
+2019-12-26 18:32:43,296 : INFO : Machine : Machine config file #1: config.yaml
+2019-12-26 18:32:43,311 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 3 - GYMS DISPLAYS\config\config.yaml
+2019-12-26 18:32:43,311 : INFO : ConfigProcessor : Loading config from file c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\mpfconfig.yaml.
+2019-12-26 18:32:43,874 : INFO : ConfigProcessor : Loading config: c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\mpfconfig.yaml
+2019-12-26 18:32:43,952 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\config\config.yaml.
+2019-12-26 18:32:44,296 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\config.yaml
+2019-12-26 18:32:44,639 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\player_variables.yaml
+2019-12-26 18:32:44,686 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\key_mapping.yaml
+2019-12-26 18:32:44,686 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\e9c23ebab43a14b7e211b4dd18480f15.mpf_cache
+2019-12-26 18:32:44,702 : INFO : Machine : Initialise MPF.
+2019-12-26 18:32:45,139 : INFO : FAST : Connecting to com4 at 921600bps
+2019-12-26 18:32:45,186 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-12-26 18:32:45,186 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'change': True, 'value': '01.01', 'prev_value': None}
+2019-12-26 18:32:45,186 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'change': True, 'value': 'FP-CPU-002-2', 'prev_value': None}
+2019-12-26 18:32:45,186 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-12-26 18:32:45,249 : INFO : FAST : Connecting to com5 at 921600bps
+2019-12-26 18:32:45,311 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-12-26 18:32:45,311 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'change': True, 'value': '01.00', 'prev_value': None}
+2019-12-26 18:32:45,311 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'change': True, 'value': 'FP-CPU-002-2', 'prev_value': None}
+2019-12-26 18:32:45,311 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'change': True, 'value': 'FREE PLAY', 'prev_value': None}
+2019-12-26 18:32:45,577 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'change': True, 'value': 286, 'prev_value': None}
+2019-12-26 18:32:45,577 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'change': True, 'value': 'MPF v0.52.9', 'prev_value': None}
+2019-12-26 18:32:45,577 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'change': True, 'value': 'MPF v0.52.9, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None}
+2019-12-26 18:32:45,577 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'change': True, 'value': '3.5.4', 'prev_value': None}
+2019-12-26 18:32:45,577 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'change': True, 'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None}
+2019-12-26 18:32:45,577 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'change': True, 'value': 'Windows', 'prev_value': None}
+2019-12-26 18:32:45,577 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'change': True, 'value': '10', 'prev_value': None}
+2019-12-26 18:32:45,577 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'change': True, 'value': '10.0.18362', 'prev_value': None}
+2019-12-26 18:32:45,577 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'change': True, 'value': 'AMD64', 'prev_value': None}
+2019-12-26 18:32:45,577 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-12-26 18:32:45,780 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\0c90eb48fda27bb17da0cfa70b6cea42.mpf_cache
+2019-12-26 18:32:45,827 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\da1c75dbc5d48bb99b7ea9aec7919bfa.mpf_cache
+2019-12-26 18:32:45,842 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\697775242c2892da86063c51f7d13ddb.mpf_cache
+2019-12-26 18:32:45,905 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c4c39d8157ba863610e7d2b8306a4087.mpf_cache
+2019-12-26 18:32:45,952 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\d868708421ecefdd23b54f4fefaa5a63.mpf_cache
+2019-12-26 18:32:46,014 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\aad48548988dd5e95d839b70bde2a6c9.mpf_cache
+2019-12-26 18:32:46,061 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\00b811264d7e79f39b66bcbc6609bb6e.mpf_cache
+2019-12-26 18:32:46,108 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 3 - GYMS DISPLAYS\modes\pichu\config\pichu.yaml
+2019-12-26 18:32:46,108 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\modes\pichu\config\pichu.yaml.
+2019-12-26 18:32:46,249 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\modes\pichu\config\pichu.yaml
+2019-12-26 18:32:46,264 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\230c7edf879901b77e29ab003ecfd977.mpf_cache
+2019-12-26 18:32:46,280 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\aacde2a5df2e44f5e01226064ab4c3c5.mpf_cache
+2019-12-26 18:32:46,327 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\325be8140670be7b4f7f24b4ea9ecf41.mpf_cache
+2019-12-26 18:32:46,374 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\4ed449c86f3920ad38c9f19e6b1fcd80.mpf_cache
+2019-12-26 18:32:46,421 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 3 - GYMS DISPLAYS\modes\gym2\config\gym2.yaml
+2019-12-26 18:32:46,421 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\modes\gym2\config\gym2.yaml.
+2019-12-26 18:32:46,483 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\modes\gym2\config\gym2.yaml
+2019-12-26 18:32:46,483 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\1b6068dc0dcf1445cf37058c25ad802b.mpf_cache
+2019-12-26 18:32:46,514 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\03465e6905c319de2817a60078df797b.mpf_cache
+2019-12-26 18:32:46,546 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\9463ad916821e4687af4640a7d04ba98.mpf_cache
+2019-12-26 18:32:46,592 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\db69f4aeb06b399317225bf0f2d24564.mpf_cache
+2019-12-26 18:32:46,624 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\37af0ab3cb4984093f408b6580ccda04.mpf_cache
+2019-12-26 18:32:46,655 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 3 - GYMS DISPLAYS\modes\pikachu\config\pikachu.yaml
+2019-12-26 18:32:46,655 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\modes\pikachu\config\pikachu.yaml.
+2019-12-26 18:32:46,796 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\modes\pikachu\config\pikachu.yaml
+2019-12-26 18:32:46,796 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\868965d45e8ef85973deb1cc43e3c6e9.mpf_cache
+2019-12-26 18:32:46,827 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\2bf399aa483f8a887eec2aa10342ca9f.mpf_cache
+2019-12-26 18:32:46,874 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\91c30393a7736530c48ab886a6ae90df.mpf_cache
+2019-12-26 18:32:46,921 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\e94996e3615e593edab21d6f0e7b4569.mpf_cache
+2019-12-26 18:32:46,952 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\7c8a3dbd3a1f76b71c509d64239c80b0.mpf_cache
+2019-12-26 18:32:46,989 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\691014465c877a30c4e85c0b37ef7391.mpf_cache
+2019-12-26 18:32:47,019 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c721f48534ae43d3f9c4e17312560aaa.mpf_cache
+2019-12-26 18:32:47,047 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 3 - GYMS DISPLAYS\modes\base\config\base.yaml
+2019-12-26 18:32:47,047 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\modes\base\config\base.yaml.
+2019-12-26 18:32:47,064 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\modes\base\config\base.yaml
+2019-12-26 18:32:47,067 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\ffc5df461fc927df7502c20268b6e23c.mpf_cache
+2019-12-26 18:32:47,085 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\3512d3a51b29689f2a9a6db585213e7b.mpf_cache
+2019-12-26 18:32:47,122 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\2ad3e4afc7b8ab807ff1625862e58922.mpf_cache
+2019-12-26 18:32:47,304 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2019-12-26 18:32:47,309 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-12-26 18:32:47,313 : INFO : SwitchController : Found active switch: (('11', 1), <Platform.FAST>)
+2019-12-26 18:32:47,433 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'host': 'localhost', 'port': 5050, 'name': 'local_display'}
+2019-12-26 18:32:47,445 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-12-26 18:32:48,477 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-12-26 18:32:49,492 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-12-26 18:32:50,501 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-12-26 18:32:50,505 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2019-12-26 18:32:50,636 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-12-26 18:32:50,672 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'change': True, 'value': 0.5, 'prev_value': None}
+2019-12-26 18:32:50,674 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2019-12-26 18:32:50,682 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'change': True, 'value': 295, 'prev_value': None}
+2019-12-26 18:32:50,683 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'change': True, 'value': 373, 'prev_value': None}
+2019-12-26 18:32:50,684 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'change': True, 'value': {'average': 240.969040247678, 'total': 323, 'top': [1053, 829, 828, 828, 808, 778, 726, 724, 722, 706]}, 'prev_value': None}
+2019-12-26 18:32:50,686 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_top'====== Args={'change': True, 'value': 1248, 'prev_value': None}
+2019-12-26 18:32:50,687 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_left'====== Args={'change': True, 'value': 624, 'prev_value': None}
+2019-12-26 18:32:50,688 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'change': True, 'value': 3066, 'prev_value': None}
+2019-12-26 18:32:50,689 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'change': True, 'value': 7918, 'prev_value': None}
+2019-12-26 18:32:50,690 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_center'====== Args={'change': True, 'value': 707, 'prev_value': None}
+2019-12-26 18:32:50,691 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'change': True, 'value': 10, 'prev_value': None}
+2019-12-26 18:32:50,692 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'change': True, 'value': 1125, 'prev_value': None}
+2019-12-26 18:32:50,693 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'change': True, 'value': 1271, 'prev_value': None}
+2019-12-26 18:32:50,695 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'change': True, 'value': 1263, 'prev_value': None}
+2019-12-26 18:32:50,696 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right'====== Args={'change': True, 'value': 552, 'prev_value': None}
+2019-12-26 18:32:50,697 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': True, 'value': 3939, 'prev_value': None}
+2019-12-26 18:32:50,699 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'change': True, 'value': 1711, 'prev_value': None}
+2019-12-26 18:32:50,700 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': True, 'value': 11720, 'prev_value': None}
+2019-12-26 18:32:50,701 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_gym'====== Args={'change': True, 'value': 514, 'prev_value': None}
+2019-12-26 18:32:50,702 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'change': True, 'value': 2893, 'prev_value': None}
+2019-12-26 18:32:50,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'change': True, 'value': 88, 'prev_value': None}
+2019-12-26 18:32:50,705 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'change': True, 'value': 74, 'prev_value': None}
+2019-12-26 18:32:50,706 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'change': True, 'value': 9527, 'prev_value': None}
+2019-12-26 18:32:50,708 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2019-12-26 18:32:50,710 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2019-12-26 18:32:50,711 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,712 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,712 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,712 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,712 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,713 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,713 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,713 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,713 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,714 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,714 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,714 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,714 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,714 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,715 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,715 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,715 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,715 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,716 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,716 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,716 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,716 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-26 18:32:50,719 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2019-12-26 18:32:50,727 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:32:50,736 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2019-12-26 18:32:50,740 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2019-12-26 18:32:50,760 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2019-12-26 18:32:50,761 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2019-12-26 18:32:50,763 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2019-12-26 18:32:50,764 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2019-12-26 18:32:50,766 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2019-12-26 18:32:50,768 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2019-12-26 18:32:50,769 : INFO : Mode.attract : Started. Priority: 10
+2019-12-26 18:32:50,770 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2019-12-26 18:32:50,772 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2019-12-26 18:32:50,775 : INFO : Machine : Starting the main run loop.
+2019-12-26 18:32:50,798 : INFO : EventManager : Event: ======'slide_attract_started_created'====== Args={'_from_bcp': True}
+2019-12-26 18:32:50,803 : INFO : EventManager : Event: ======'slide_attract_started_active'====== Args={'_from_bcp': True}
+2019-12-26 18:33:55,446 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-26 18:33:55,485 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-26 18:33:56,531 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-26 18:33:56,737 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:33:57,009 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:33:57,089 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-26 18:33:57,203 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-26 18:33:57,228 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:33:57,377 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:33:57,410 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-26 18:34:07,025 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:34:07,153 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-26 18:34:07,312 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:34:07,408 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-26 18:34:07,472 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:34:07,536 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-26 18:34:07,665 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:34:07,713 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:34:07,733 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-26 18:34:07,793 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-26 18:34:08,002 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:34:08,049 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-26 18:34:10,786 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-12-26 18:34:11,042 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-12-26 18:34:11,044 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2019-12-26 18:34:11,073 : INFO : EventManager : Event: ======'game_start'====== Args={'hold_time': 0.26599999994505197, 'buttons': []}
+2019-12-26 18:34:11,075 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'hold_time': 0.26599999994505197, 'buttons': []}
+2019-12-26 18:34:11,088 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'hold_time': 0.26599999994505197, 'buttons': []}
+2019-12-26 18:34:11,088 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2019-12-26 18:34:11,089 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2019-12-26 18:34:11,090 : INFO : Mode.attract : Stopped.
+2019-12-26 18:34:11,092 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2019-12-26 18:34:11,093 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2019-12-26 18:34:11,094 : INFO : Mode.game : Started. Priority: 20
+2019-12-26 18:34:11,095 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'hold_time': 0.26599999994505197, 'buttons': []}
+2019-12-26 18:34:11,101 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2019-12-26 18:34:11,106 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2019-12-26 18:34:11,111 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2019-12-26 18:34:11,113 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2019-12-26 18:34:11,117 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:11,117 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2019-12-26 18:34:11,119 : INFO : Mode.game : Player added successfully. Total players: 1
+2019-12-26 18:34:11,120 : INFO : EventManager : Event: ======'player_gym6_gym'====== Args={'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2019-12-26 18:34:11,122 : INFO : EventManager : Event: ======'player_gym5_drop_targets'====== Args={'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2019-12-26 18:34:11,123 : INFO : EventManager : Event: ======'player_gym2_drop_targets'====== Args={'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2019-12-26 18:34:11,125 : INFO : EventManager : Event: ======'player_number'====== Args={'change': 0, 'value': 1, 'player_num': 1, 'prev_value': 1}
+2019-12-26 18:34:11,126 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2019-12-26 18:34:11,127 : INFO : EventManager : Event: ======'player_gym4_slingshot'====== Args={'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2019-12-26 18:34:11,128 : INFO : EventManager : Event: ======'player_pikachu_exp'====== Args={'change': 0, 'value': 1, 'player_num': 1, 'prev_value': 1}
+2019-12-26 18:34:11,129 : INFO : EventManager : Event: ======'player_raichu_exp'====== Args={'change': 0, 'value': 1, 'player_num': 1, 'prev_value': 1}
+2019-12-26 18:34:11,130 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 0, 'value': 1, 'player_num': 1, 'prev_value': 1}
+2019-12-26 18:34:11,131 : INFO : EventManager : Event: ======'player_gym3_spinner'====== Args={'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2019-12-26 18:34:11,133 : INFO : EventManager : Event: ======'player_index'====== Args={'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2019-12-26 18:34:11,134 : INFO : EventManager : Event: ======'player_gym1_pop'====== Args={'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2019-12-26 18:34:11,139 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2019-12-26 18:34:11,142 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:11,143 : INFO : EventManager : Event: ======'slide_layout_3_mini_created'====== Args={'_from_bcp': True}
+2019-12-26 18:34:11,145 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:11,147 : INFO : EventManager : Event: ======'player_ball'====== Args={'change': 1, 'value': 1, 'player_num': 1, 'prev_value': 0}
+2019-12-26 18:34:11,149 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:11,153 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'balls_remaining': 2, 'is_extra_ball': False, 'player': 1, 'ball': 1}
+2019-12-26 18:34:11,155 : INFO : EventManager : Event: ======'ball_starting'====== Args={'balls_remaining': 2, 'is_extra_ball': False, 'player': 1, 'ball': 1}
+2019-12-26 18:34:11,157 : INFO : EventManager : Event: ======'mode_score_display_will_start'====== Args={'is_extra_ball': False, 'balls_remaining': 2, 'player': 1, 'ball': 1, 'queue': <QueuedEvent>}
+2019-12-26 18:34:11,161 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=2}', 'mode': <Mode.score_display>}, key=UUID('e101574b-04b5-401a-a3f9-713b3e197f99'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117630>, blocking_facility=None)]
+2019-12-26 18:34:11,162 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event player_added with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'player_added{num==2}', 'mode': <Mode.score_display>}, key=UUID('43bc8e72-8f41-4bdd-a3bf-5c92b7df5f48'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117480>, blocking_facility=None)]
+2019-12-26 18:34:11,164 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=2}', 'mode': <Mode.score_display>}, key=UUID('e101574b-04b5-401a-a3f9-713b3e197f99'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117630>, blocking_facility=None)]
+2019-12-26 18:34:11,164 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_4_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=4}', 'mode': <Mode.score_display>}, key=UUID('6bdb5da3-19ab-4ad4-902e-b4a0fc82b7ba'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117870>, blocking_facility=None)]
+2019-12-26 18:34:11,165 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event player_added with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'player_added{num==2}', 'mode': <Mode.score_display>}, key=UUID('43bc8e72-8f41-4bdd-a3bf-5c92b7df5f48'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117480>, blocking_facility=None)]
+2019-12-26 18:34:11,166 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event player_added with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_4_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'player_added{num==4}', 'mode': <Mode.score_display>}, key=UUID('75108f9e-2381-4c37-808d-e9e219240271'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117678>, blocking_facility=None)]
+2019-12-26 18:34:11,167 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=2}', 'mode': <Mode.score_display>}, key=UUID('e101574b-04b5-401a-a3f9-713b3e197f99'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117630>, blocking_facility=None)]
+2019-12-26 18:34:11,168 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_4_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=4}', 'mode': <Mode.score_display>}, key=UUID('6bdb5da3-19ab-4ad4-902e-b4a0fc82b7ba'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117870>, blocking_facility=None)]
+2019-12-26 18:34:11,170 : INFO : EventManager : Event: ======'mode_score_display_starting'====== Args={'balls_remaining': 2, 'is_extra_ball': False, 'player': 1, 'ball': 1, 'queue': <QueuedEvent>}
+2019-12-26 18:34:11,171 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'is_extra_ball': False, 'balls_remaining': 2, 'player': 1, 'ball': 1, 'queue': <QueuedEvent>}
+2019-12-26 18:34:11,174 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'balls_remaining': 2, 'is_extra_ball': False, 'player': 1, 'ball': 1, 'queue': <QueuedEvent>}
+2019-12-26 18:34:11,174 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2019-12-26 18:34:11,177 : INFO : Mode.base : Started. Priority: 31
+2019-12-26 18:34:11,178 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'balls_remaining': 2, 'is_extra_ball': False, 'player': 1, 'ball': 1, 'queue': <QueuedEvent>}
+2019-12-26 18:34:11,180 : INFO : EventManager : Event: ======'start_mode_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:11,181 : INFO : EventManager : Event: ======'mode_pichu_will_start'====== Args={'priority': 0}
+2019-12-26 18:34:11,206 : INFO : EventManager : Event: ======'mode_pichu_starting'====== Args={'priority': 0}
+2019-12-26 18:34:11,207 : INFO : Mode.pichu : Started. Priority: 75
+2019-12-26 18:34:11,207 : INFO : EventManager : Event: ======'mode_pichu_started'====== Args={'priority': 0}
+2019-12-26 18:34:11,208 : INFO : Mode.score_display : Started. Priority: 300
+2019-12-26 18:34:11,209 : INFO : EventManager : Event: ======'mode_score_display_started'====== Args={'balls_remaining': 2, 'is_extra_ball': False, 'player': 1, 'ball': 1, 'queue': <QueuedEvent>}
+2019-12-26 18:34:11,211 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2019-12-26 18:34:11,211 : INFO : EventManager : Event: ======'ball_started'====== Args={'balls_remaining': 2, 'is_extra_ball': False, 'player': 1, 'ball': 1}
+2019-12-26 18:34:11,215 : INFO : EventManager : Event: ======'start_gym0_event'====== Args={'priority': 0}
+2019-12-26 18:34:11,224 : INFO : EventManager : Event: ======'mode_gym0_will_start'====== Args={'priority': 0}
+2019-12-26 18:34:11,227 : INFO : EventManager : Event: ======'mode_gym0_starting'====== Args={'priority': 0}
+2019-12-26 18:34:11,227 : INFO : Mode.gym0 : Started. Priority: 200
+2019-12-26 18:34:11,228 : INFO : EventManager : Event: ======'mode_gym0_started'====== Args={'priority': 0}
+2019-12-26 18:34:11,230 : INFO : EventManager : Event: ======'slide_layout_3_mini_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:11,233 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2019-12-26 18:34:11,238 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:34:11,239 : INFO : EventManager : Event: ======'slide_layout_3_mini_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:34:11,246 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'mechanical_eject': True, 'target': <ball_device.bd_plunger>, 'balls': 1, 'source': <ball_device.bd_trough>, 'num_attempts': 0}
+2019-12-26 18:34:11,250 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-12-26 18:34:11,252 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'mechanical_eject': True, 'target': <ball_device.bd_plunger>, 'balls': 1, 'source': <ball_device.bd_trough>, 'num_attempts': 0}
+2019-12-26 18:34:11,255 : INFO : EventManager : Event: ======'slide_layout_3_mini_created'====== Args={'_from_bcp': True}
+2019-12-26 18:34:11,258 : INFO : coil.c_trough : Pulsing Driver for 7ms (1.0 pulse_power)
+2019-12-26 18:34:11,300 : INFO : EventManager : Event: ======'slide_slide_mode_pichu_started_created'====== Args={'_from_bcp': True}
+2019-12-26 18:34:11,312 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-26 18:34:11,335 : INFO : EventManager : Event: ======'slide_slide_mode_score_display_started_created'====== Args={'_from_bcp': True}
+2019-12-26 18:34:11,338 : INFO : EventManager : Event: ======'slide_layout_3_mini_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:11,366 : INFO : EventManager : Event: ======'slide_slide_mode_pichu_started_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:11,392 : INFO : EventManager : Event: ======'slide_slide_mode_score_display_started_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:11,423 : INFO : EventManager : Event: ======'slide_slide_mode_gym0_started_created'====== Args={'_from_bcp': True}
+2019-12-26 18:34:11,430 : INFO : EventManager : Event: ======'slide_slide_mode_gym0_started_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:13,617 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:34:13,638 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': 1, 'value': 11721, 'prev_value': 11720}
+2019-12-26 18:34:13,825 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:34:18,691 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-26 18:34:18,692 : INFO : EventManager : Event: ======'s_spinner_active'====== Args={}
+2019-12-26 18:34:18,693 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2019-12-26 18:34:18,731 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'change': 1, 'value': 9528, 'prev_value': 9527}
+2019-12-26 18:34:18,739 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:18,741 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 1, 'value': 2, 'player_num': 1, 'prev_value': 1}
+2019-12-26 18:34:18,745 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 1, 'value': 1, 'player_num': 1, 'prev_value': 0}
+2019-12-26 18:34:18,752 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-12-26 18:34:18,753 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2019-12-26 18:34:18,769 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-26 18:34:18,944 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-26 18:34:18,945 : INFO : EventManager : Event: ======'s_spinner_active'====== Args={}
+2019-12-26 18:34:18,946 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2019-12-26 18:34:18,967 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'change': 1, 'value': 9529, 'prev_value': 9528}
+2019-12-26 18:34:18,973 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:18,975 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 1, 'value': 3, 'player_num': 1, 'prev_value': 2}
+2019-12-26 18:34:18,978 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 1, 'value': 2, 'player_num': 1, 'prev_value': 1}
+2019-12-26 18:34:18,995 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-12-26 18:34:18,996 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2019-12-26 18:34:19,055 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-26 18:34:19,264 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:34:19,283 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': 1, 'value': 11722, 'prev_value': 11721}
+2019-12-26 18:34:19,602 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:34:19,712 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-26 18:34:19,713 : INFO : EventManager : Event: ======'s_pop_bottom_active'====== Args={}
+2019-12-26 18:34:19,714 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-12-26 18:34:19,714 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2019-12-26 18:34:19,736 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'change': 1, 'value': 3067, 'prev_value': 3066}
+2019-12-26 18:34:19,742 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:19,744 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 8, 'player_num': 1, 'prev_value': 3}
+2019-12-26 18:34:19,746 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 7, 'player_num': 1, 'prev_value': 2}
+2019-12-26 18:34:19,754 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-26 18:34:20,290 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:34:20,326 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': 1, 'value': 11723, 'prev_value': 11722}
+2019-12-26 18:34:20,577 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-26 18:34:20,578 : INFO : EventManager : Event: ======'s_pop_bottom_active'====== Args={}
+2019-12-26 18:34:20,579 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-12-26 18:34:20,579 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2019-12-26 18:34:20,597 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'change': 1, 'value': 3068, 'prev_value': 3067}
+2019-12-26 18:34:20,599 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:34:20,619 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:20,621 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 13, 'player_num': 1, 'prev_value': 8}
+2019-12-26 18:34:20,624 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 12, 'player_num': 1, 'prev_value': 7}
+2019-12-26 18:34:20,631 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-26 18:34:20,649 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-26 18:34:20,650 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-12-26 18:34:20,651 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2019-12-26 18:34:20,661 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'change': 1, 'value': 3069, 'prev_value': 3068}
+2019-12-26 18:34:20,663 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-26 18:34:21,329 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'mechanical_eject': None, 'target': <playfield.playfield>, 'balls': 1, 'source': <ball_device.bd_plunger>, 'num_attempts': 1}
+2019-12-26 18:34:21,458 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-26 18:34:21,459 : INFO : EventManager : Event: ======'s_pop_bottom_active'====== Args={}
+2019-12-26 18:34:21,460 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-12-26 18:34:21,496 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'change': 1, 'value': 3070, 'prev_value': 3069}
+2019-12-26 18:34:21,502 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:21,503 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 18, 'player_num': 1, 'prev_value': 13}
+2019-12-26 18:34:21,507 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 17, 'player_num': 1, 'prev_value': 12}
+2019-12-26 18:34:21,518 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-26 18:34:21,548 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'target': <playfield.playfield>, 'balls': 1}
+2019-12-26 18:34:21,554 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'unclaimed_balls': 1, 'new_balls': 1, 'device': <playfield.playfield>}
+2019-12-26 18:34:21,555 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'change': 1, 'balls': 1}
+2019-12-26 18:34:21,566 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1}
+2019-12-26 18:34:21,573 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2019-12-26 18:34:22,145 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-26 18:34:22,146 : INFO : EventManager : Event: ======'s_pop_bottom_active'====== Args={}
+2019-12-26 18:34:22,169 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'change': 1, 'value': 3071, 'prev_value': 3070}
+2019-12-26 18:34:22,174 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:22,175 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 23, 'player_num': 1, 'prev_value': 18}
+2019-12-26 18:34:22,178 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 22, 'player_num': 1, 'prev_value': 17}
+2019-12-26 18:34:22,186 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-26 18:34:22,205 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-26 18:34:22,218 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'change': 1, 'value': 3072, 'prev_value': 3071}
+2019-12-26 18:34:22,220 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-26 18:34:23,346 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-26 18:34:23,347 : INFO : EventManager : Event: ======'s_pop_bottom_active'====== Args={}
+2019-12-26 18:34:23,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'change': 1, 'value': 3073, 'prev_value': 3072}
+2019-12-26 18:34:23,383 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:23,384 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 28, 'player_num': 1, 'prev_value': 23}
+2019-12-26 18:34:23,388 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 27, 'player_num': 1, 'prev_value': 22}
+2019-12-26 18:34:23,398 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-26 18:34:26,384 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:34:26,408 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': 1, 'value': 11724, 'prev_value': 11723}
+2019-12-26 18:34:26,657 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:34:26,659 : INFO : EventManager : Event: ======'s_pop_right_active'====== Args={}
+2019-12-26 18:34:26,684 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3940, 'prev_value': 3939}
+2019-12-26 18:34:26,688 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:26,689 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 33, 'player_num': 1, 'prev_value': 28}
+2019-12-26 18:34:26,691 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 32, 'player_num': 1, 'prev_value': 27}
+2019-12-26 18:34:26,699 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:34:26,716 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:34:26,732 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3941, 'prev_value': 3940}
+2019-12-26 18:34:26,734 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:34:26,746 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:34:26,754 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3942, 'prev_value': 3941}
+2019-12-26 18:34:26,755 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:34:26,764 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:34:29,025 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:34:29,026 : INFO : EventManager : Event: ======'s_pop_right_active'====== Args={}
+2019-12-26 18:34:29,052 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3943, 'prev_value': 3942}
+2019-12-26 18:34:29,055 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:29,055 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 38, 'player_num': 1, 'prev_value': 33}
+2019-12-26 18:34:29,057 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 37, 'player_num': 1, 'prev_value': 32}
+2019-12-26 18:34:29,060 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:34:29,068 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:34:29,080 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3944, 'prev_value': 3943}
+2019-12-26 18:34:29,082 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:34:29,089 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:34:29,097 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3945, 'prev_value': 3944}
+2019-12-26 18:34:29,099 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:34:30,512 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:34:30,513 : INFO : EventManager : Event: ======'s_pop_right_active'====== Args={}
+2019-12-26 18:34:30,540 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3946, 'prev_value': 3945}
+2019-12-26 18:34:30,545 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:30,546 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 43, 'player_num': 1, 'prev_value': 38}
+2019-12-26 18:34:30,549 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 42, 'player_num': 1, 'prev_value': 37}
+2019-12-26 18:34:30,556 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:34:30,572 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:34:30,585 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3947, 'prev_value': 3946}
+2019-12-26 18:34:30,587 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:34:30,595 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:34:30,603 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3948, 'prev_value': 3947}
+2019-12-26 18:34:30,604 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:34:30,640 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:34:30,652 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3949, 'prev_value': 3948}
+2019-12-26 18:34:30,671 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:34:32,993 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2019-12-26 18:34:32,994 : INFO : EventManager : Event: ======'s_sling_left_active'====== Args={}
+2019-12-26 18:34:33,025 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'change': 1, 'value': 1126, 'prev_value': 1125}
+2019-12-26 18:34:33,029 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:33,031 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 1, 'value': 44, 'player_num': 1, 'prev_value': 43}
+2019-12-26 18:34:33,034 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 1, 'value': 43, 'player_num': 1, 'prev_value': 42}
+2019-12-26 18:34:33,043 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2019-12-26 18:34:33,633 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:34:33,657 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': 1, 'value': 11725, 'prev_value': 11724}
+2019-12-26 18:34:33,680 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-26 18:34:33,695 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'change': 1, 'value': 7919, 'prev_value': 7918}
+2019-12-26 18:34:33,968 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:34:34,009 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-26 18:34:34,384 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-26 18:34:34,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'change': 1, 'value': 2894, 'prev_value': 2893}
+2019-12-26 18:34:34,431 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-26 18:34:34,448 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-26 18:34:34,463 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'change': 1, 'value': 2895, 'prev_value': 2894}
+2019-12-26 18:34:34,464 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-26 18:34:34,528 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-26 18:34:34,552 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'change': 1, 'value': 2896, 'prev_value': 2895}
+2019-12-26 18:34:35,028 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 1}
+2019-12-26 18:34:35,029 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2019-12-26 18:34:35,034 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2019-12-26 18:34:35,035 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'change': -1, 'balls': 0}
+2019-12-26 18:34:35,041 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_enter'====== Args={'unclaimed_balls': 1, 'device': <ball_device.bd_drain>, 'new_balls': 1, 'new_available_balls': 1}
+2019-12-26 18:34:35,045 : INFO : EventManager : Event: ======'ball_drain'====== Args={'balls': 1, 'device': <ball_device.bd_drain>}
+2019-12-26 18:34:35,051 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2019-12-26 18:34:35,053 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:34:35,055 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:34:35,056 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_drain>}
+2019-12-26 18:34:35,070 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2019-12-26 18:34:35,076 : INFO : EventManager : Event: ======'mode_score_display_will_stop'====== Args={}
+2019-12-26 18:34:35,078 : INFO : EventManager : Event: ======'mode_score_display_stopping'====== Args={}
+2019-12-26 18:34:35,079 : INFO : EventManager : Event: ======'mode_gym0_will_stop'====== Args={}
+2019-12-26 18:34:35,080 : INFO : EventManager : Event: ======'mode_gym0_stopping'====== Args={}
+2019-12-26 18:34:35,080 : INFO : EventManager : Event: ======'mode_pichu_will_stop'====== Args={}
+2019-12-26 18:34:35,081 : INFO : EventManager : Event: ======'mode_pichu_stopping'====== Args={}
+2019-12-26 18:34:35,082 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2019-12-26 18:34:35,083 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2019-12-26 18:34:35,092 : INFO : Mode.base : Stopped.
+2019-12-26 18:34:35,097 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2019-12-26 18:34:35,098 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2019-12-26 18:34:35,098 : INFO : Mode.pichu : Stopped.
+2019-12-26 18:34:35,105 : INFO : EventManager : Event: ======'mode_pichu_stopped'====== Args={}
+2019-12-26 18:34:35,106 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'pichu'}
+2019-12-26 18:34:35,107 : INFO : Mode.gym0 : Stopped.
+2019-12-26 18:34:35,112 : INFO : EventManager : Event: ======'mode_gym0_stopped'====== Args={}
+2019-12-26 18:34:35,114 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'gym0'}
+2019-12-26 18:34:35,115 : INFO : Mode.score_display : Stopped.
+2019-12-26 18:34:35,122 : INFO : EventManager : Event: ======'mode_score_display_stopped'====== Args={}
+2019-12-26 18:34:35,123 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'score_display'}
+2019-12-26 18:34:35,138 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2019-12-26 18:34:35,141 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_attempt'====== Args={'mechanical_eject': False, 'target': <ball_device.bd_trough>, 'balls': 1, 'source': <ball_device.bd_drain>, 'num_attempts': 0}
+2019-12-26 18:34:35,146 : INFO : ball_device.bd_drain : Ejecting ball to <ball_device.bd_trough>
+2019-12-26 18:34:35,147 : INFO : EventManager : Event: ======'balldevice_bd_drain_ejecting_ball'====== Args={'mechanical_eject': False, 'target': <ball_device.bd_trough>, 'balls': 1, 'source': <ball_device.bd_drain>, 'num_attempts': 0}
+2019-12-26 18:34:35,148 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:35,149 : INFO : EventManager : Event: ======'slide_slide_mode_pichu_started_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,152 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:35,153 : INFO : EventManager : Event: ======'slide_slide_mode_gym0_started_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,155 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:35,157 : INFO : coil.c_drain : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-12-26 18:34:35,160 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:35,161 : INFO : EventManager : Event: ======'slide_slide_mode_score_display_started_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,164 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:35,164 : INFO : EventManager : Event: ======'slide_top_blank_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,165 : INFO : EventManager : Event: ======'slide_middle_blank_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,168 : INFO : EventManager : Event: ======'player_ball'====== Args={'change': 1, 'value': 2, 'player_num': 1, 'prev_value': 1}
+2019-12-26 18:34:35,170 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:35,175 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'balls_remaining': 1, 'is_extra_ball': False, 'player': 1, 'ball': 2}
+2019-12-26 18:34:35,176 : INFO : EventManager : Event: ======'slide_bottom_blank_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,178 : INFO : EventManager : Event: ======'ball_starting'====== Args={'balls_remaining': 1, 'is_extra_ball': False, 'player': 1, 'ball': 2}
+2019-12-26 18:34:35,181 : INFO : EventManager : Event: ======'mode_score_display_will_start'====== Args={'is_extra_ball': False, 'balls_remaining': 1, 'player': 1, 'ball': 2, 'queue': <QueuedEvent>}
+2019-12-26 18:34:35,185 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=2}', 'mode': <Mode.score_display>}, key=UUID('9524a841-2442-4186-bb38-389e9258cb5c'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117630>, blocking_facility=None)]
+2019-12-26 18:34:35,186 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event player_added with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'player_added{num==2}', 'mode': <Mode.score_display>}, key=UUID('d895aa6c-ffc7-4730-b866-3f226c1c22ff'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF71178B8>, blocking_facility=None)]
+2019-12-26 18:34:35,188 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=2}', 'mode': <Mode.score_display>}, key=UUID('9524a841-2442-4186-bb38-389e9258cb5c'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117630>, blocking_facility=None)]
+2019-12-26 18:34:35,189 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_4_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=4}', 'mode': <Mode.score_display>}, key=UUID('b9d2d94d-b063-411e-bea5-6072f49809e8'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117D38>, blocking_facility=None)]
+2019-12-26 18:34:35,190 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event player_added with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'player_added{num==2}', 'mode': <Mode.score_display>}, key=UUID('d895aa6c-ffc7-4730-b866-3f226c1c22ff'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF71178B8>, blocking_facility=None)]
+2019-12-26 18:34:35,190 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event player_added with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_4_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'player_added{num==4}', 'mode': <Mode.score_display>}, key=UUID('643be4be-66d1-440a-b917-d8b113af2873'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117798>, blocking_facility=None)]
+2019-12-26 18:34:35,191 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=2}', 'mode': <Mode.score_display>}, key=UUID('9524a841-2442-4186-bb38-389e9258cb5c'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117630>, blocking_facility=None)]
+2019-12-26 18:34:35,192 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_4_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=4}', 'mode': <Mode.score_display>}, key=UUID('b9d2d94d-b063-411e-bea5-6072f49809e8'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117D38>, blocking_facility=None)]
+2019-12-26 18:34:35,193 : INFO : EventManager : Event: ======'mode_score_display_starting'====== Args={'balls_remaining': 1, 'is_extra_ball': False, 'player': 1, 'ball': 2, 'queue': <QueuedEvent>}
+2019-12-26 18:34:35,193 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'is_extra_ball': False, 'balls_remaining': 1, 'player': 1, 'ball': 2, 'queue': <QueuedEvent>}
+2019-12-26 18:34:35,196 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'balls_remaining': 1, 'is_extra_ball': False, 'player': 1, 'ball': 2, 'queue': <QueuedEvent>}
+2019-12-26 18:34:35,196 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2019-12-26 18:34:35,197 : INFO : EventManager : Event: ======'mode_gym0_will_start'====== Args={}
+2019-12-26 18:34:35,201 : INFO : EventManager : Event: ======'mode_gym0_starting'====== Args={}
+2019-12-26 18:34:35,204 : INFO : Mode.gym0 : Started. Priority: 200
+2019-12-26 18:34:35,204 : INFO : EventManager : Event: ======'mode_gym0_started'====== Args={}
+2019-12-26 18:34:35,205 : INFO : Mode.base : Started. Priority: 31
+2019-12-26 18:34:35,206 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'balls_remaining': 1, 'is_extra_ball': False, 'player': 1, 'ball': 2, 'queue': <QueuedEvent>}
+2019-12-26 18:34:35,207 : INFO : EventManager : Event: ======'start_mode_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:35,207 : INFO : EventManager : Event: ======'mode_pichu_will_start'====== Args={'priority': 0}
+2019-12-26 18:34:35,218 : INFO : EventManager : Event: ======'mode_pichu_starting'====== Args={'priority': 0}
+2019-12-26 18:34:35,219 : INFO : Mode.pichu : Started. Priority: 75
+2019-12-26 18:34:35,219 : INFO : EventManager : Event: ======'mode_pichu_started'====== Args={'priority': 0}
+2019-12-26 18:34:35,220 : INFO : Mode.score_display : Started. Priority: 300
+2019-12-26 18:34:35,221 : INFO : EventManager : Event: ======'mode_score_display_started'====== Args={'balls_remaining': 1, 'is_extra_ball': False, 'player': 1, 'ball': 2, 'queue': <QueuedEvent>}
+2019-12-26 18:34:35,223 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2019-12-26 18:34:35,223 : INFO : EventManager : Event: ======'ball_started'====== Args={'balls_remaining': 1, 'is_extra_ball': False, 'player': 1, 'ball': 2}
+2019-12-26 18:34:35,237 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2019-12-26 18:34:35,238 : INFO : EventManager : Event: ======'slide_slide_mode_gym0_started_created'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,239 : INFO : EventManager : Event: ======'slide_slide_mode_gym0_started_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,244 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:34:35,280 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-26 18:34:35,290 : INFO : EventManager : Event: ======'slide_slide_mode_pichu_started_created'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,314 : INFO : EventManager : Event: ======'slide_slide_mode_score_display_started_created'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,326 : INFO : EventManager : Event: ======'slide_slide_mode_pichu_started_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,330 : INFO : EventManager : Event: ======'slide_slide_mode_score_display_started_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:35,664 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-26 18:34:35,682 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'change': 1, 'value': 1712, 'prev_value': 1711}
+2019-12-26 18:34:35,711 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-26 18:34:35,904 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-26 18:34:35,911 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'change': 1, 'value': 1713, 'prev_value': 1712}
+2019-12-26 18:34:36,351 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-26 18:34:36,359 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'change': 1, 'value': 7920, 'prev_value': 7919}
+2019-12-26 18:34:36,401 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'unclaimed_balls': 0, 'device': <ball_device.bd_trough>, 'new_balls': 1, 'new_available_balls': 0}
+2019-12-26 18:34:36,404 : INFO : EventManager : Event: ======'ball_drain'====== Args={'balls': 0, 'device': <ball_device.bd_trough>}
+2019-12-26 18:34:36,408 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_trough>}
+2019-12-26 18:34:36,408 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2019-12-26 18:34:36,411 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_success'====== Args={'target': <ball_device.bd_trough>, 'balls': 1}
+2019-12-26 18:34:36,414 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'mechanical_eject': True, 'target': <ball_device.bd_plunger>, 'balls': 1, 'source': <ball_device.bd_trough>, 'num_attempts': 0}
+2019-12-26 18:34:36,417 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 0}
+2019-12-26 18:34:36,422 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-12-26 18:34:36,423 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'mechanical_eject': True, 'target': <ball_device.bd_plunger>, 'balls': 1, 'source': <ball_device.bd_trough>, 'num_attempts': 0}
+2019-12-26 18:34:36,430 : INFO : coil.c_trough : Pulsing Driver for 7ms (1.0 pulse_power)
+2019-12-26 18:34:36,436 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-26 18:34:36,479 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-26 18:34:46,502 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'mechanical_eject': None, 'target': <playfield.playfield>, 'balls': 1, 'source': <ball_device.bd_plunger>, 'num_attempts': 1}
+2019-12-26 18:34:47,953 : INFO : SwitchController : <<<<<<< 's_pop_bottom' active >>>>>>>
+2019-12-26 18:34:47,955 : INFO : EventManager : Event: ======'s_pop_bottom_active'====== Args={}
+2019-12-26 18:34:47,956 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-12-26 18:34:47,986 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'change': 1, 'value': 3074, 'prev_value': 3073}
+2019-12-26 18:34:47,993 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:47,994 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 49, 'player_num': 1, 'prev_value': 44}
+2019-12-26 18:34:47,997 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 48, 'player_num': 1, 'prev_value': 43}
+2019-12-26 18:34:48,007 : INFO : SwitchController : <<<<<<< 's_pop_bottom' inactive >>>>>>>
+2019-12-26 18:34:48,024 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'target': <playfield.playfield>, 'balls': 1}
+2019-12-26 18:34:48,027 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'unclaimed_balls': 1, 'new_balls': 1, 'device': <playfield.playfield>}
+2019-12-26 18:34:48,028 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'change': 1, 'balls': 1}
+2019-12-26 18:34:48,034 : INFO : SwitchController : <<<<<<< 's_pop_top' active >>>>>>>
+2019-12-26 18:34:48,035 : INFO : EventManager : Event: ======'s_pop_top_active'====== Args={}
+2019-12-26 18:34:48,046 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_top'====== Args={'change': 1, 'value': 1249, 'prev_value': 1248}
+2019-12-26 18:34:48,048 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1}
+2019-12-26 18:34:48,049 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:48,049 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 54, 'player_num': 1, 'prev_value': 49}
+2019-12-26 18:34:48,051 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 53, 'player_num': 1, 'prev_value': 48}
+2019-12-26 18:34:48,054 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2019-12-26 18:34:48,062 : INFO : SwitchController : <<<<<<< 's_pop_top' inactive >>>>>>>
+2019-12-26 18:34:49,344 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:34:49,367 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': 1, 'value': 11726, 'prev_value': 11725}
+2019-12-26 18:34:49,616 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:34:51,410 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:34:51,449 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': 1, 'value': 11727, 'prev_value': 11726}
+2019-12-26 18:34:51,456 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-26 18:34:51,484 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'change': 1, 'value': 7921, 'prev_value': 7920}
+2019-12-26 18:34:51,936 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:34:52,001 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-26 18:34:52,400 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-26 18:34:52,421 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'change': 1, 'value': 2897, 'prev_value': 2896}
+2019-12-26 18:34:52,432 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-26 18:34:52,545 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-26 18:34:52,565 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'change': 1, 'value': 2898, 'prev_value': 2897}
+2019-12-26 18:34:53,045 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 1}
+2019-12-26 18:34:53,046 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2019-12-26 18:34:53,052 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2019-12-26 18:34:53,054 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'change': -1, 'balls': 0}
+2019-12-26 18:34:53,061 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_enter'====== Args={'unclaimed_balls': 1, 'device': <ball_device.bd_drain>, 'new_balls': 1, 'new_available_balls': 1}
+2019-12-26 18:34:53,065 : INFO : EventManager : Event: ======'ball_drain'====== Args={'balls': 1, 'device': <ball_device.bd_drain>}
+2019-12-26 18:34:53,073 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2019-12-26 18:34:53,075 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:34:53,076 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:34:53,077 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_drain>}
+2019-12-26 18:34:53,090 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2019-12-26 18:34:53,095 : INFO : EventManager : Event: ======'mode_score_display_will_stop'====== Args={}
+2019-12-26 18:34:53,095 : INFO : EventManager : Event: ======'mode_score_display_stopping'====== Args={}
+2019-12-26 18:34:53,096 : INFO : EventManager : Event: ======'mode_gym0_will_stop'====== Args={}
+2019-12-26 18:34:53,097 : INFO : EventManager : Event: ======'mode_gym0_stopping'====== Args={}
+2019-12-26 18:34:53,097 : INFO : EventManager : Event: ======'mode_pichu_will_stop'====== Args={}
+2019-12-26 18:34:53,098 : INFO : EventManager : Event: ======'mode_pichu_stopping'====== Args={}
+2019-12-26 18:34:53,099 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2019-12-26 18:34:53,099 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2019-12-26 18:34:53,104 : INFO : Mode.base : Stopped.
+2019-12-26 18:34:53,108 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2019-12-26 18:34:53,109 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2019-12-26 18:34:53,109 : INFO : Mode.pichu : Stopped.
+2019-12-26 18:34:53,114 : INFO : EventManager : Event: ======'mode_pichu_stopped'====== Args={}
+2019-12-26 18:34:53,115 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'pichu'}
+2019-12-26 18:34:53,116 : INFO : Mode.gym0 : Stopped.
+2019-12-26 18:34:53,120 : INFO : EventManager : Event: ======'mode_gym0_stopped'====== Args={}
+2019-12-26 18:34:53,121 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'gym0'}
+2019-12-26 18:34:53,122 : INFO : Mode.score_display : Stopped.
+2019-12-26 18:34:53,127 : INFO : EventManager : Event: ======'mode_score_display_stopped'====== Args={}
+2019-12-26 18:34:53,128 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'score_display'}
+2019-12-26 18:34:53,138 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2019-12-26 18:34:53,140 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_attempt'====== Args={'mechanical_eject': False, 'target': <ball_device.bd_trough>, 'balls': 1, 'source': <ball_device.bd_drain>, 'num_attempts': 0}
+2019-12-26 18:34:53,152 : INFO : ball_device.bd_drain : Ejecting ball to <ball_device.bd_trough>
+2019-12-26 18:34:53,153 : INFO : EventManager : Event: ======'balldevice_bd_drain_ejecting_ball'====== Args={'mechanical_eject': False, 'target': <ball_device.bd_trough>, 'balls': 1, 'source': <ball_device.bd_drain>, 'num_attempts': 0}
+2019-12-26 18:34:53,154 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:53,155 : INFO : EventManager : Event: ======'slide_slide_mode_pichu_started_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,161 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:53,164 : INFO : EventManager : Event: ======'slide_slide_mode_gym0_started_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,169 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:53,172 : INFO : coil.c_drain : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-12-26 18:34:53,176 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:53,177 : INFO : EventManager : Event: ======'slide_slide_mode_score_display_started_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,180 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:53,181 : INFO : EventManager : Event: ======'slide_top_blank_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,181 : INFO : EventManager : Event: ======'slide_middle_blank_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,185 : INFO : EventManager : Event: ======'player_ball'====== Args={'change': 1, 'value': 3, 'player_num': 1, 'prev_value': 2}
+2019-12-26 18:34:53,186 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:34:53,187 : INFO : EventManager : Event: ======'slide_bottom_blank_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,192 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'balls_remaining': 0, 'is_extra_ball': False, 'player': 1, 'ball': 3}
+2019-12-26 18:34:53,196 : INFO : EventManager : Event: ======'ball_starting'====== Args={'balls_remaining': 0, 'is_extra_ball': False, 'player': 1, 'ball': 3}
+2019-12-26 18:34:53,199 : INFO : EventManager : Event: ======'mode_score_display_will_start'====== Args={'is_extra_ball': False, 'balls_remaining': 0, 'player': 1, 'ball': 3, 'queue': <QueuedEvent>}
+2019-12-26 18:34:53,203 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=2}', 'mode': <Mode.score_display>}, key=UUID('d3e2803f-86fd-4663-9b3c-a01f4139e84f'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117630>, blocking_facility=None)]
+2019-12-26 18:34:53,204 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event player_added with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'player_added{num==2}', 'mode': <Mode.score_display>}, key=UUID('89d6ec81-af07-471b-8621-a479eb3859e8'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117EE8>, blocking_facility=None)]
+2019-12-26 18:34:53,205 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=2}', 'mode': <Mode.score_display>}, key=UUID('d3e2803f-86fd-4663-9b3c-a01f4139e84f'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117630>, blocking_facility=None)]
+2019-12-26 18:34:53,205 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_4_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=4}', 'mode': <Mode.score_display>}, key=UUID('d7c06d4c-88ab-48bd-aecd-18bd1fb58fe0'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117AB0>, blocking_facility=None)]
+2019-12-26 18:34:53,207 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event player_added with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'player_added{num==2}', 'mode': <Mode.score_display>}, key=UUID('89d6ec81-af07-471b-8621-a479eb3859e8'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117EE8>, blocking_facility=None)]
+2019-12-26 18:34:53,207 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event player_added with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_4_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'player_added{num==4}', 'mode': <Mode.score_display>}, key=UUID('6d61002e-33f6-4b0a-8a90-23d43828cfa3'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117E58>, blocking_facility=None)]
+2019-12-26 18:34:53,208 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_2_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=2}', 'mode': <Mode.score_display>}, key=UUID('d3e2803f-86fd-4663-9b3c-a01f4139e84f'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117630>, blocking_facility=None)]
+2019-12-26 18:34:53,208 : INFO : EventManager : Duplicate handler for class PluginPlayer.widgets on event mode_score_display_started with priority 300. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of PluginPlayer.widgets>, priority=300, kwargs={'settings': {'player_4_lcd_info_widget': {'priority': 0, 'target': None, 'key': None, 'slide': 'slide_mode_score_display_started', 'action': 'add'}}, 'calling_context': 'mode_score_display_started{game.num_players>=4}', 'mode': <Mode.score_display>}, key=UUID('d7c06d4c-88ab-48bd-aecd-18bd1fb58fe0'), condition=<mpf.core.placeholder_manager.BoolTemplate object at 0x0000023FF7117AB0>, blocking_facility=None)]
+2019-12-26 18:34:53,210 : INFO : EventManager : Event: ======'mode_score_display_starting'====== Args={'balls_remaining': 0, 'is_extra_ball': False, 'player': 1, 'ball': 3, 'queue': <QueuedEvent>}
+2019-12-26 18:34:53,210 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'is_extra_ball': False, 'balls_remaining': 0, 'player': 1, 'ball': 3, 'queue': <QueuedEvent>}
+2019-12-26 18:34:53,213 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'balls_remaining': 0, 'is_extra_ball': False, 'player': 1, 'ball': 3, 'queue': <QueuedEvent>}
+2019-12-26 18:34:53,214 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2019-12-26 18:34:53,214 : INFO : EventManager : Event: ======'mode_gym0_will_start'====== Args={}
+2019-12-26 18:34:53,218 : INFO : EventManager : Event: ======'mode_gym0_starting'====== Args={}
+2019-12-26 18:34:53,220 : INFO : Mode.gym0 : Started. Priority: 200
+2019-12-26 18:34:53,221 : INFO : EventManager : Event: ======'mode_gym0_started'====== Args={}
+2019-12-26 18:34:53,222 : INFO : Mode.base : Started. Priority: 31
+2019-12-26 18:34:53,223 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'balls_remaining': 0, 'is_extra_ball': False, 'player': 1, 'ball': 3, 'queue': <QueuedEvent>}
+2019-12-26 18:34:53,223 : INFO : EventManager : Event: ======'start_mode_pichu'====== Args={'priority': 0}
+2019-12-26 18:34:53,224 : INFO : EventManager : Event: ======'mode_pichu_will_start'====== Args={'priority': 0}
+2019-12-26 18:34:53,233 : INFO : EventManager : Event: ======'mode_pichu_starting'====== Args={'priority': 0}
+2019-12-26 18:34:53,234 : INFO : Mode.pichu : Started. Priority: 75
+2019-12-26 18:34:53,234 : INFO : EventManager : Event: ======'mode_pichu_started'====== Args={'priority': 0}
+2019-12-26 18:34:53,235 : INFO : Mode.score_display : Started. Priority: 300
+2019-12-26 18:34:53,236 : INFO : EventManager : Event: ======'mode_score_display_started'====== Args={'balls_remaining': 0, 'is_extra_ball': False, 'player': 1, 'ball': 3, 'queue': <QueuedEvent>}
+2019-12-26 18:34:53,240 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2019-12-26 18:34:53,240 : INFO : EventManager : Event: ======'ball_started'====== Args={'balls_remaining': 0, 'is_extra_ball': False, 'player': 1, 'ball': 3}
+2019-12-26 18:34:53,251 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2019-12-26 18:34:53,252 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-26 18:34:53,265 : INFO : EventManager : Event: ======'slide_slide_mode_gym0_started_created'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,268 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:34:53,295 : INFO : EventManager : Event: ======'slide_slide_mode_pichu_started_created'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,305 : INFO : EventManager : Event: ======'slide_slide_mode_gym0_started_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,311 : INFO : EventManager : Event: ======'slide_slide_mode_pichu_started_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,358 : INFO : EventManager : Event: ======'slide_slide_mode_score_display_started_created'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,367 : INFO : EventManager : Event: ======'slide_slide_mode_score_display_started_active'====== Args={'_from_bcp': True}
+2019-12-26 18:34:53,681 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-26 18:34:53,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'change': 1, 'value': 1714, 'prev_value': 1713}
+2019-12-26 18:34:53,714 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-26 18:34:53,904 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-26 18:34:53,911 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'change': 1, 'value': 1715, 'prev_value': 1714}
+2019-12-26 18:34:54,403 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'unclaimed_balls': 0, 'device': <ball_device.bd_trough>, 'new_balls': 1, 'new_available_balls': 0}
+2019-12-26 18:34:54,409 : INFO : EventManager : Event: ======'ball_drain'====== Args={'balls': 0, 'device': <ball_device.bd_trough>}
+2019-12-26 18:34:54,415 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_trough>}
+2019-12-26 18:34:54,417 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2019-12-26 18:34:54,421 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_success'====== Args={'target': <ball_device.bd_trough>, 'balls': 1}
+2019-12-26 18:34:54,427 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'mechanical_eject': True, 'target': <ball_device.bd_plunger>, 'balls': 1, 'source': <ball_device.bd_trough>, 'num_attempts': 0}
+2019-12-26 18:34:54,431 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 0}
+2019-12-26 18:34:54,439 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-12-26 18:34:54,441 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'mechanical_eject': True, 'target': <ball_device.bd_plunger>, 'balls': 1, 'source': <ball_device.bd_trough>, 'num_attempts': 0}
+2019-12-26 18:34:54,454 : INFO : coil.c_trough : Pulsing Driver for 7ms (1.0 pulse_power)
+2019-12-26 18:34:54,497 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-26 18:35:04,532 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'mechanical_eject': None, 'target': <playfield.playfield>, 'balls': 1, 'source': <ball_device.bd_plunger>, 'num_attempts': 1}
+2019-12-26 18:35:14,524 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'target': <playfield.playfield>, 'balls': 1}
+2019-12-26 18:35:14,527 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'unclaimed_balls': 1, 'new_balls': 1, 'device': <playfield.playfield>}
+2019-12-26 18:35:14,528 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'change': 1, 'balls': 1}
+2019-12-26 18:35:14,534 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1}
+2019-12-26 18:35:14,538 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2019-12-26 18:51:46,505 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2019-12-26 18:51:46,513 : INFO : EventManager : Event: ======'s_spinner_active'====== Args={}
+2019-12-26 18:51:46,514 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2019-12-26 18:51:46,538 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'change': 1, 'value': 9530, 'prev_value': 9529}
+2019-12-26 18:51:46,549 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:51:46,551 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 1, 'value': 55, 'player_num': 1, 'prev_value': 54}
+2019-12-26 18:51:46,552 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 1, 'value': 54, 'player_num': 1, 'prev_value': 53}
+2019-12-26 18:51:46,642 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2019-12-26 18:51:47,108 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:51:47,138 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': 1, 'value': 11728, 'prev_value': 11727}
+2019-12-26 18:51:47,379 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:51:47,747 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:51:47,749 : INFO : EventManager : Event: ======'s_pop_right_active'====== Args={}
+2019-12-26 18:51:47,774 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3950, 'prev_value': 3949}
+2019-12-26 18:51:47,779 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:51:47,781 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 60, 'player_num': 1, 'prev_value': 55}
+2019-12-26 18:51:47,784 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 59, 'player_num': 1, 'prev_value': 54}
+2019-12-26 18:51:47,793 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:51:50,500 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2019-12-26 18:51:50,501 : INFO : EventManager : Event: ======'s_saucer_active'====== Args={}
+2019-12-26 18:51:50,531 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'change': 1, 'value': 1264, 'prev_value': 1263}
+2019-12-26 18:51:50,536 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:51:50,537 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 15, 'value': 75, 'player_num': 1, 'prev_value': 60}
+2019-12-26 18:51:50,541 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 15, 'value': 74, 'player_num': 1, 'prev_value': 59}
+2019-12-26 18:51:50,999 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_count_changed'====== Args={'balls': 1}
+2019-12-26 18:51:51,001 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2019-12-26 18:51:51,004 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2019-12-26 18:51:51,006 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'change': -1, 'balls': 0}
+2019-12-26 18:51:51,013 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_enter'====== Args={'unclaimed_balls': 1, 'device': <ball_device.bd_saucer>, 'new_balls': 1, 'new_available_balls': 1}
+2019-12-26 18:51:51,018 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:51:51,019 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:51:51,020 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_saucer>}
+2019-12-26 18:51:51,034 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_eject_attempt'====== Args={'mechanical_eject': False, 'target': <playfield.playfield>, 'balls': 1, 'source': <ball_device.bd_saucer>, 'num_attempts': 0}
+2019-12-26 18:51:51,039 : INFO : ball_device.bd_saucer : Ejecting ball to <playfield.playfield>
+2019-12-26 18:51:51,047 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ejecting_ball'====== Args={'mechanical_eject': False, 'target': <playfield.playfield>, 'balls': 1, 'source': <ball_device.bd_saucer>, 'num_attempts': 0}
+2019-12-26 18:51:51,058 : INFO : coil.c_saucer : Pulsing Driver for 60ms (1.0 pulse_power)
+2019-12-26 18:51:51,107 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2019-12-26 18:51:52,213 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_eject_success'====== Args={'target': <playfield.playfield>, 'balls': 1}
+2019-12-26 18:51:52,217 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'unclaimed_balls': 1, 'new_balls': 1, 'device': <playfield.playfield>}
+2019-12-26 18:51:52,218 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'change': 1, 'balls': 1}
+2019-12-26 18:51:52,223 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_count_changed'====== Args={'balls': 0}
+2019-12-26 18:51:52,786 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:51:52,787 : INFO : EventManager : Event: ======'s_pop_right_active'====== Args={}
+2019-12-26 18:51:52,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3951, 'prev_value': 3950}
+2019-12-26 18:51:52,822 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:51:52,823 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 80, 'player_num': 1, 'prev_value': 75}
+2019-12-26 18:51:52,825 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 79, 'player_num': 1, 'prev_value': 74}
+2019-12-26 18:51:52,856 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:51:52,865 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:51:52,875 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3952, 'prev_value': 3951}
+2019-12-26 18:51:52,877 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:51:55,985 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:51:55,995 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': 1, 'value': 11729, 'prev_value': 11728}
+2019-12-26 18:51:56,145 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:51:58,163 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2019-12-26 18:51:58,164 : INFO : EventManager : Event: ======'s_saucer_active'====== Args={}
+2019-12-26 18:51:58,193 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'change': 1, 'value': 1265, 'prev_value': 1264}
+2019-12-26 18:51:58,200 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:51:58,202 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 15, 'value': 95, 'player_num': 1, 'prev_value': 80}
+2019-12-26 18:51:58,206 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 15, 'value': 94, 'player_num': 1, 'prev_value': 79}
+2019-12-26 18:51:58,653 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_count_changed'====== Args={'balls': 1}
+2019-12-26 18:51:58,655 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2019-12-26 18:51:58,660 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2019-12-26 18:51:58,661 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'change': -1, 'balls': 0}
+2019-12-26 18:51:58,667 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_enter'====== Args={'unclaimed_balls': 1, 'device': <ball_device.bd_saucer>, 'new_balls': 1, 'new_available_balls': 1}
+2019-12-26 18:51:58,671 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:51:58,672 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:51:58,672 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_saucer>}
+2019-12-26 18:51:58,684 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_eject_attempt'====== Args={'mechanical_eject': False, 'target': <playfield.playfield>, 'balls': 1, 'source': <ball_device.bd_saucer>, 'num_attempts': 0}
+2019-12-26 18:51:58,688 : INFO : ball_device.bd_saucer : Ejecting ball to <playfield.playfield>
+2019-12-26 18:51:58,689 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ejecting_ball'====== Args={'mechanical_eject': False, 'target': <playfield.playfield>, 'balls': 1, 'source': <ball_device.bd_saucer>, 'num_attempts': 0}
+2019-12-26 18:51:58,696 : INFO : coil.c_saucer : Pulsing Driver for 60ms (1.0 pulse_power)
+2019-12-26 18:51:58,738 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2019-12-26 18:51:59,836 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_eject_success'====== Args={'target': <playfield.playfield>, 'balls': 1}
+2019-12-26 18:51:59,840 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'unclaimed_balls': 1, 'new_balls': 1, 'device': <playfield.playfield>}
+2019-12-26 18:51:59,841 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'change': 1, 'balls': 1}
+2019-12-26 18:51:59,846 : INFO : EventManager : Event: ======'balldevice_bd_saucer_ball_count_changed'====== Args={'balls': 0}
+2019-12-26 18:52:01,346 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:52:01,347 : INFO : EventManager : Event: ======'s_pop_right_active'====== Args={}
+2019-12-26 18:52:01,373 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3953, 'prev_value': 3952}
+2019-12-26 18:52:01,379 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:52:01,381 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 5, 'value': 100, 'player_num': 1, 'prev_value': 95}
+2019-12-26 18:52:01,384 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 5, 'value': 99, 'player_num': 1, 'prev_value': 94}
+2019-12-26 18:52:01,411 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:52:01,446 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:52:01,460 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3954, 'prev_value': 3953}
+2019-12-26 18:52:01,461 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:52:01,471 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2019-12-26 18:52:01,478 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': 1, 'value': 3955, 'prev_value': 3954}
+2019-12-26 18:52:01,490 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2019-12-26 18:52:04,115 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2019-12-26 18:52:04,116 : INFO : EventManager : Event: ======'s_sling_left_active'====== Args={}
+2019-12-26 18:52:04,146 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'change': 1, 'value': 1127, 'prev_value': 1126}
+2019-12-26 18:52:04,150 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2019-12-26 18:52:04,175 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:52:04,176 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 1, 'value': 101, 'player_num': 1, 'prev_value': 100}
+2019-12-26 18:52:04,179 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 1, 'value': 100, 'player_num': 1, 'prev_value': 99}
+2019-12-26 18:52:04,371 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:52:04,401 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': 1, 'value': 11730, 'prev_value': 11729}
+2019-12-26 18:52:04,562 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:52:04,642 : INFO : SwitchController : <<<<<<< 's_drop_center' active >>>>>>>
+2019-12-26 18:52:04,643 : INFO : EventManager : Event: ======'s_drop_center_active'====== Args={}
+2019-12-26 18:52:04,645 : INFO : EventManager : Event: ======'drop_target_drop2_down'====== Args={'device': <drop_target.drop2>}
+2019-12-26 18:52:04,647 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_mixed'====== Args={'down': 1}
+2019-12-26 18:52:04,668 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_center'====== Args={'change': 1, 'value': 708, 'prev_value': 707}
+2019-12-26 18:52:04,671 : INFO : EventManager : Event: ======'check_evolve_pichu'====== Args={'priority': 0}
+2019-12-26 18:52:04,672 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 7, 'value': 108, 'player_num': 1, 'prev_value': 101}
+2019-12-26 18:52:04,674 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 7, 'value': 107, 'player_num': 1, 'prev_value': 100}
+2019-12-26 18:52:06,834 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2019-12-26 18:52:06,855 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': 1, 'value': 11731, 'prev_value': 11730}
+2019-12-26 18:52:06,858 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2019-12-26 18:52:06,865 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'change': 1, 'value': 7922, 'prev_value': 7921}
+2019-12-26 18:52:06,897 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2019-12-26 18:52:06,929 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2019-12-26 18:52:10,003 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-26 18:52:10,031 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'change': 1, 'value': 2899, 'prev_value': 2898}
+2019-12-26 18:52:10,081 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-26 18:52:10,129 : INFO : SwitchController : <<<<<<< 's_drain' active >>>>>>>
+2019-12-26 18:52:10,144 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'change': 1, 'value': 2900, 'prev_value': 2899}
+2019-12-26 18:52:10,623 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 1}
+2019-12-26 18:52:10,624 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2019-12-26 18:52:10,629 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2019-12-26 18:52:10,631 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'change': -1, 'balls': 0}
+2019-12-26 18:52:10,637 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_enter'====== Args={'unclaimed_balls': 1, 'device': <ball_device.bd_drain>, 'new_balls': 1, 'new_available_balls': 1}
+2019-12-26 18:52:10,641 : INFO : EventManager : Event: ======'ball_drain'====== Args={'balls': 1, 'device': <ball_device.bd_drain>}
+2019-12-26 18:52:10,649 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2019-12-26 18:52:10,652 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:52:10,653 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-26 18:52:10,654 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_drain>}
+2019-12-26 18:52:10,669 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2019-12-26 18:52:10,675 : INFO : EventManager : Event: ======'mode_score_display_will_stop'====== Args={}
+2019-12-26 18:52:10,676 : INFO : EventManager : Event: ======'mode_score_display_stopping'====== Args={}
+2019-12-26 18:52:10,677 : INFO : EventManager : Event: ======'mode_gym0_will_stop'====== Args={}
+2019-12-26 18:52:10,677 : INFO : EventManager : Event: ======'mode_gym0_stopping'====== Args={}
+2019-12-26 18:52:10,678 : INFO : EventManager : Event: ======'mode_pichu_will_stop'====== Args={}
+2019-12-26 18:52:10,679 : INFO : EventManager : Event: ======'mode_pichu_stopping'====== Args={}
+2019-12-26 18:52:10,679 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2019-12-26 18:52:10,680 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2019-12-26 18:52:10,686 : INFO : Mode.base : Stopped.
+2019-12-26 18:52:10,693 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2019-12-26 18:52:10,693 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2019-12-26 18:52:10,694 : INFO : Mode.pichu : Stopped.
+2019-12-26 18:52:10,700 : INFO : EventManager : Event: ======'mode_pichu_stopped'====== Args={}
+2019-12-26 18:52:10,701 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'pichu'}
+2019-12-26 18:52:10,702 : INFO : Mode.gym0 : Stopped.
+2019-12-26 18:52:10,706 : INFO : EventManager : Event: ======'mode_gym0_stopped'====== Args={}
+2019-12-26 18:52:10,707 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'gym0'}
+2019-12-26 18:52:10,708 : INFO : Mode.score_display : Stopped.
+2019-12-26 18:52:10,714 : INFO : EventManager : Event: ======'mode_score_display_stopped'====== Args={}
+2019-12-26 18:52:10,715 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'score_display'}
+2019-12-26 18:52:10,725 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2019-12-26 18:52:10,726 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_attempt'====== Args={'mechanical_eject': False, 'target': <ball_device.bd_trough>, 'balls': 1, 'source': <ball_device.bd_drain>, 'num_attempts': 0}
+2019-12-26 18:52:10,731 : INFO : ball_device.bd_drain : Ejecting ball to <ball_device.bd_trough>
+2019-12-26 18:52:10,731 : INFO : EventManager : Event: ======'balldevice_bd_drain_ejecting_ball'====== Args={'mechanical_eject': False, 'target': <ball_device.bd_trough>, 'balls': 1, 'source': <ball_device.bd_drain>, 'num_attempts': 0}
+2019-12-26 18:52:10,732 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:52:10,733 : INFO : EventManager : Event: ======'slide_slide_mode_pichu_started_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:52:10,736 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:52:10,739 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-26 18:52:10,741 : INFO : coil.c_drain : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-12-26 18:52:10,741 : INFO : EventManager : Event: ======'slide_slide_mode_gym0_started_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:52:10,745 : INFO : EventManager : Event: ======'game_will_end'====== Args={}
+2019-12-26 18:52:10,747 : INFO : EventManager : Event: ======'game_ending'====== Args={}
+2019-12-26 18:52:10,750 : INFO : EventManager : Event: ======'slide_slide_mode_score_display_started_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:52:10,752 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'change': -179, 'value': 107, 'prev_value': 286}
+2019-12-26 18:52:10,755 : INFO : EventManager : Event: ======'game_ended'====== Args={}
+2019-12-26 18:52:10,757 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2019-12-26 18:52:10,757 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2019-12-26 18:52:10,758 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2019-12-26 18:52:10,765 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2019-12-26 18:52:10,766 : INFO : Mode.attract : Started. Priority: 10
+2019-12-26 18:52:10,766 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2019-12-26 18:52:10,769 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2019-12-26 18:52:10,773 : INFO : Mode.game : Stopped.
+2019-12-26 18:52:10,776 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2019-12-26 18:52:10,776 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2019-12-26 18:52:10,778 : INFO : EventManager : Event: ======'slide_top_blank_active'====== Args={'_from_bcp': True}
+2019-12-26 18:52:10,779 : INFO : EventManager : Event: ======'slide_middle_blank_active'====== Args={'_from_bcp': True}
+2019-12-26 18:52:10,780 : INFO : EventManager : Event: ======'slide_bottom_blank_active'====== Args={'_from_bcp': True}
+2019-12-26 18:52:10,793 : INFO : EventManager : Event: ======'slide_attract_started_removed'====== Args={'_from_bcp': True}
+2019-12-26 18:52:10,812 : INFO : EventManager : Event: ======'slide_attract_started_created'====== Args={'_from_bcp': True}
+2019-12-26 18:52:10,816 : INFO : SwitchController : <<<<<<< 's_drain' inactive >>>>>>>
+2019-12-26 18:52:10,844 : INFO : EventManager : Event: ======'slide_attract_started_active'====== Args={'_from_bcp': True}
+2019-12-26 18:52:11,219 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-26 18:52:11,267 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-26 18:52:11,458 : INFO : SwitchController : <<<<<<< 's_trough' active >>>>>>>
+2019-12-26 18:52:11,949 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2019-12-26 18:52:11,950 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'unclaimed_balls': 0, 'device': <ball_device.bd_trough>, 'new_balls': 1, 'new_available_balls': 0}
+2019-12-26 18:52:11,954 : INFO : EventManager : Event: ======'ball_drain'====== Args={'balls': 0, 'device': <ball_device.bd_trough>}
+2019-12-26 18:52:11,957 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_trough>}
+2019-12-26 18:52:11,960 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_success'====== Args={'target': <ball_device.bd_trough>, 'balls': 1}
+2019-12-26 18:52:11,964 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 0}
+2019-12-26 23:54:08,892 : INFO : Machine : Shutting down...
+2019-12-26 23:54:08,892 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-12-26 23:54:08,939 : ERROR : FAST : Stop called on serial connection com5
+2019-12-26 23:54:08,939 : ERROR : FAST : Stop called on serial connection com4
+2019-12-26 23:54:09,190 : INFO : root : MPF run loop ended.

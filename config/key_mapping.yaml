@@ -1,0 +1,23 @@
+#config_version=5
+
+keyboard:
+  z:
+    switch: s_flipper_button_left
+  "/":
+    switch: s_flipper_button_right
+  enter:
+    switch: s_start
+  1:
+    switch: s_trough
+    toggle: true
+  2:
+    switch: s_plunger_lane
+    toggle: true
+  3:
+    switch: s_pop_right
+    toggle: true
+  4:
+    switch: s_pop_top
+    toggle: true
+  5:
+    switch: s_pop_bottom

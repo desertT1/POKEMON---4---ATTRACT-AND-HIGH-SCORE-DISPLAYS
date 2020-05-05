@@ -1,0 +1,108 @@
+2019-05-27 10:46:02,215 : kivy : Factory: 194 symbols loaded
+2019-05-27 10:46:04,938 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-05-27 10:46:06,762 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-05-27 10:46:06,762 : kivy : Video: Provider: gstplayer
+2019-05-27 10:46:08,430 : kivy : Loading MPF-MC controller
+2019-05-27 10:46:08,430 : mpfmc : Mission Pinball Framework Media Controller v0.50.8
+2019-05-27 10:46:08,430 : mpfmc : Mission Pinball Framework Game Engine v0.50.17
+2019-05-27 10:46:08,436 : mpfmc : Machine path: D:\POKEMON
+2019-05-27 10:46:08,452 : ConfigProcessor : Config file in cache changed: D:\POKEMON\config\config
+2019-05-27 10:46:11,389 : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-05-27 10:46:11,739 : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpfmc\mcconfig.yaml
+2019-05-27 10:46:11,739 : ConfigProcessor : Loading config from file D:\POKEMON\config\config.
+2019-05-27 10:46:12,071 : ConfigProcessor : Loading config: D:\POKEMON\config\config
+2019-05-27 10:46:12,071 : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\42582fcba572e096272241837be67618.mpf_cache
+2019-05-27 10:46:12,109 : mpfmc : Starting clock at 60.0Hz
+2019-05-27 10:46:12,611 : kivy : Text: Provider: sdl2
+2019-05-27 10:46:18,196 : kivy : OSC: using <thread> for socket
+2019-05-27 10:46:18,531 : kivy : Window: Provider: sdl2
+2019-05-27 10:46:20,546 : kivy : GL: Using the "OpenGL" graphics system
+2019-05-27 10:46:20,558 : kivy : GL: GLEW initialization succeeded
+2019-05-27 10:46:20,561 : kivy : GL: Backend used <glew>
+2019-05-27 10:46:20,563 : kivy : GL: OpenGL version <b'4.4.0 - Build 20.19.15.4835'>
+2019-05-27 10:46:20,564 : kivy : GL: OpenGL vendor <b'Intel'>
+2019-05-27 10:46:20,564 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics'>
+2019-05-27 10:46:20,566 : kivy : GL: OpenGL parsed version: 4, 4
+2019-05-27 10:46:20,567 : kivy : GL: Shading version <b'4.40 - Build 20.19.15.4835'>
+2019-05-27 10:46:20,569 : kivy : GL: Texture max size <16384>
+2019-05-27 10:46:20,570 : kivy : GL: Texture max units <32>
+2019-05-27 10:46:20,711 : kivy : Shader: fragment shader: <b"WARNING: 0:7: '' :  #version directive missing">
+2019-05-27 10:46:20,719 : kivy : Shader: vertex shader: <b"WARNING: 0:7: '' :  #version directive missing">
+2019-05-27 10:46:20,808 : kivy : Window: auto add sdl2 input provider
+2019-05-27 10:46:20,810 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2019-05-27 10:46:21,126 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2019-05-27 10:46:30,372 : AudioInterface : Initialized
+2019-05-27 10:46:30,378 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2019-05-27 10:46:30,393 : kivy : Base: Start application main loop
+2019-05-27 10:46:30,490 : mpfmc : Display: Setting 'window' as default display
+2019-05-27 10:46:30,875 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-05-27 10:46:30,883 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-05-27 10:46:30,893 : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\01c5ea7020f20fc8cd2609416c749c9a.mpf_cache
+2019-05-27 10:46:30,894 : ConfigProcessor : Loading config from file D:\POKEMON\modes\pichu\config\pichu.yaml.
+2019-05-27 10:46:30,959 : kivy : Base: Leaving application in progress...
+2019-05-27 10:46:30,960 : kivy : Error found in file D:\POKEMON\modes\pichu\config\pichu.yaml: 'Key "text" was defined multiple times in config   in "D:\\POKEMON\\modes\\pichu\\config\\pichu.yaml", line 11, column 9'
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 194, in load
+    config = self.process(f)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 220, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\python34\lib\site-packages\ruamel\yaml\main.py", line 75, in load
+    return loader.get_single_data()
+  File "c:\python34\lib\site-packages\ruamel\yaml\constructor.py", line 59, in get_single_data
+    return self.construct_document(node)
+  File "c:\python34\lib\site-packages\ruamel\yaml\constructor.py", line 68, in construct_document
+    for dummy in generator:
+  File "c:\python34\lib\site-packages\ruamel\yaml\constructor.py", line 481, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 135, in construct_mapping
+    format(key, key_node.start_mark))
+KeyError: 'Key "text" was defined multiple times in config   in "D:\\POKEMON\\modes\\pichu\\config\\pichu.yaml", line 11, column 9'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpfmc\commands\mc.py", line 189, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\python34\lib\site-packages\kivy\app.py", line 828, in run
+    runTouchApp()
+  File "c:\python34\lib\site-packages\kivy\base.py", line 504, in runTouchApp
+    EventLoop.window.mainloop()
+  File "c:\python34\lib\site-packages\kivy\core\window\window_sdl2.py", line 663, in mainloop
+    self._mainloop()
+  File "c:\python34\lib\site-packages\kivy\core\window\window_sdl2.py", line 405, in _mainloop
+    EventLoop.idle()
+  File "c:\python34\lib\site-packages\kivy\base.py", line 339, in idle
+    Clock.tick()
+  File "c:\python34\lib\site-packages\kivy\clock.py", line 581, in tick
+    self._process_events()
+  File "kivy\_clock.pyx", line 367, in kivy._clock.CyClockBase._process_events (kivy\_clock.c:7700)
+  File "kivy\_clock.pyx", line 397, in kivy._clock.CyClockBase._process_events (kivy\_clock.c:7577)
+  File "kivy\_clock.pyx", line 395, in kivy._clock.CyClockBase._process_events (kivy\_clock.c:7498)
+  File "kivy\_clock.pyx", line 167, in kivy._clock.ClockEvent.tick (kivy\_clock.c:3490)
+  File "c:\python34\lib\site-packages\mpfmc\uix\display.py", line 200, in _displays_initialized
+    self.mc.displays_initialized()
+  File "c:\python34\lib\site-packages\mpfmc\core\mc.py", line 336, in displays_initialized
+    self._init()
+  File "c:\python34\lib\site-packages\mpfmc\core\mc.py", line 380, in _init
+    self.events.process_event_queue()
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 729, in process_event_queue
+    **event[3])
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 698, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 656, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\python34\lib\site-packages\mpfmc\core\mode_controller.py", line 59, in _load_modes
+    self.mc.modes[mode] = self._load_mode(mode)
+  File "c:\python34\lib\site-packages\mpfmc\core\mode_controller.py", line 132, in _load_mode
+    store_to_cache=self.mc.options['create_config_cache'], ignore_unknown_sections=True)
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 111, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 131, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\python34\lib\site-packages\mpf\core\file_manager.py", line 154, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 208, in load
+    raise ValueError(msg)
+ValueError: Error found in file D:\POKEMON\modes\pichu\config\pichu.yaml: 'Key "text" was defined multiple times in config   in "D:\\POKEMON\\modes\\pichu\\config\\pichu.yaml", line 11, column 9'
+2019-05-27 10:46:31,365 : kivy : Stopping child threads... (1 remaining)
+2019-05-27 10:46:31,467 : kivy : All child threads stopped.

@@ -1,0 +1,91 @@
+2019-12-04 20:47:31,343 : kivy : Factory: 194 symbols loaded
+2019-12-04 20:47:32,500 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-12-04 20:47:33,635 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-12-04 20:47:33,635 : kivy : Video: Provider: gstplayer
+2019-12-04 20:47:34,400 : kivy : Loading MPF-MC controller
+2019-12-04 20:47:34,400 : mpfmc : Mission Pinball Framework Media Controller v0.50.8
+2019-12-04 20:47:34,400 : mpfmc : Mission Pinball Framework Game Engine v0.50.17
+2019-12-04 20:47:34,400 : mpfmc : Machine path: E:\POKEMON - 3 - GYMS DISPLAYS
+2019-12-04 20:47:34,416 : ConfigProcessor : Config file in cache changed: E:\POKEMON - 3 - GYMS DISPLAYS\config\config
+2019-12-04 20:47:35,963 : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-12-04 20:47:36,182 : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpfmc\mcconfig.yaml
+2019-12-04 20:47:36,197 : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\config\config.
+2019-12-04 20:47:36,619 : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\config
+2019-12-04 20:47:36,635 : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\player_variables.yaml
+2019-12-04 20:47:36,650 : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\key_mapping.yaml
+2019-12-04 20:47:36,666 : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\aa033f1fd07646de8b3bd008da80b834.mpf_cache
+2019-12-04 20:47:36,666 : mpfmc : Starting clock at 60.0Hz
+2019-12-04 20:47:36,963 : kivy : Text: Provider: sdl2
+2019-12-04 20:47:38,807 : kivy : OSC: using <thread> for socket
+2019-12-04 20:47:38,838 : kivy : Window: Provider: sdl2
+2019-12-04 20:47:39,578 : kivy : GL: Using the "OpenGL" graphics system
+2019-12-04 20:47:39,587 : kivy : GL: GLEW initialization succeeded
+2019-12-04 20:47:39,588 : kivy : GL: Backend used <glew>
+2019-12-04 20:47:39,589 : kivy : GL: OpenGL version <b'4.4.0 - Build 20.19.15.4835'>
+2019-12-04 20:47:39,589 : kivy : GL: OpenGL vendor <b'Intel'>
+2019-12-04 20:47:39,590 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics'>
+2019-12-04 20:47:39,591 : kivy : GL: OpenGL parsed version: 4, 4
+2019-12-04 20:47:39,591 : kivy : GL: Shading version <b'4.40 - Build 20.19.15.4835'>
+2019-12-04 20:47:39,593 : kivy : GL: Texture max size <16384>
+2019-12-04 20:47:39,593 : kivy : GL: Texture max units <32>
+2019-12-04 20:47:39,666 : kivy : Shader: fragment shader: <b"WARNING: 0:7: '' :  #version directive missing">
+2019-12-04 20:47:39,668 : kivy : Shader: vertex shader: <b"WARNING: 0:7: '' :  #version directive missing">
+2019-12-04 20:47:39,720 : kivy : Window: auto add sdl2 input provider
+2019-12-04 20:47:39,723 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2019-12-04 20:47:39,797 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2019-12-04 20:47:46,968 : AudioInterface : Initialized
+2019-12-04 20:47:46,972 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2019-12-04 20:47:46,986 : kivy : Base: Start application main loop
+2019-12-04 20:47:47,112 : mpfmc : Display: Setting 'window' as default display
+2019-12-04 20:47:47,353 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\ffc5df461fc927df7502c20268b6e23c.mpf_cache
+2019-12-04 20:47:47,356 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-12-04 20:47:47,360 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-12-04 20:47:47,363 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\d868708421ecefdd23b54f4fefaa5a63.mpf_cache
+2019-12-04 20:47:47,379 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\9463ad916821e4687af4640a7d04ba98.mpf_cache
+2019-12-04 20:47:47,387 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\3512d3a51b29689f2a9a6db585213e7b.mpf_cache
+2019-12-04 20:47:47,422 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\325be8140670be7b4f7f24b4ea9ecf41.mpf_cache
+2019-12-04 20:47:47,438 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\91c30393a7736530c48ab886a6ae90df.mpf_cache
+2019-12-04 20:47:47,457 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\868965d45e8ef85973deb1cc43e3c6e9.mpf_cache
+2019-12-04 20:47:47,476 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\230c7edf879901b77e29ab003ecfd977.mpf_cache
+2019-12-04 20:47:47,500 : MPF-MC BCP Server : Starting up on localhost port 5050
+2019-12-04 20:47:47,530 : MPF-MC BCP Server : Waiting for a connection...
+2019-12-04 20:47:47,531 : mpfmc : SlidePlayer: Play called with settings={'slides': {'welcome_slide': {'target': None, 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:47:47,769 : kivy : GL: NPOT texture support is available
+2019-12-04 20:47:48,022 : MPF-MC BCP Server : Received connection from: 127.0.0.1:50198
+2019-12-04 20:47:48,104 : BcpProcessor : Received invalid BCP command: mode_list
+2019-12-04 20:47:48,289 : mpfmc : SlidePlayer: Play called with settings={'slides': {'welcome_slide': {'target': None, 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:47:48,345 : mpfmc : SlidePlayer: Play called with settings={'slides': {'attract_started': {'target': None, 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:47:56,954 : mpfmc : SlidePlayer: Play called with settings={'slides': {'layout_3_mini': {'target': 'window', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:47:57,042 : mpfmc : SlidePlayer: Play called with settings={'slides': {'layout_3_mini': {'target': 'window', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:47:57,075 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_pichu_started': {'target': 'top', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:47:57,192 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_gym0_started': {'target': 'middle', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:48:15,000 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_gym0_started': {'target': 'middle', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:48:15,034 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_pichu_started': {'target': 'top', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:48:40,497 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_gym0_started': {'target': 'middle', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:48:40,531 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_pichu_started': {'target': 'top', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:49:07,799 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_evolve_pichu_started': {'target': 'top', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:49:07,859 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_gym1_started': {'target': 'middle', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:49:16,868 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_pikachu_started': {'target': 'top', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:49:49,908 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_evolve_pikachu_started': {'target': 'top', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:50:00,705 : mpfmc : SlidePlayer: Play called with settings={'slides': {'attract_started': {'target': None, 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:50:02,250 : mpfmc : SlidePlayer: Play called with settings={'slides': {'layout_3_mini': {'target': 'window', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:50:02,326 : mpfmc : SlidePlayer: Play called with settings={'slides': {'layout_3_mini': {'target': 'window', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:50:02,365 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_pichu_started': {'target': 'top', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:50:02,412 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_gym0_started': {'target': 'middle', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:50:11,723 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_gym0_started': {'target': 'middle', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:50:11,756 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_pichu_started': {'target': 'top', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:50:45,356 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_gym0_started': {'target': 'middle', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:50:45,393 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_pichu_started': {'target': 'top', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:51:09,660 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_gym1_started': {'target': 'middle', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:51:20,174 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_evolve_pichu_started': {'target': 'top', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:51:44,477 : mpfmc : SlidePlayer: Play called with settings={'slides': {'slide_mode_pikachu_started': {'target': 'top', 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:52:03,129 : mpfmc : SlidePlayer: Play called with settings={'slides': {'attract_started': {'target': None, 'expire': None, 'transition_out': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'slide': None, 'action': 'play', 'priority': None, 'force': False, 'transition': None, 'show': True}}}
+2019-12-04 20:52:07,628 : kivy : Base: Leaving application in progress...
+2019-12-04 20:52:08,014 : mpfmc : Stopping...
+2019-12-04 20:52:08,014 : mpfmc : Loop rate 80.66 Hz
+2019-12-04 20:52:08,014 : kivy : MC run loop ended.
+2019-12-04 20:52:08,014 : kivy : Stopping child threads... (3 remaining)
+2019-12-04 20:52:08,435 : mpfmc : Stopping...
+2019-12-04 20:52:08,435 : mpfmc : Loop rate 80.53 Hz
+2019-12-04 20:52:08,451 : MPF-MC BCP Server : Stopping BCP sending thread
+2019-12-04 20:52:08,685 : kivy : All child threads stopped.

@@ -1,0 +1,32 @@
+2019-11-25 19:36:37,350 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-11-25 19:36:37,350 : INFO : Machine : Command line arguments: {'syslog_address': None, 'consoleloglevel': 20, 'force_platform': None, 'bcp': True, 'no_load_cache': False, 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'create_config_cache': True, 'mc_file_name': None, 'force_assets_load': False, 'logfile': 'logs\\2019-11-25-19-36-37-mpf-DESKTOP-I5I6D25.log', 'loglevel': 15, 'configfile': ['config.yaml'], 'text_ui': True, 'pause': False, 'production': False}
+2019-11-25 19:36:37,350 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-11-25 19:36:37,350 : INFO : Machine : Machine path: D:\POKEMON - 3 - GYMS DISPLAYS
+2019-11-25 19:36:37,350 : INFO : Machine : Platform: win32
+2019-11-25 19:36:37,350 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-11-25 19:36:37,350 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-11-25 19:36:38,834 : INFO : Machine : Machine config file #1: config.yaml
+2019-11-25 19:36:38,850 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\397fad0162a41b7db123b3957565a4ff.mpf_cache
+2019-11-25 19:36:38,881 : INFO : Machine : Initialise MPF.
+2019-11-25 19:36:39,678 : INFO : FAST : Connecting to com4 at 921600bps
+2019-11-25 19:36:39,741 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-11-25 19:36:39,741 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-11-25 19:36:39,850 : INFO : FAST : Connecting to com5 at 921600bps
+2019-11-25 19:36:39,912 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-11-25 19:36:40,381 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-11-25 19:36:40,412 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-11-25 19:36:40,428 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\7f23218709f44a41086dfd04f42f7c3f.mpf_cache
+2019-11-25 19:36:40,444 : WARNING : ConfigProcessor : Config file in cache changed: D:\POKEMON - 3 - GYMS DISPLAYS\modes\pichu\config\pichu.yaml
+2019-11-25 19:36:40,444 : INFO : ConfigProcessor : Loading config from file D:\POKEMON - 3 - GYMS DISPLAYS\modes\pichu\config\pichu.yaml.
+2019-11-25 19:36:40,522 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 3 - GYMS DISPLAYS\modes\pichu\config\pichu.yaml
+2019-11-25 19:36:40,522 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\050cf1c6f86beee4aa95d4daa6cae486.mpf_cache
+2019-11-25 19:36:40,553 : DEBUG : coil.c_trough : Configuring device with settings: '{'psu': <psu.default>, 'file_log': 'full', 'debug': True, 'default_pulse_ms': 7, 'enable_events': {}, 'allow_enable': False, 'tags': [], 'default_hold_power': None, 'platform_settings': {}, 'number': '1-1', 'console_log': 'full', 'max_pulse_power': 1.0, 'disable_events': {}, 'pulse_events': {}, 'default_recycle': False, 'max_hold_power': None, 'platform': None, 'default_pulse_power': None, 'max_pulse_ms': None, 'label': '%'}'
+2019-11-25 19:36:40,553 : DEBUG : coil.c_trough : Configuring device with settings: '{'psu': <psu.default>, 'file_log': 'full', 'debug': True, 'default_pulse_ms': 7, 'enable_events': {}, 'allow_enable': False, 'tags': [], 'default_hold_power': None, 'platform_settings': {'connection': 'auto', 'recycle_ms': None}, 'number': '1-1', 'console_log': 'full', 'max_pulse_power': 1.0, 'disable_events': {}, 'pulse_events': {}, 'default_recycle': False, 'max_hold_power': None, 'platform': None, 'default_pulse_power': None, 'max_pulse_ms': None, 'label': '%'}'
+2019-11-25 19:36:40,584 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'request_ball_events': [], 'file_log': 'full', 'entrance_switch_full_timeout': 0, 'eject_coil_max_wait_ms': 200, 'confirm_eject_type': 'target', 'ball_missing_timeouts': [], 'eject_coil_jam_pulse': None, 'jam_switch': None, 'tags': ['home', 'trough'], 'ball_search_order': 200, 'console_log': 'full', 'eject_targets': [<ball_device.bd_plunger>], 'eject_coil_reorder_pulse': None, 'ball_capacity': None, 'captures_from': <playfield.playfield>, 'eject_events': {}, 'exit_count_delay': 500, 'entrance_events': {}, 'eject_timeouts': [], 'confirm_eject_switch': None, 'eject_coil': <coil.c_trough>, 'mechanical_eject': False, 'entrance_switch': None, 'entrance_event_timeout': 5.0, 'max_eject_attempts': 0, 'auto_fire_on_unexpected_ball': True, 'debug': True, 'label': '%', 'target_on_unexpected_ball': None, 'ball_missing_target': <playfield.playfield>, 'confirm_eject_event': None, 'eject_coil_enable_time': [], 'hold_coil_release_time': 1000, 'ball_switches': [<switch.s_trough>], 'eject_coil_retry_pulse': None, 'eject_all_events': {}, 'hold_events': {}, 'entrance_count_delay': 500, 'hold_switches': [], 'hold_coil': None, 'retries_before_increasing_pulse': 4, 'player_controlled_eject_event': None, 'idle_missing_ball_timeout': 5.0}'
+2019-11-25 19:36:40,631 : INFO : SwitchController : Found active switch: s_trough
+2019-11-25 19:36:40,725 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-11-25 19:36:41,741 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:36:42,741 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:36:43,897 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:36:49,386 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-25 19:36:54,886 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!

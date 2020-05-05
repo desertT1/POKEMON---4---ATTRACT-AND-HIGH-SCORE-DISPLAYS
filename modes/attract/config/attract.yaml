@@ -1,0 +1,28 @@
+#config_version=5
+
+mode:
+  start_events: game_ended
+  stop_events: game_started
+  priority: 600
+  
+#show_player:
+#  mode_attract_started: 
+#    show_attract_display_loop:
+#      speed: 1
+ 
+slides:
+  slide_mode_attract_started:
+    widgets:
+      - type: text
+        text: THIS IS THE ATTRACT MODE
+        font_size: 70
+        y: 60
+        x: 10
+        anchor_x: left
+        anchor_y: bottom
+     
+   
+slide_player:
+  mode_attract_started:
+    slide_mode_attract_started:
+      target: window

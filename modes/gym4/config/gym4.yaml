@@ -1,0 +1,56 @@
+#config_version=5
+
+mode:
+  start_events: start_gym4_event
+  restart_on_next_ball: true
+  stop_events: stop_gym4_event 
+  events_when_started:
+  events_when_stopped:
+  priority: 207 
+
+slides:
+  slide_mode_gym4_started:
+    widgets:
+      - type: text
+        text: GYM 4
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 60
+        x: 10
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: SLINGSHOT (gym4_slingshot)/9
+        number_grouping: true
+        min_digits: 2
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+        y: 10
+        x: 10
+  
+slide_player:
+  mode_gym4_started:
+    slide_mode_gym4_started:
+      target: middle   
+
+
+
+variable_player:    
+  s_sling_right_active:
+    gym4_slingshot: 1
+        
+  s_sling_left_active:
+    gym4_slingshot: 1
+
+event_player:
+  check_gym4_slingshot{current_player.gym4_slingshot >= 9}:
+    - stop_gym4_event
+
+
+  s_sling_right_active:
+    check_gym4_slingshot
+        
+  s_sling_left_active:
+    check_gym4_slingshot

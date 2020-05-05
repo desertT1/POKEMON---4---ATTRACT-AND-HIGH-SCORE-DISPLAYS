@@ -1,0 +1,148 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting
+  restart_on_next_ball: true
+  priority: 300
+
+
+slide_player:
+  mode_score_display_started:
+    slide_mode_score_display_started:
+      target: bottom
+      
+slides:
+  slide_mode_score_display_started:
+    widgets:
+    - type: text
+      text: PLAYER 1
+#      font_name: atrox
+      font_size: 40
+      anchor_x: left
+      anchor_y: bottom
+      x: 10
+      y: 60
+#      color: white
+#      z: 5
+
+    - type: text
+      #text: "9,999,999,999,999"
+      text: (player1|score)
+      number_grouping: true
+      min_digits: 2
+#      font_name: atrox
+      font_size: 40
+      anchor_x: left
+      anchor_y: bottom
+      x: 10
+      y: 10
+#      color: white
+#      z: 5   
+
+
+widget_player:
+  player_added{num==2}:
+    player_2_lcd_info_widget:
+      slide: slide_mode_score_display_started
+  player_added{num==3}:
+    player_3_lcd_info_widget:
+      slide: slide_mode_score_display_started
+  player_added{num==4}:
+    player_4_lcd_info_widget:
+      slide: slide_mode_score_display_started
+      
+#  mode_score_display_started{game.num_players>=1}:
+#    player_1_lcd_info_widget:
+#      slide: slide_mode_score_display_started
+  mode_score_display_started{game.num_players>=2}:
+    player_2_lcd_info_widget:
+      slide: slide_mode_score_display_started
+  mode_score_display_started{game.num_players>=3}:
+    player_3_lcd_info_widget:
+      slide: slide_mode_score_display_started
+  mode_score_display_started{game.num_players>=4}:
+    player_4_lcd_info_widget:
+      slide: slide_mode_score_display_started
+
+
+widgets:
+  player_2_lcd_info_widget:
+    - type: text
+      text: PLAYER 2
+#      font_name: atrox
+      font_size: 40
+      anchor_x: left
+      anchor_y: bottom
+      x: 300
+      y: 60
+#      color: white
+#      z: 5
+
+    - type: text
+      #text: "9,999,999,999,999"
+      text: (player2|score)
+      number_grouping: true
+      min_digits: 2
+#      font_name: atrox
+      font_size: 40
+      anchor_x: left
+      anchor_y: bottom
+      x: 300
+      y: 10
+#      color: white
+#      z: 5
+      
+  player_3_lcd_info_widget:
+    - type: text
+      text: PLAYER 3
+#      font_name: atrox
+      font_size: 40
+      anchor_x: left
+      anchor_y: bottom
+      x: 600
+      y: 60
+#      color: white
+#      z: 5
+
+    - type: text
+      #text: "9,999,999,999,999"
+      text: (player3|score)
+      number_grouping: true
+      min_digits: 2
+#      font_name: atrox
+      font_size: 40
+      anchor_x: left
+      anchor_y: bottom
+      x: 600
+      y: 10
+#      color: white
+#      z: 5
+
+  player_4_lcd_info_widget:
+    - type: text
+      text: PLAYER 4
+#      font_name: atrox
+      font_size: 40
+      anchor_x: left
+      anchor_y: bottom
+      x: 900
+      y: 60
+#      color: white
+#      z: 5
+
+    - type: text
+      #text: "9,999,999,999,999"
+      text: (player4|score)
+      number_grouping: true
+      min_digits: 2
+#      font_name: atrox
+      font_size: 40
+      anchor_x: left
+      anchor_y: bottom
+      x: 900
+      y: 10
+#      color: white
+#      z: 5
+
+
+

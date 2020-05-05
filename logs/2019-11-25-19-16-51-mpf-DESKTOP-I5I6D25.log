@@ -1,0 +1,84 @@
+2019-11-25 19:16:51,501 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-11-25 19:16:51,517 : INFO : Machine : Command line arguments: {'logfile': 'logs\\2019-11-25-19-16-51-mpf-DESKTOP-I5I6D25.log', 'text_ui': True, 'no_load_cache': False, 'consoleloglevel': 20, 'force_assets_load': False, 'syslog_address': None, 'loglevel': 15, 'configfile': ['config.yaml'], 'bcp': True, 'force_platform': None, 'mc_file_name': None, 'pause': False, 'production': False, 'create_config_cache': True, 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml'}
+2019-11-25 19:16:51,517 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-11-25 19:16:51,517 : INFO : Machine : Machine path: D:\POKEMON - 3 - GYMS DISPLAYS
+2019-11-25 19:16:51,517 : INFO : Machine : Platform: win32
+2019-11-25 19:16:51,517 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-11-25 19:16:51,517 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-11-25 19:16:53,079 : INFO : Machine : Machine config file #1: config.yaml
+2019-11-25 19:16:53,079 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\397fad0162a41b7db123b3957565a4ff.mpf_cache
+2019-11-25 19:16:53,079 : INFO : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpf\mpfconfig.yaml.
+2019-11-25 19:16:53,423 : INFO : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpf\mpfconfig.yaml
+2019-11-25 19:16:53,423 : INFO : ConfigProcessor : Loading config from file D:\POKEMON - 3 - GYMS DISPLAYS\config\config.yaml.
+2019-11-25 19:16:53,626 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 3 - GYMS DISPLAYS\config\config.yaml
+2019-11-25 19:16:53,876 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 3 - GYMS DISPLAYS\config\player_variables.yaml
+2019-11-25 19:16:54,157 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 3 - GYMS DISPLAYS\config\key_mapping.yaml
+2019-11-25 19:16:54,157 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\397fad0162a41b7db123b3957565a4ff.mpf_cache
+2019-11-25 19:16:54,188 : INFO : Machine : Initialise MPF.
+2019-11-25 19:16:55,079 : INFO : FAST : Connecting to com4 at 921600bps
+2019-11-25 19:16:55,141 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-11-25 19:16:55,141 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-11-25 19:16:55,204 : INFO : FAST : Connecting to com5 at 921600bps
+2019-11-25 19:16:55,235 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-11-25 19:16:56,266 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\7f23218709f44a41086dfd04f42f7c3f.mpf_cache
+2019-11-25 19:16:56,266 : INFO : ConfigProcessor : Loading config from file D:\POKEMON - 3 - GYMS DISPLAYS\modes\base\config\base.yaml.
+2019-11-25 19:16:56,517 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 3 - GYMS DISPLAYS\modes\base\config\base.yaml
+2019-11-25 19:16:56,517 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\7f23218709f44a41086dfd04f42f7c3f.mpf_cache
+2019-11-25 19:16:56,548 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\050cf1c6f86beee4aa95d4daa6cae486.mpf_cache
+2019-11-25 19:16:56,548 : INFO : ConfigProcessor : Loading config from file D:\POKEMON - 3 - GYMS DISPLAYS\modes\pichu\config\pichu.yaml.
+2019-11-25 19:16:56,657 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...column 1\'',)>) at c:\python34\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...column 1\'',)>) at c:\python34\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 194, in load
+    config = self.process(f)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 220, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\python34\lib\site-packages\ruamel\yaml\main.py", line 75, in load
+    return loader.get_single_data()
+  File "c:\python34\lib\site-packages\ruamel\yaml\constructor.py", line 59, in get_single_data
+    return self.construct_document(node)
+  File "c:\python34\lib\site-packages\ruamel\yaml\constructor.py", line 68, in construct_document
+    for dummy in generator:
+  File "c:\python34\lib\site-packages\ruamel\yaml\constructor.py", line 481, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 135, in construct_mapping
+    format(key, key_node.start_mark))
+KeyError: 'Key "slide_player" was defined multiple times in config   in "D:\\POKEMON - 3 - GYMS DISPLAYS\\modes\\pichu\\config\\pichu.yaml", line 47, column 1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\asyncio\events.py", line 125, in _run
+    self._callback(*self._args)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\python34\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "c:\python34\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 113, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 262, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 180, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 111, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 131, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\python34\lib\site-packages\mpf\core\file_manager.py", line 154, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 208, in load
+    raise ValueError(msg)
+ValueError: Error found in file D:\POKEMON - 3 - GYMS DISPLAYS\modes\pichu\config\pichu.yaml: 'Key "slide_player" was defined multiple times in config   in "D:\\POKEMON - 3 - GYMS DISPLAYS\\modes\\pichu\\config\\pichu.yaml", line 47, column 1'
+2019-11-25 19:16:57,313 : ERROR : root : Exception is not set.
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\commands\game.py", line 208, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 661, in run
+    self.initialise_mpf()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 653, in initialise_mpf
+    if init.exception():
+  File "c:\python34\lib\asyncio\futures.py", line 288, in exception
+    raise InvalidStateError('Exception is not set.')
+asyncio.futures.InvalidStateError: Exception is not set.

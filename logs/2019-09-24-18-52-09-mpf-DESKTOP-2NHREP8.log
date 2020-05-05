@@ -1,0 +1,99 @@
+2019-09-24 18:52:09,928 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.6
+2019-09-24 18:52:09,929 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'J:\\Python\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-09-24-18-52-09-mpf-DESKTOP-2NHREP8.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-09-24 18:52:09,929 : INFO : Machine : MPF path: J:\Python\lib\site-packages\mpf
+2019-09-24 18:52:09,929 : INFO : Machine : Machine path: J:\Pinball Code\POKEMON
+2019-09-24 18:52:09,929 : INFO : Machine : Platform: win32
+2019-09-24 18:52:09,929 : INFO : Machine : Python executable location: J:\Python\python.exe
+2019-09-24 18:52:09,929 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-09-24 18:52:09,929 : INFO : Machine : Machine config file #1: config.yaml
+2019-09-24 18:52:09,930 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\69e0444c0f6138f6d2261c567bcf50ad.mpf_cache
+2019-09-24 18:52:09,933 : INFO : Machine : Initialise MPF.
+2019-09-24 18:52:10,023 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-09-24 18:52:10,054 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-09-24 18:52:10,054 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.6', 'prev_value': None, 'change': True}
+2019-09-24 18:52:10,054 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.6, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-09-24 18:52:10,054 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-09-24 18:52:10,054 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.17134-SP0', 'prev_value': None, 'change': True}
+2019-09-24 18:52:10,054 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-09-24 18:52:10,054 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2019-09-24 18:52:10,054 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.17134', 'prev_value': None, 'change': True}
+2019-09-24 18:52:10,054 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-09-24 18:52:10,054 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-09-24 18:52:10,075 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\0557c8573691a949dbe0d19a228380a0.mpf_cache
+2019-09-24 18:52:10,077 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\2f6c6435e826e441dccd53350c4e6995.mpf_cache
+2019-09-24 18:52:10,079 : WARNING : ConfigProcessor : Config file in cache changed: J:\Pinball Code\POKEMON\modes\modes_all\config\modes_all.yaml
+2019-09-24 18:52:10,079 : INFO : ConfigProcessor : Loading config from file J:\Pinball Code\POKEMON\modes\modes_all\config\modes_all.yaml.
+2019-09-24 18:52:10,082 : INFO : ConfigProcessor : Loading config: J:\Pinball Code\POKEMON\modes\modes_all\config\modes_all.yaml
+2019-09-24 18:52:10,082 : INFO : ConfigProcessor : Config file cache created: C:\Users\Chris\AppData\Local\Temp\9d5a078bb7ae6bf0c84aa1e20e128e4e.mpf_cache
+2019-09-24 18:52:10,085 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\b026998c18788086646f1fdaa380134c.mpf_cache
+2019-09-24 18:52:10,089 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\206a85769bf0b844ba22633966100a87.mpf_cache
+2019-09-24 18:52:10,104 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2019-09-24 18:52:10,104 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-09-24 18:52:10,133 : ERROR : asyncio : Exception in callback EventManager._done(<Task finishe...s \'str\'>',)>)
+handle: <Handle EventManager._done(<Task finishe...s \'str\'>',)>)>
+Traceback (most recent call last):
+  File "J:\Python\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "J:\Python\lib\site-packages\mpf\core\events.py", line 690, in _done
+    future.result()
+  File "J:\Python\lib\site-packages\mpf\core\events.py", line 612, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "J:\Python\lib\site-packages\mpf\core\mode_controller.py", line 102, in initialise_modes
+    mode.initialise_mode()
+  File "J:\Python\lib\site-packages\mpf\core\mode.py", line 594, in initialise_mode
+    **item.kwargs)
+  File "J:\Python\lib\site-packages\mpf\core\config_player.py", line 134, in process_mode_config
+    config = self.validate_config(config)
+  File "J:\Python\lib\site-packages\mpf\core\config_player.py", line 106, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "J:\Python\lib\site-packages\mpf\config_players\flat_config_player.py", line 15, in validate_config_entry
+    config = self._parse_config(settings, name)
+  File "J:\Python\lib\site-packages\mpf\core\config_player.py", line 128, in _parse_config
+    return self.get_full_config(config)
+  File "J:\Python\lib\site-packages\mpf\config_players\flat_config_player.py", line 21, in get_full_config
+    value[element] = super().get_full_config(value[element])
+  File "J:\Python\lib\site-packages\mpf\core\config_player.py", line 201, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "J:\Python\lib\site-packages\mpf\core\config_validator.py", line 244, in validate_config
+    source.__class__
+  File "J:\Python\lib\site-packages\mpf\core\config_validator.py", line 731, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry event_player:event_player = "" is not valid. Source should be list or dict but is <class 'str'> Error Code: CFE-ConfigValidator-5
+2019-09-24 18:52:10,135 : INFO : Machine : Starting the main run loop.
+2019-09-24 18:52:10,135 : INFO : Machine : Shutting down...
+2019-09-24 18:52:10,135 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-09-24 18:52:10,138 : ERROR : root : Config File Error in ConfigValidator: Config validation error: Entry event_player:event_player = "" is not valid. Source should be list or dict but is <class 'str'> Error Code: CFE-ConfigValidator-5
+Traceback (most recent call last):
+  File "J:\Python\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "J:\Python\lib\site-packages\mpf\core\machine.py", line 709, in run
+    self._run_loop()
+  File "J:\Python\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "J:\Python\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "J:\Python\lib\site-packages\mpf\core\events.py", line 690, in _done
+    future.result()
+  File "J:\Python\lib\site-packages\mpf\core\events.py", line 612, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "J:\Python\lib\site-packages\mpf\core\mode_controller.py", line 102, in initialise_modes
+    mode.initialise_mode()
+  File "J:\Python\lib\site-packages\mpf\core\mode.py", line 594, in initialise_mode
+    **item.kwargs)
+  File "J:\Python\lib\site-packages\mpf\core\config_player.py", line 134, in process_mode_config
+    config = self.validate_config(config)
+  File "J:\Python\lib\site-packages\mpf\core\config_player.py", line 106, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "J:\Python\lib\site-packages\mpf\config_players\flat_config_player.py", line 15, in validate_config_entry
+    config = self._parse_config(settings, name)
+  File "J:\Python\lib\site-packages\mpf\core\config_player.py", line 128, in _parse_config
+    return self.get_full_config(config)
+  File "J:\Python\lib\site-packages\mpf\config_players\flat_config_player.py", line 21, in get_full_config
+    value[element] = super().get_full_config(value[element])
+  File "J:\Python\lib\site-packages\mpf\core\config_player.py", line 201, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "J:\Python\lib\site-packages\mpf\core\config_validator.py", line 244, in validate_config
+    source.__class__
+  File "J:\Python\lib\site-packages\mpf\core\config_validator.py", line 731, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry event_player:event_player = "" is not valid. Source should be list or dict but is <class 'str'> Error Code: CFE-ConfigValidator-5

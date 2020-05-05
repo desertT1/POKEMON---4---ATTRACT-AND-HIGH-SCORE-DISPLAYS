@@ -1,0 +1,91 @@
+2020-04-25 15:53:49,651 : INFO : Machine : Mission Pinball Framework Core Engine v0.53.3
+2020-04-25 15:53:49,651 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\almac\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2020-04-25-15-53-49-mpf-DESKTOP-G75O39F.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2020-04-25 15:53:49,652 : INFO : Machine : MPF path: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf
+2020-04-25 15:53:49,652 : INFO : Machine : Machine path: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS
+2020-04-25 15:53:49,652 : INFO : Machine : Platform: win32
+2020-04-25 15:53:49,652 : INFO : Machine : Python executable location: c:\users\almac\appdata\local\programs\python\python36\python.exe
+2020-04-25 15:53:49,652 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2020-04-25 15:53:49,652 : INFO : Machine : Machine config file #1: config.yaml
+2020-04-25 15:53:49,655 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\17efbceb844bb805dffe6c87f22744fb.mpf_cache
+2020-04-25 15:53:49,660 : INFO : Machine : Initialise MPF.
+2020-04-25 15:53:50,215 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,266 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 107, 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,266 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.53.3', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,266 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.53.3, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,267 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,267 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,267 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,267 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,267 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.18362', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,267 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,267 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-04-25 15:53:50,308 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\1a49828cb8454c90fd195e3886327b9d.mpf_cache
+2020-04-25 15:53:50,310 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\6dbb84b4a2bd3a6642f95ce5744c7797.mpf_cache
+2020-04-25 15:53:50,312 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\6a2515e5578170ee7c481918e8ad2f89.mpf_cache
+2020-04-25 15:53:50,318 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5e23017ae2bff2a0239ff499da948ac3.mpf_cache
+2020-04-25 15:53:50,320 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0c61b9df659d8368945fe529f085132e.mpf_cache
+2020-04-25 15:53:50,325 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\d6bb1cdfa60c1f50f35785cba55875d1.mpf_cache
+2020-04-25 15:53:50,327 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5e332dad5466fb4d353f60c87864de4c.mpf_cache
+2020-04-25 15:53:50,329 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\3183d529c1c05723ae7f7f27f6d76374.mpf_cache
+2020-04-25 15:53:50,331 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\ead1ab3e53925d446b3cb0becf429113.mpf_cache
+2020-04-25 15:53:50,333 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5b0c10fb1ea3d696f3389c798402fbbd.mpf_cache
+2020-04-25 15:53:50,335 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5a22bfd3cd388f17bd2b6acbd36605ae.mpf_cache
+2020-04-25 15:53:50,337 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\2476b3e7b98dcc7e56449320299b63be.mpf_cache
+2020-04-25 15:53:50,339 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\32e6b619402cb4da5981e97ecb1f6408.mpf_cache
+2020-04-25 15:53:50,341 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\201769dfbc23cf51d44452c1bfe1f92e.mpf_cache
+2020-04-25 15:53:50,343 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\e316602f2754df2a40ebb1b620c83c27.mpf_cache
+2020-04-25 15:53:50,345 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0378f93b62c546ad0a14fc16b8462c41.mpf_cache
+2020-04-25 15:53:50,356 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+2020-04-25 15:53:50,356 : INFO : ConfigProcessor : Loading config from file c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2020-04-25 15:53:50,358 : INFO : ConfigProcessor : Loading config: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2020-04-25 15:53:50,359 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml.
+2020-04-25 15:53:50,465 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+2020-04-25 15:53:50,467 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\0e7d1a1c3907f6958e06eb127bcf3b99.mpf_cache
+2020-04-25 15:53:50,471 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\b9fac23b74e0b513c055e4621b74ad7e.mpf_cache
+2020-04-25 15:53:50,473 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\b51fa6c1189029eac07bf57001e3c2a0.mpf_cache
+2020-04-25 15:53:50,475 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\c81a0f1062502e33bbed66b9eae15858.mpf_cache
+2020-04-25 15:53:50,477 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\f9a13da868835514a4e555019188716d.mpf_cache
+2020-04-25 15:53:50,479 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\4ea733655e2f71aef4d6f646b7999fe0.mpf_cache
+2020-04-25 15:53:50,481 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\dd4913724ea8e05b50af346c964d02e0.mpf_cache
+2020-04-25 15:53:50,483 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5903aae11c08aba35176e5c1f4c1be59.mpf_cache
+2020-04-25 15:53:50,485 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\8e537f3f1075ad5ff3f7e8ba8228812c.mpf_cache
+2020-04-25 15:53:50,487 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0db36da4b9aa41dcdeae696ef4ec8d87.mpf_cache
+2020-04-25 15:53:50,489 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\47fed2ef5afbaf0c19527a565aa191d9.mpf_cache
+2020-04-25 15:53:50,505 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2020-04-25 15:53:50,506 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-04-25 15:53:50,513 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,513 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'MPF', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,513 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 1000000, 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,513 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,514 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'BRI', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,514 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 900000, 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,514 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,514 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'JAN', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,514 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 800000, 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,514 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,514 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'QUI', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,514 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 700000, 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,515 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,515 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'MAR', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,515 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 600000, 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,515 : INFO : EventManager : Event: ======'machine_var_score6_label'====== Args={'value': 'HIGH SCORE 5', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,515 : INFO : EventManager : Event: ======'machine_var_score6_name'====== Args={'value': 'JOH', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,515 : INFO : EventManager : Event: ======'machine_var_score6_value'====== Args={'value': 500000, 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,515 : INFO : EventManager : Event: ======'machine_var_score7_label'====== Args={'value': 'HIGH SCORE 6', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,516 : INFO : EventManager : Event: ======'machine_var_score7_name'====== Args={'value': 'ELI', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,516 : INFO : EventManager : Event: ======'machine_var_score7_value'====== Args={'value': 400000, 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,516 : INFO : EventManager : Event: ======'machine_var_score8_label'====== Args={'value': 'HIGH SCORE 7', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,516 : INFO : EventManager : Event: ======'machine_var_score8_name'====== Args={'value': 'MIK', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,516 : INFO : EventManager : Event: ======'machine_var_score8_value'====== Args={'value': 300000, 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,516 : INFO : EventManager : Event: ======'machine_var_score9_label'====== Args={'value': 'HIGH SCORE 8', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,517 : INFO : EventManager : Event: ======'machine_var_score9_name'====== Args={'value': 'ANT', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,517 : INFO : EventManager : Event: ======'machine_var_score9_value'====== Args={'value': 200000, 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,517 : INFO : EventManager : Event: ======'machine_var_loops1_label'====== Args={'value': 'LOOP CHAMP', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,517 : INFO : EventManager : Event: ======'machine_var_loops1_name'====== Args={'value': 'JAN', 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,517 : INFO : EventManager : Event: ======'machine_var_loops1_value'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2020-04-25 15:53:50,524 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2020-04-25 15:53:50,526 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2020-04-25 15:54:22,818 : INFO : Machine : Starting the main run loop.
+2020-04-25 15:54:22,818 : INFO : Machine : Shutting down...
+2020-04-25 15:54:22,818 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-04-25 15:54:22,822 : INFO : root : MPF run loop ended.

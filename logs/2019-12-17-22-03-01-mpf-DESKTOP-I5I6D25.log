@@ -1,0 +1,284 @@
+2019-12-17 22:03:01,268 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.9
+2019-12-17 22:03:01,268 : INFO : Machine : Command line arguments: {'create_config_cache': True, 'syslog_address': None, 'configfile': ['config.yaml'], 'production': False, 'text_ui': True, 'no_sound': False, 'logfile': 'logs\\2019-12-17-22-03-01-mpf-DESKTOP-I5I6D25.log', 'force_assets_load': False, 'bcp': True, 'no_load_cache': False, 'force_platform': None, 'jsonlogging': False, 'mc_file_name': None, 'mpfconfigfile': 'c:\\users\\mission pinball\\appdata\\local\\programs\\python\\python35\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'loglevel': 15, 'consoleloglevel': 20, 'pause': False}
+2019-12-17 22:03:01,268 : INFO : Machine : MPF path: c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf
+2019-12-17 22:03:01,268 : INFO : Machine : Machine path: E:\POKEMON - 3 - GYMS DISPLAYS
+2019-12-17 22:03:01,268 : INFO : Machine : Platform: win32
+2019-12-17 22:03:01,268 : INFO : Machine : Python executable location: c:\users\mission pinball\appdata\local\programs\python\python35\python.exe
+2019-12-17 22:03:01,268 : INFO : Machine : Python version: 3.5.4 (64-bit)
+2019-12-17 22:03:01,268 : INFO : Machine : Machine config file #1: config.yaml
+2019-12-17 22:03:01,284 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 3 - GYMS DISPLAYS\config\config.yaml
+2019-12-17 22:03:01,284 : INFO : ConfigProcessor : Loading config from file c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\mpfconfig.yaml.
+2019-12-17 22:03:01,846 : INFO : ConfigProcessor : Loading config: c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\mpfconfig.yaml
+2019-12-17 22:03:01,924 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\config\config.yaml.
+2019-12-17 22:03:02,284 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\config.yaml
+2019-12-17 22:03:02,581 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\player_variables.yaml
+2019-12-17 22:03:02,612 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\config\key_mapping.yaml
+2019-12-17 22:03:02,628 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\e9c23ebab43a14b7e211b4dd18480f15.mpf_cache
+2019-12-17 22:03:02,643 : INFO : Machine : Initialise MPF.
+2019-12-17 22:03:03,112 : INFO : FAST : Connecting to com4 at 921600bps
+2019-12-17 22:03:03,159 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-12-17 22:03:03,159 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'change': True, 'value': '01.01', 'prev_value': None}
+2019-12-17 22:03:03,159 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'change': True, 'value': 'FP-CPU-002-2', 'prev_value': None}
+2019-12-17 22:03:03,159 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-12-17 22:03:03,221 : INFO : FAST : Connecting to com5 at 921600bps
+2019-12-17 22:03:03,252 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-12-17 22:03:03,252 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'change': True, 'value': '01.00', 'prev_value': None}
+2019-12-17 22:03:03,252 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'change': True, 'value': 'FP-CPU-002-2', 'prev_value': None}
+2019-12-17 22:03:03,252 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'change': True, 'value': 'FREE PLAY', 'prev_value': None}
+2019-12-17 22:03:03,502 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'change': True, 'value': 159, 'prev_value': None}
+2019-12-17 22:03:03,502 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'change': True, 'value': 'MPF v0.52.9', 'prev_value': None}
+2019-12-17 22:03:03,502 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'change': True, 'value': 'MPF v0.52.9, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None}
+2019-12-17 22:03:03,502 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'change': True, 'value': '3.5.4', 'prev_value': None}
+2019-12-17 22:03:03,502 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'change': True, 'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None}
+2019-12-17 22:03:03,502 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'change': True, 'value': 'Windows', 'prev_value': None}
+2019-12-17 22:03:03,502 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'change': True, 'value': '10', 'prev_value': None}
+2019-12-17 22:03:03,502 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'change': True, 'value': '10.0.18362', 'prev_value': None}
+2019-12-17 22:03:03,502 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'change': True, 'value': 'AMD64', 'prev_value': None}
+2019-12-17 22:03:03,502 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-12-17 22:03:03,721 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\325be8140670be7b4f7f24b4ea9ecf41.mpf_cache
+2019-12-17 22:03:03,721 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\2bf399aa483f8a887eec2aa10342ca9f.mpf_cache
+2019-12-17 22:03:03,737 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\4ed449c86f3920ad38c9f19e6b1fcd80.mpf_cache
+2019-12-17 22:03:03,752 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\230c7edf879901b77e29ab003ecfd977.mpf_cache
+2019-12-17 22:03:03,768 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\7c8a3dbd3a1f76b71c509d64239c80b0.mpf_cache
+2019-12-17 22:03:03,799 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\9463ad916821e4687af4640a7d04ba98.mpf_cache
+2019-12-17 22:03:03,815 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\37af0ab3cb4984093f408b6580ccda04.mpf_cache
+2019-12-17 22:03:03,846 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c4c39d8157ba863610e7d2b8306a4087.mpf_cache
+2019-12-17 22:03:03,862 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\0c90eb48fda27bb17da0cfa70b6cea42.mpf_cache
+2019-12-17 22:03:03,877 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\691014465c877a30c4e85c0b37ef7391.mpf_cache
+2019-12-17 22:03:03,893 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\2ad3e4afc7b8ab807ff1625862e58922.mpf_cache
+2019-12-17 22:03:03,909 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\aacde2a5df2e44f5e01226064ab4c3c5.mpf_cache
+2019-12-17 22:03:03,924 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\aad48548988dd5e95d839b70bde2a6c9.mpf_cache
+2019-12-17 22:03:03,940 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\3585cb1a70d2f2b7c5655afaacf1bc74.mpf_cache
+2019-12-17 22:03:03,940 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 3 - GYMS DISPLAYS\modes\2player\config\2player.yaml.
+2019-12-17 22:03:04,018 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 3 - GYMS DISPLAYS\modes\2player\config\2player.yaml
+2019-12-17 22:03:04,018 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\3585cb1a70d2f2b7c5655afaacf1bc74.mpf_cache
+2019-12-17 22:03:04,049 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\d868708421ecefdd23b54f4fefaa5a63.mpf_cache
+2019-12-17 22:03:04,065 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\91c30393a7736530c48ab886a6ae90df.mpf_cache
+2019-12-17 22:03:04,080 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\db69f4aeb06b399317225bf0f2d24564.mpf_cache
+2019-12-17 22:03:04,112 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\00b811264d7e79f39b66bcbc6609bb6e.mpf_cache
+2019-12-17 22:03:04,127 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c721f48534ae43d3f9c4e17312560aaa.mpf_cache
+2019-12-17 22:03:04,159 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\e94996e3615e593edab21d6f0e7b4569.mpf_cache
+2019-12-17 22:03:04,174 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\da1c75dbc5d48bb99b7ea9aec7919bfa.mpf_cache
+2019-12-17 22:03:04,190 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\60827c7dca166edb23011cd46fd5e301.mpf_cache
+2019-12-17 22:03:04,205 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\868965d45e8ef85973deb1cc43e3c6e9.mpf_cache
+2019-12-17 22:03:04,221 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\03465e6905c319de2817a60078df797b.mpf_cache
+2019-12-17 22:03:04,237 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\ffc5df461fc927df7502c20268b6e23c.mpf_cache
+2019-12-17 22:03:04,252 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\1b6068dc0dcf1445cf37058c25ad802b.mpf_cache
+2019-12-17 22:03:04,268 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\3512d3a51b29689f2a9a6db585213e7b.mpf_cache
+2019-12-17 22:03:04,362 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2019-12-17 22:03:04,362 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-12-17 22:03:04,362 : INFO : SwitchController : Found active switch: (('11', 1), <Platform.FAST>)
+2019-12-17 22:03:04,362 : INFO : SwitchController : Found active switch: (('08', 1), <Platform.FAST>)
+2019-12-17 22:03:04,487 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2019-12-17 22:03:04,502 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-12-17 22:03:05,503 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-12-17 22:03:06,504 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-12-17 22:03:08,559 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-12-17 22:03:08,562 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2019-12-17 22:03:08,599 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'change': True, 'value': 0.5, 'prev_value': None}
+2019-12-17 22:03:08,706 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-12-17 22:03:08,735 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2019-12-17 22:03:08,737 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-12-17 22:03:08,737 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2019-12-17 22:03:08,737 : INFO : EventManager : Event: ======'drop_target_drop1_down'====== Args={'device': <drop_target.drop1>}
+2019-12-17 22:03:08,738 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_mixed'====== Args={'down': 1}
+2019-12-17 22:03:08,747 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'change': True, 'value': 286, 'prev_value': None}
+2019-12-17 22:03:08,749 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'change': True, 'value': 349, 'prev_value': None}
+2019-12-17 22:03:08,750 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'change': True, 'value': 2766, 'prev_value': None}
+2019-12-17 22:03:08,752 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_center'====== Args={'change': True, 'value': 663, 'prev_value': None}
+2019-12-17 22:03:08,753 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'change': True, 'value': 11203, 'prev_value': None}
+2019-12-17 22:03:08,754 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'change': True, 'value': 3616, 'prev_value': None}
+2019-12-17 22:03:08,755 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_top'====== Args={'change': True, 'value': 1165, 'prev_value': None}
+2019-12-17 22:03:08,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_left'====== Args={'change': True, 'value': 591, 'prev_value': None}
+2019-12-17 22:03:08,758 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'change': True, 'value': 10, 'prev_value': None}
+2019-12-17 22:03:08,759 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'change': True, 'value': 52, 'prev_value': None}
+2019-12-17 22:03:08,760 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'change': True, 'value': 1238, 'prev_value': None}
+2019-12-17 22:03:08,762 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'change': True, 'value': 88, 'prev_value': None}
+2019-12-17 22:03:08,763 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_gym'====== Args={'change': True, 'value': 457, 'prev_value': None}
+2019-12-17 22:03:08,764 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'change': True, 'value': 1203, 'prev_value': None}
+2019-12-17 22:03:08,765 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'change': True, 'value': 7567, 'prev_value': None}
+2019-12-17 22:03:08,766 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'change': True, 'value': 2917, 'prev_value': None}
+2019-12-17 22:03:08,767 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right'====== Args={'change': True, 'value': 518, 'prev_value': None}
+2019-12-17 22:03:08,768 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'change': True, 'value': 9176, 'prev_value': None}
+2019-12-17 22:03:08,769 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'change': True, 'value': 1074, 'prev_value': None}
+2019-12-17 22:03:08,770 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'change': True, 'value': 1591, 'prev_value': None}
+2019-12-17 22:03:08,771 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'change': True, 'value': {'top': [1053, 829, 828, 828, 808, 778, 726, 724, 722, 706], 'average': 243.0983606557377, 'total': 305}, 'prev_value': None}
+2019-12-17 22:03:08,773 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2019-12-17 22:03:08,776 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2019-12-17 22:03:08,777 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,778 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,778 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,778 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,778 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,779 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,779 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,779 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,779 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,779 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,780 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,780 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,781 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,781 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,781 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,781 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,782 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,782 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,782 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,782 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,783 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,783 : WARNING : FAST : Port NET received more messages than were sent! Resetting!
+2019-12-17 22:03:08,786 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2019-12-17 22:03:08,797 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2019-12-17 22:03:08,829 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2019-12-17 22:03:08,830 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2019-12-17 22:03:08,832 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2019-12-17 22:03:08,835 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2019-12-17 22:03:08,837 : INFO : drop_target_bank.right_bank : 1 targets are down. Will reset those.
+2019-12-17 22:03:08,839 : INFO : coil.c_drop_reset : Enabling Driver for 400ms (1.0 pulse_power)
+2019-12-17 22:03:08,842 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2019-12-17 22:03:08,844 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2019-12-17 22:03:08,846 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2019-12-17 22:03:08,847 : INFO : Mode.attract : Started. Priority: 10
+2019-12-17 22:03:08,847 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2019-12-17 22:03:08,849 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2019-12-17 22:03:08,852 : INFO : Machine : Starting the main run loop.
+2019-12-17 22:03:08,876 : INFO : EventManager : Event: ======'slide_attract_started_created'====== Args={'_from_bcp': True}
+2019-12-17 22:03:08,882 : INFO : EventManager : Event: ======'slide_attract_started_active'====== Args={'_from_bcp': True}
+2019-12-17 22:03:08,897 : INFO : SwitchController : <<<<<<< 's_drop_left' inactive >>>>>>>
+2019-12-17 22:03:08,898 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-12-17 22:03:08,898 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2019-12-17 22:03:08,898 : INFO : EventManager : Event: ======'drop_target_drop1_up'====== Args={'device': <drop_target.drop1>}
+2019-12-17 22:03:09,222 : INFO : coil.c_drop_reset : Disabling Driver
+2019-12-17 22:03:09,332 : INFO : EventManager : Event: ======'restore'====== Args={}
+2019-12-17 22:03:09,332 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2019-12-17 22:03:24,160 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-12-17 22:03:24,274 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-12-17 22:03:24,274 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2019-12-17 22:03:24,289 : INFO : EventManager : Event: ======'game_start'====== Args={'hold_time': 0.10899999999674037, 'buttons': []}
+2019-12-17 22:03:24,290 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'hold_time': 0.10899999999674037, 'buttons': []}
+2019-12-17 22:03:24,294 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'hold_time': 0.10899999999674037, 'buttons': []}
+2019-12-17 22:03:24,295 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2019-12-17 22:03:24,295 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2019-12-17 22:03:24,296 : INFO : Mode.attract : Stopped.
+2019-12-17 22:03:24,297 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2019-12-17 22:03:24,298 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2019-12-17 22:03:24,299 : INFO : Mode.game : Started. Priority: 20
+2019-12-17 22:03:24,300 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'hold_time': 0.10899999999674037, 'buttons': []}
+2019-12-17 22:03:24,304 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2019-12-17 22:03:24,309 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2019-12-17 22:03:24,313 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2019-12-17 22:03:24,316 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2019-12-17 22:03:24,320 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-17 22:03:24,320 : INFO : EventManager : Event: ======'player_added'====== Args={'num': 1, 'player': <Player 1>}
+2019-12-17 22:03:24,321 : INFO : Mode.game : Player added successfully. Total players: 1
+2019-12-17 22:03:24,322 : INFO : EventManager : Event: ======'player_gym1_pop'====== Args={'change': 0, 'player_num': 1, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:24,323 : INFO : EventManager : Event: ======'player_gym3_spinner'====== Args={'change': 0, 'player_num': 1, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:24,324 : INFO : EventManager : Event: ======'player_gym4_slingshot'====== Args={'change': 0, 'player_num': 1, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:24,325 : INFO : EventManager : Event: ======'player_index'====== Args={'change': 0, 'player_num': 1, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:24,326 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 0, 'player_num': 1, 'value': 1, 'prev_value': 1}
+2019-12-17 22:03:24,327 : INFO : EventManager : Event: ======'player_gym5_drop_targets'====== Args={'change': 0, 'player_num': 1, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:24,329 : INFO : EventManager : Event: ======'player_raichu_exp'====== Args={'change': 0, 'player_num': 1, 'value': 1, 'prev_value': 1}
+2019-12-17 22:03:24,330 : INFO : EventManager : Event: ======'player_pikachu_exp'====== Args={'change': 0, 'player_num': 1, 'value': 1, 'prev_value': 1}
+2019-12-17 22:03:24,331 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 0, 'player_num': 1, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:24,333 : INFO : EventManager : Event: ======'player_number'====== Args={'change': 0, 'player_num': 1, 'value': 1, 'prev_value': 1}
+2019-12-17 22:03:24,334 : INFO : EventManager : Event: ======'player_gym6_gym'====== Args={'change': 0, 'player_num': 1, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:24,335 : INFO : EventManager : Event: ======'player_gym2_drop_targets'====== Args={'change': 0, 'player_num': 1, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:24,340 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2019-12-17 22:03:24,340 : WARNING : Mode.1player : WARNING: Can only start mode 1player during a game. Aborting start.
+2019-12-17 22:03:24,343 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-17 22:03:24,344 : INFO : EventManager : Event: ======'slide_layout_3_mini_created'====== Args={'_from_bcp': True}
+2019-12-17 22:03:24,346 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-17 22:03:24,348 : INFO : EventManager : Event: ======'player_ball'====== Args={'change': 1, 'player_num': 1, 'value': 1, 'prev_value': 0}
+2019-12-17 22:03:24,350 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2019-12-17 22:03:24,353 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'ball': 1, 'player': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-12-17 22:03:24,355 : INFO : EventManager : Event: ======'ball_starting'====== Args={'ball': 1, 'player': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-12-17 22:03:24,357 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'ball': 1, 'player': 1, 'queue': <QueuedEvent>, 'is_extra_ball': False, 'balls_remaining': 2}
+2019-12-17 22:03:24,359 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'ball': 1, 'player': 1, 'queue': <QueuedEvent>, 'is_extra_ball': False, 'balls_remaining': 2}
+2019-12-17 22:03:24,360 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2019-12-17 22:03:24,362 : INFO : Mode.base : Started. Priority: 31
+2019-12-17 22:03:24,362 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'ball': 1, 'player': 1, 'queue': <QueuedEvent>, 'is_extra_ball': False, 'balls_remaining': 2}
+2019-12-17 22:03:24,363 : INFO : EventManager : Event: ======'start_mode_pichu'====== Args={'priority': 0}
+2019-12-17 22:03:24,363 : INFO : EventManager : Event: ======'mode_pichu_will_start'====== Args={'priority': 0}
+2019-12-17 22:03:24,377 : INFO : EventManager : Event: ======'mode_pichu_starting'====== Args={'priority': 0}
+2019-12-17 22:03:24,377 : INFO : Mode.pichu : Started. Priority: 75
+2019-12-17 22:03:24,378 : INFO : EventManager : Event: ======'mode_pichu_started'====== Args={'priority': 0}
+2019-12-17 22:03:24,380 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2019-12-17 22:03:24,381 : INFO : EventManager : Event: ======'ball_started'====== Args={'ball': 1, 'player': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-12-17 22:03:24,384 : INFO : EventManager : Event: ======'start_gym0_event'====== Args={'priority': 0}
+2019-12-17 22:03:24,390 : INFO : EventManager : Event: ======'mode_gym0_will_start'====== Args={'priority': 0}
+2019-12-17 22:03:24,393 : INFO : EventManager : Event: ======'mode_gym0_starting'====== Args={'priority': 0}
+2019-12-17 22:03:24,394 : INFO : Mode.gym0 : Started. Priority: 200
+2019-12-17 22:03:24,394 : INFO : EventManager : Event: ======'mode_gym0_started'====== Args={'priority': 0}
+2019-12-17 22:03:24,397 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2019-12-17 22:03:24,398 : INFO : EventManager : Event: ======'slide_layout_3_mini_active'====== Args={'_from_bcp': True}
+2019-12-17 22:03:24,401 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-12-17 22:03:24,405 : INFO : EventManager : Event: ======'slide_layout_3_mini_removed'====== Args={'_from_bcp': True}
+2019-12-17 22:03:24,409 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'mechanical_eject': True, 'target': <ball_device.bd_plunger>, 'num_attempts': 0, 'source': <ball_device.bd_trough>}
+2019-12-17 22:03:24,416 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-12-17 22:03:24,418 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'mechanical_eject': True, 'target': <ball_device.bd_plunger>, 'num_attempts': 0, 'source': <ball_device.bd_trough>}
+2019-12-17 22:03:24,422 : INFO : coil.c_trough : Pulsing Driver for 7ms (1.0 pulse_power)
+2019-12-17 22:03:24,425 : INFO : EventManager : Event: ======'slide_layout_3_mini_created'====== Args={'_from_bcp': True}
+2019-12-17 22:03:24,465 : INFO : SwitchController : <<<<<<< 's_trough' inactive >>>>>>>
+2019-12-17 22:03:24,480 : INFO : EventManager : Event: ======'slide_slide_mode_pichu_started_created'====== Args={'_from_bcp': True}
+2019-12-17 22:03:24,480 : INFO : EventManager : Event: ======'slide_layout_3_mini_active'====== Args={'_from_bcp': True}
+2019-12-17 22:03:24,507 : INFO : EventManager : Event: ======'slide_slide_mode_pichu_started_active'====== Args={'_from_bcp': True}
+2019-12-17 22:03:24,546 : INFO : EventManager : Event: ======'slide_slide_mode_gym0_started_created'====== Args={'_from_bcp': True}
+2019-12-17 22:03:24,553 : INFO : EventManager : Event: ======'slide_slide_mode_gym0_started_active'====== Args={'_from_bcp': True}
+2019-12-17 22:03:25,872 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-12-17 22:03:25,872 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2019-12-17 22:03:25,880 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'change': 1, 'value': 53, 'prev_value': 52}
+2019-12-17 22:03:25,882 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2019-12-17 22:03:25,883 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 2}
+2019-12-17 22:03:25,885 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 2>, 'number': 2}
+2019-12-17 22:03:25,885 : INFO : EventManager : Event: ======'player_added'====== Args={'num': 2, 'player': <Player 2>}
+2019-12-17 22:03:25,886 : INFO : Mode.game : Player added successfully. Total players: 2
+2019-12-17 22:03:25,886 : INFO : EventManager : Event: ======'multiplayer_game'====== Args={}
+2019-12-17 22:03:25,886 : INFO : EventManager : Event: ======'mode_2player_will_start'====== Args={'num': 2, 'player': <Player 2>}
+2019-12-17 22:03:25,890 : INFO : EventManager : Event: ======'mode_2player_starting'====== Args={'num': 2, 'player': <Player 2>}
+2019-12-17 22:03:25,891 : INFO : Mode.2player : Started. Priority: 300
+2019-12-17 22:03:25,891 : INFO : EventManager : Event: ======'mode_2player_started'====== Args={'num': 2, 'player': <Player 2>}
+2019-12-17 22:03:25,892 : INFO : EventManager : Event: ======'player_gym1_pop'====== Args={'change': 0, 'player_num': 2, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:25,893 : INFO : EventManager : Event: ======'player_gym3_spinner'====== Args={'change': 0, 'player_num': 2, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:25,894 : INFO : EventManager : Event: ======'player_gym4_slingshot'====== Args={'change': 0, 'player_num': 2, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:25,895 : INFO : EventManager : Event: ======'player_index'====== Args={'change': 0, 'player_num': 2, 'value': 1, 'prev_value': 1}
+2019-12-17 22:03:25,896 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 0, 'player_num': 2, 'value': 1, 'prev_value': 1}
+2019-12-17 22:03:25,897 : INFO : EventManager : Event: ======'player_gym5_drop_targets'====== Args={'change': 0, 'player_num': 2, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:25,898 : INFO : EventManager : Event: ======'player_raichu_exp'====== Args={'change': 0, 'player_num': 2, 'value': 1, 'prev_value': 1}
+2019-12-17 22:03:25,899 : INFO : EventManager : Event: ======'player_pikachu_exp'====== Args={'change': 0, 'player_num': 2, 'value': 1, 'prev_value': 1}
+2019-12-17 22:03:25,900 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 0, 'player_num': 2, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:25,901 : INFO : EventManager : Event: ======'player_number'====== Args={'change': 0, 'player_num': 2, 'value': 2, 'prev_value': 2}
+2019-12-17 22:03:25,903 : INFO : EventManager : Event: ======'player_gym6_gym'====== Args={'change': 0, 'player_num': 2, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:25,904 : INFO : EventManager : Event: ======'player_gym2_drop_targets'====== Args={'change': 0, 'player_num': 2, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:26,033 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-12-17 22:03:34,463 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'mechanical_eject': None, 'target': <playfield.playfield>, 'num_attempts': 1, 'source': <ball_device.bd_plunger>}
+2019-12-17 22:03:39,953 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-12-17 22:03:39,954 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2019-12-17 22:03:39,972 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'change': 1, 'value': 54, 'prev_value': 53}
+2019-12-17 22:03:39,976 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2019-12-17 22:03:39,977 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 3}
+2019-12-17 22:03:39,981 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 3>, 'number': 3}
+2019-12-17 22:03:39,983 : INFO : EventManager : Event: ======'player_added'====== Args={'num': 3, 'player': <Player 3>}
+2019-12-17 22:03:39,984 : INFO : Mode.game : Player added successfully. Total players: 3
+2019-12-17 22:03:39,984 : INFO : EventManager : Event: ======'mode_2player_will_stop'====== Args={}
+2019-12-17 22:03:39,985 : INFO : EventManager : Event: ======'mode_2player_stopping'====== Args={}
+2019-12-17 22:03:39,987 : INFO : Mode.2player : Stopped.
+2019-12-17 22:03:39,990 : INFO : EventManager : Event: ======'mode_2player_stopped'====== Args={}
+2019-12-17 22:03:39,991 : INFO : EventManager : Event: ======'clear'====== Args={'key': '2player'}
+2019-12-17 22:03:39,992 : INFO : EventManager : Event: ======'player_gym1_pop'====== Args={'change': 0, 'player_num': 3, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:39,994 : INFO : EventManager : Event: ======'player_gym3_spinner'====== Args={'change': 0, 'player_num': 3, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:39,996 : INFO : EventManager : Event: ======'player_gym4_slingshot'====== Args={'change': 0, 'player_num': 3, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:39,998 : INFO : EventManager : Event: ======'player_index'====== Args={'change': 0, 'player_num': 3, 'value': 2, 'prev_value': 2}
+2019-12-17 22:03:40,000 : INFO : EventManager : Event: ======'player_pichu_exp'====== Args={'change': 0, 'player_num': 3, 'value': 1, 'prev_value': 1}
+2019-12-17 22:03:40,002 : INFO : EventManager : Event: ======'player_gym5_drop_targets'====== Args={'change': 0, 'player_num': 3, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:40,005 : INFO : EventManager : Event: ======'player_raichu_exp'====== Args={'change': 0, 'player_num': 3, 'value': 1, 'prev_value': 1}
+2019-12-17 22:03:40,007 : INFO : EventManager : Event: ======'player_pikachu_exp'====== Args={'change': 0, 'player_num': 3, 'value': 1, 'prev_value': 1}
+2019-12-17 22:03:40,009 : INFO : EventManager : Event: ======'player_score'====== Args={'change': 0, 'player_num': 3, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:40,010 : INFO : EventManager : Event: ======'player_number'====== Args={'change': 0, 'player_num': 3, 'value': 3, 'prev_value': 3}
+2019-12-17 22:03:40,013 : INFO : EventManager : Event: ======'player_gym6_gym'====== Args={'change': 0, 'player_num': 3, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:40,015 : INFO : EventManager : Event: ======'player_gym2_drop_targets'====== Args={'change': 0, 'player_num': 3, 'value': 0, 'prev_value': 0}
+2019-12-17 22:03:40,129 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-12-17 22:03:42,837 : INFO : Machine : Shutting down...
+2019-12-17 22:03:42,837 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-12-17 22:03:42,852 : ERROR : FAST : Stop called on serial connection com5
+2019-12-17 22:03:42,852 : ERROR : FAST : Stop called on serial connection com4
+2019-12-17 22:03:43,118 : INFO : root : MPF run loop ended.

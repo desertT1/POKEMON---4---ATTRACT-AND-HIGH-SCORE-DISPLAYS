@@ -1,0 +1,33 @@
+2019-09-15 13:25:27,647 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-09-15 13:25:27,663 : INFO : Machine : Command line arguments: {'text_ui': True, 'create_config_cache': True, 'logfile': 'logs\\2019-09-15-13-25-27-mpf-DESKTOP-I5I6D25.log', 'force_assets_load': False, 'loglevel': 15, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'syslog_address': None, 'pause': False, 'consoleloglevel': 20, 'mc_file_name': None, 'production': False, 'no_load_cache': False, 'force_platform': None}
+2019-09-15 13:25:27,663 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-09-15 13:25:27,663 : INFO : Machine : Machine path: D:\POKEMON
+2019-09-15 13:25:27,663 : INFO : Machine : Platform: win32
+2019-09-15 13:25:27,663 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-09-15 13:25:27,663 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-09-15 13:25:30,460 : INFO : Machine : Machine config file #1: config.yaml
+2019-09-15 13:25:30,460 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\d99dba3f33c3bdd270e8cf6c1a53f44e.mpf_cache
+2019-09-15 13:25:30,460 : INFO : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpf\mpfconfig.yaml.
+2019-09-15 13:25:31,069 : INFO : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpf\mpfconfig.yaml
+2019-09-15 13:25:31,085 : INFO : ConfigProcessor : Loading config from file D:\POKEMON\config\config.yaml.
+2019-09-15 13:25:31,475 : INFO : ConfigProcessor : Loading config: D:\POKEMON\config\config.yaml
+2019-09-15 13:25:31,475 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\d99dba3f33c3bdd270e8cf6c1a53f44e.mpf_cache
+2019-09-15 13:25:31,569 : INFO : Machine : Initialise MPF.
+2019-09-15 13:25:32,960 : INFO : FAST : Connecting to com4 at 921600bps
+2019-09-15 13:25:33,366 : ERROR : Machine : ERROR: Failed to initialise MPF: could not open port 'com4': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2019-09-15 13:25:33,835 : INFO : Machine : Starting the main run loop.
+2019-09-15 13:25:34,553 : ERROR : root : Event loop is closed
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\commands\game.py", line 208, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 664, in run
+    self._run_loop()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 702, in _run_loop
+    self.clock.run(self.stop_future)
+  File "c:\python34\lib\site-packages\mpf\core\clock.py", line 82, in run
+    self.loop.run_until_complete(stop_future)
+  File "c:\python34\lib\asyncio\base_events.py", line 314, in run_until_complete
+    self._check_closed()
+  File "c:\python34\lib\asyncio\base_events.py", line 284, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed

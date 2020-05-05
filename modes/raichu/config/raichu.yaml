@@ -1,0 +1,91 @@
+#config_version=5
+
+mode:
+  start_events: start_mode_raichu
+  restart_on_next_ball: true
+#  stop_events: evolve_pichu_event 
+  priority: 145
+
+
+slides:
+  slide_mode_raichu_started:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 140
+        x: 10
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: RAICHU EXP (raichu_exp)
+        number_grouping: true
+        min_digits: 2
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+        y: 70
+        x: 10
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+      - type: text
+        text: RAICHU
+        y: 70
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+
+slide_player:
+  mode_raichu_started:
+    slide_mode_raichu_started:
+      target: top   
+
+variable_player:
+  s_drop_left_active:
+    score: 7
+    raichu_exp: 7
+  s_drop_center_active:
+    score: 7
+    raichu_exp: 7
+  s_drop_right_active:
+    score: 7
+    raichu_exp: 7
+  s_saucer_active:
+    score: 15
+    raichu_exp: 15
+  s_pop_right_active:
+    score: 5
+    raichu_exp: 5
+  s_pop_top_active:
+    score: 5
+    raichu_exp: 5
+  s_pop_bottom_active:
+    score: 5
+    raichu_exp: 5
+  s_sling_right_active:
+    score: 1
+    raichu_exp: 1
+  s_sling_left_active:
+    score: 1
+    raichu_exp: 1
+  s_gym_active:
+    score: 20
+    raichu_exp: 20
+  s_spinner_active:
+    score: 1
+    raichu_exp: 1

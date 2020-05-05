@@ -1,0 +1,35 @@
+2019-11-25 19:39:34,662 : kivy : Factory: 194 symbols loaded
+2019-11-25 19:39:35,256 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-11-25 19:39:35,615 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-11-25 19:39:35,615 : kivy : Video: Provider: gstplayer
+2019-11-25 19:39:35,959 : kivy : Loading MPF-MC controller
+2019-11-25 19:39:35,959 : mpfmc : Mission Pinball Framework Media Controller v0.50.8
+2019-11-25 19:39:35,959 : mpfmc : Mission Pinball Framework Game Engine v0.50.17
+2019-11-25 19:39:35,959 : mpfmc : Machine path: D:\POKEMON - 3 - GYMS DISPLAYS
+2019-11-25 19:39:35,974 : ConfigProcessor : Config file in cache changed: D:\POKEMON - 3 - GYMS DISPLAYS\config\config
+2019-11-25 19:39:37,443 : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-11-25 19:39:37,631 : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpfmc\mcconfig.yaml
+2019-11-25 19:39:37,631 : ConfigProcessor : Loading config from file D:\POKEMON - 3 - GYMS DISPLAYS\config\config.
+2019-11-25 19:39:37,834 : ConfigProcessor : Loading config: D:\POKEMON - 3 - GYMS DISPLAYS\config\config
+2019-11-25 19:39:37,834 : kivy : Found a "mc_ready:" section in config file D:\POKEMON - 3 - GYMS DISPLAYS\config\config, but that section is not valid in machine config files.
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 147, in _load_config_file_and_return_loaded_files
+    if config_type not in ConfigValidator.config_spec[k][
+KeyError: 'mc_ready'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpfmc\commands\mc.py", line 189, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\python34\lib\site-packages\mpfmc\core\mc.py", line 95, in __init__
+    self.machine_config = self._load_config()
+  File "c:\python34\lib\site-packages\mpfmc\core\mc.py", line 224, in _load_config
+    mpf_config = self.mpf_config_processor.load_config_files_with_cache(files, "machine", True)
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 111, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 156, in _load_config_file_and_return_loaded_files
+    'files.'.format(k, filename, config_type))
+ValueError: Found a "mc_ready:" section in config file D:\POKEMON - 3 - GYMS DISPLAYS\config\config, but that section is not valid in machine config files.
+2019-11-25 19:39:37,834 : kivy : Stopping child threads... (0 remaining)
+2019-11-25 19:39:37,834 : kivy : All child threads stopped.

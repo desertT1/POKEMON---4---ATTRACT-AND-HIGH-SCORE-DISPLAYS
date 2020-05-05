@@ -1,0 +1,19 @@
+2019-09-24 18:46:04,571 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.6
+2019-09-24 18:46:04,571 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'J:\\Python\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-09-24-18-46-04-mpf-DESKTOP-2NHREP8.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-09-24 18:46:04,571 : INFO : Machine : MPF path: J:\Python\lib\site-packages\mpf
+2019-09-24 18:46:04,571 : INFO : Machine : Machine path: J:\Pinball Code\POKEMON
+2019-09-24 18:46:04,571 : INFO : Machine : Platform: win32
+2019-09-24 18:46:04,571 : INFO : Machine : Python executable location: J:\Python\python.exe
+2019-09-24 18:46:04,571 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-09-24 18:46:04,571 : INFO : Machine : Machine config file #1: config.yaml
+2019-09-24 18:46:04,604 : WARNING : ConfigProcessor : Cache file not found: C:\Users\Chris\AppData\Local\Temp\69e0444c0f6138f6d2261c567bcf50ad.mpf_cache
+2019-09-24 18:46:04,604 : INFO : ConfigProcessor : Loading config from file J:\Python\lib\site-packages\mpf\mpfconfig.yaml.
+2019-09-24 18:46:04,717 : INFO : ConfigProcessor : Loading config: J:\Python\lib\site-packages\mpf\mpfconfig.yaml
+2019-09-24 18:46:05,448 : INFO : ConfigValidator : Config spec file cache created: C:\Users\Chris\AppData\Local\Temp\config_spec.mpf_cache
+2019-09-24 18:46:05,449 : INFO : ConfigProcessor : Loading config from file J:\Pinball Code\POKEMON\config\config.yaml.
+2019-09-24 18:46:05,480 : INFO : ConfigProcessor : Loading config: J:\Pinball Code\POKEMON\config\config.yaml
+2019-09-24 18:46:05,480 : INFO : ConfigProcessor : Config file cache created: C:\Users\Chris\AppData\Local\Temp\69e0444c0f6138f6d2261c567bcf50ad.mpf_cache
+2019-09-24 18:46:05,496 : INFO : Machine : Initialise MPF.
+2019-09-24 18:46:07,014 : INFO : FAST : Connecting to com4 at 921600bps
+2019-09-24 18:46:07,594 : ERROR : Machine : ERROR: Failed to initialise MPF: could not open port 'com4': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2019-09-24 18:46:07,595 : INFO : root : MPF run loop ended.

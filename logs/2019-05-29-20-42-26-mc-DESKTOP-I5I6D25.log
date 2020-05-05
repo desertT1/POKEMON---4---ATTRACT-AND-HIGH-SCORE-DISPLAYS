@@ -1,0 +1,59 @@
+2019-05-29 20:42:27,063 : kivy : Factory: 194 symbols loaded
+2019-05-29 20:42:27,610 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-05-29 20:42:27,923 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-05-29 20:42:27,923 : kivy : Video: Provider: gstplayer
+2019-05-29 20:42:28,220 : kivy : Loading MPF-MC controller
+2019-05-29 20:42:28,220 : mpfmc : Mission Pinball Framework Media Controller v0.50.8
+2019-05-29 20:42:28,220 : mpfmc : Mission Pinball Framework Game Engine v0.50.17
+2019-05-29 20:42:28,220 : mpfmc : Machine path: D:\POKEMON
+2019-05-29 20:42:28,220 : ConfigProcessor : Config file in cache changed: D:\POKEMON\config\config
+2019-05-29 20:42:29,735 : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-05-29 20:42:29,923 : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpfmc\mcconfig.yaml
+2019-05-29 20:42:29,938 : ConfigProcessor : Loading config from file D:\POKEMON\config\config.
+2019-05-29 20:42:30,095 : ConfigProcessor : Loading config: D:\POKEMON\config\config
+2019-05-29 20:42:30,095 : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\42582fcba572e096272241837be67618.mpf_cache
+2019-05-29 20:42:30,110 : mpfmc : Starting clock at 60.0Hz
+2019-05-29 20:42:30,188 : kivy : Text: Provider: sdl2
+2019-05-29 20:42:31,766 : kivy : OSC: using <thread> for socket
+2019-05-29 20:42:31,782 : kivy : Window: Provider: sdl2
+2019-05-29 20:42:32,038 : kivy : GL: Using the "OpenGL" graphics system
+2019-05-29 20:42:32,042 : kivy : GL: GLEW initialization succeeded
+2019-05-29 20:42:32,043 : kivy : GL: Backend used <glew>
+2019-05-29 20:42:32,044 : kivy : GL: OpenGL version <b'4.4.0 - Build 20.19.15.4835'>
+2019-05-29 20:42:32,044 : kivy : GL: OpenGL vendor <b'Intel'>
+2019-05-29 20:42:32,044 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics'>
+2019-05-29 20:42:32,045 : kivy : GL: OpenGL parsed version: 4, 4
+2019-05-29 20:42:32,045 : kivy : GL: Shading version <b'4.40 - Build 20.19.15.4835'>
+2019-05-29 20:42:32,045 : kivy : GL: Texture max size <16384>
+2019-05-29 20:42:32,046 : kivy : GL: Texture max units <32>
+2019-05-29 20:42:32,097 : kivy : Shader: fragment shader: <b"WARNING: 0:7: '' :  #version directive missing">
+2019-05-29 20:42:32,098 : kivy : Shader: vertex shader: <b"WARNING: 0:7: '' :  #version directive missing">
+2019-05-29 20:42:32,115 : kivy : Window: auto add sdl2 input provider
+2019-05-29 20:42:32,116 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2019-05-29 20:42:32,152 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2019-05-29 20:42:33,851 : AudioInterface : Initialized
+2019-05-29 20:42:33,852 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2019-05-29 20:42:33,865 : kivy : Base: Start application main loop
+2019-05-29 20:42:33,922 : mpfmc : Display: Setting 'window' as default display
+2019-05-29 20:42:34,080 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-05-29 20:42:34,084 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\01c5ea7020f20fc8cd2609416c749c9a.mpf_cache
+2019-05-29 20:42:34,099 : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-05-29 20:42:34,104 : MPF-MC BCP Server : Starting up on localhost port 5050
+2019-05-29 20:42:34,128 : MPF-MC BCP Server : Waiting for a connection...
+2019-05-29 20:42:34,128 : mpfmc : SlidePlayer: Play called with settings={'slides': {'welcome_slide': {'priority': None, 'transition_out': None, 'show': True, 'action': 'play', 'target': None, 'force': False, 'transition': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'expire': None, 'slide': None}}}
+2019-05-29 20:42:34,306 : kivy : GL: NPOT texture support is available
+2019-05-29 20:42:34,331 : MPF-MC BCP Server : Received connection from: 127.0.0.1:49960
+2019-05-29 20:42:34,387 : BcpProcessor : Received invalid BCP command: mode_list
+2019-05-29 20:42:34,510 : mpfmc : SlidePlayer: Play called with settings={'slides': {'welcome_slide': {'priority': None, 'transition_out': None, 'show': True, 'action': 'play', 'target': None, 'force': False, 'transition': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'expire': None, 'slide': None}}}
+2019-05-29 20:42:34,550 : mpfmc : SlidePlayer: Play called with settings={'slides': {'attract_started': {'priority': None, 'transition_out': None, 'show': True, 'action': 'play', 'target': None, 'force': False, 'transition': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'expire': None, 'slide': None}}}
+2019-05-29 20:42:45,229 : mpfmc : SlidePlayer: Play called with settings={'slides': {'widgets': {'priority': None, 'transition_out': None, 'show': True, 'action': 'play', 'widgets': [{'anchor_x': 'left', 'adjust_bottom': 0, 'key': None, 'text': '(score)', 'x': '100', 'italic': False, 'anchor_y': 'bottom', 'bold': False, '_default_settings': ['font_size'], 'round_anchor_y': None, 'bitmap_font': False, 'rotation': 0, 'font_kerning': True, 'casing': None, 'reset_animations_events': [], 'scale': 1.0, 'adjust_top': 0, 'adjust_left': 0, 'type': 'text', 'color': [1.0, 1.0, 1.0, 1.0], 'round_anchor_x': None, 'font_size': 100, 'opacity': 1.0, 'z': 0, 'style': None, 'min_digits': 2, 'number_grouping': True, 'halign': 'center', 'valign': 'middle', 'y': '100', 'animations': None, 'adjust_right': 0, 'expire': None}, {'anchor_x': 'right', 'adjust_bottom': 0, 'key': None, 'text': 'PICHU EXP (pichu_exp)/100', 'x': '100', 'italic': False, 'anchor_y': 'bottom', 'bold': False, '_default_settings': ['font_size'], 'round_anchor_y': None, 'bitmap_font': False, 'rotation': 0, 'font_kerning': True, 'casing': None, 'reset_animations_events': [], 'scale': 1.0, 'adjust_top': 0, 'adjust_left': 0, 'type': 'text', 'color': [1.0, 1.0, 1.0, 1.0], 'round_anchor_x': None, 'font_size': 100, 'opacity': 1.0, 'z': 0, 'style': None, 'min_digits': 2, 'number_grouping': True, 'halign': 'center', 'valign': 'middle', 'y': '80', 'animations': None, 'adjust_right': 0, 'expire': None}, {'anchor_x': 'left', 'adjust_bottom': 0, 'key': None, 'text': 'PLAYER (number)', 'x': '10', 'italic': False, 'anchor_y': 'bottom', 'bold': False, '_default_settings': ['font_size'], 'round_anchor_y': None, 'bitmap_font': False, 'rotation': 0, 'font_kerning': True, 'casing': None, 'reset_animations_events': [], 'scale': 1.0, 'adjust_top': 0, 'adjust_left': 0, 'type': 'text', 'color': [1.0, 1.0, 1.0, 1.0], 'round_anchor_x': None, 'font_size': 50, 'opacity': 1.0, 'z': 0, 'style': None, 'min_digits': 0, 'number_grouping': False, 'halign': 'center', 'valign': 'middle', 'y': '10', 'animations': None, 'adjust_right': 0, 'expire': None}, {'anchor_x': 'right', 'adjust_bottom': 0, 'key': None, 'text': 'BALL (ball)', 'x': 'right-10', 'italic': False, 'anchor_y': 'bottom', 'bold': False, '_default_settings': ['font_size'], 'round_anchor_y': None, 'bitmap_font': False, 'rotation': 0, 'font_kerning': True, 'casing': None, 'reset_animations_events': [], 'scale': 1.0, 'adjust_top': 0, 'adjust_left': 0, 'type': 'text', 'color': [1.0, 1.0, 1.0, 1.0], 'round_anchor_x': None, 'font_size': 50, 'opacity': 1.0, 'z': 0, 'style': None, 'min_digits': 0, 'number_grouping': False, 'halign': 'center', 'valign': 'middle', 'y': '10', 'animations': None, 'adjust_right': 0, 'expire': None}], 'target': None, 'force': False, 'transition': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'expire': None, 'slide': None}}}
+2019-05-29 20:43:46,949 : mpfmc : SlidePlayer: Play called with settings={'slides': {'widgets': {'priority': None, 'transition_out': None, 'show': True, 'action': 'play', 'widgets': [{'anchor_x': 'left', 'adjust_bottom': 0, 'key': None, 'text': '(score)', 'x': '100', 'italic': False, 'anchor_y': 'bottom', 'bold': False, '_default_settings': ['font_size'], 'round_anchor_y': None, 'bitmap_font': False, 'rotation': 0, 'font_kerning': True, 'casing': None, 'reset_animations_events': [], 'scale': 1.0, 'adjust_top': 0, 'adjust_left': 0, 'type': 'text', 'color': [1.0, 1.0, 1.0, 1.0], 'round_anchor_x': None, 'font_size': 100, 'opacity': 1.0, 'z': 0, 'style': None, 'min_digits': 2, 'number_grouping': True, 'halign': 'center', 'valign': 'middle', 'y': '100', 'animations': None, 'adjust_right': 0, 'expire': None}, {'anchor_x': 'right', 'adjust_bottom': 0, 'key': None, 'text': 'PICHU EXP (pichu_exp)/100', 'x': '100', 'italic': False, 'anchor_y': 'bottom', 'bold': False, '_default_settings': ['font_size'], 'round_anchor_y': None, 'bitmap_font': False, 'rotation': 0, 'font_kerning': True, 'casing': None, 'reset_animations_events': [], 'scale': 1.0, 'adjust_top': 0, 'adjust_left': 0, 'type': 'text', 'color': [1.0, 1.0, 1.0, 1.0], 'round_anchor_x': None, 'font_size': 100, 'opacity': 1.0, 'z': 0, 'style': None, 'min_digits': 2, 'number_grouping': True, 'halign': 'center', 'valign': 'middle', 'y': '80', 'animations': None, 'adjust_right': 0, 'expire': None}, {'anchor_x': 'left', 'adjust_bottom': 0, 'key': None, 'text': 'PLAYER (number)', 'x': '10', 'italic': False, 'anchor_y': 'bottom', 'bold': False, '_default_settings': ['font_size'], 'round_anchor_y': None, 'bitmap_font': False, 'rotation': 0, 'font_kerning': True, 'casing': None, 'reset_animations_events': [], 'scale': 1.0, 'adjust_top': 0, 'adjust_left': 0, 'type': 'text', 'color': [1.0, 1.0, 1.0, 1.0], 'round_anchor_x': None, 'font_size': 50, 'opacity': 1.0, 'z': 0, 'style': None, 'min_digits': 0, 'number_grouping': False, 'halign': 'center', 'valign': 'middle', 'y': '10', 'animations': None, 'adjust_right': 0, 'expire': None}, {'anchor_x': 'right', 'adjust_bottom': 0, 'key': None, 'text': 'BALL (ball)', 'x': 'right-10', 'italic': False, 'anchor_y': 'bottom', 'bold': False, '_default_settings': ['font_size'], 'round_anchor_y': None, 'bitmap_font': False, 'rotation': 0, 'font_kerning': True, 'casing': None, 'reset_animations_events': [], 'scale': 1.0, 'adjust_top': 0, 'adjust_left': 0, 'type': 'text', 'color': [1.0, 1.0, 1.0, 1.0], 'round_anchor_x': None, 'font_size': 50, 'opacity': 1.0, 'z': 0, 'style': None, 'min_digits': 0, 'number_grouping': False, 'halign': 'center', 'valign': 'middle', 'y': '10', 'animations': None, 'adjust_right': 0, 'expire': None}], 'target': None, 'force': False, 'transition': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'expire': None, 'slide': None}}}
+2019-05-29 20:44:32,292 : kivy : Base: Leaving application in progress...
+2019-05-29 20:44:32,591 : mpfmc : Stopping...
+2019-05-29 20:44:32,591 : mpfmc : Loop rate 81.56 Hz
+2019-05-29 20:44:32,591 : kivy : MC run loop ended.
+2019-05-29 20:44:32,591 : kivy : Stopping child threads... (3 remaining)
+2019-05-29 20:44:32,607 : MPF-MC BCP Server : Stopping BCP sending thread
+2019-05-29 20:44:32,607 : mpfmc : Stopping...
+2019-05-29 20:44:32,607 : mpfmc : Loop rate 81.55 Hz
+2019-05-29 20:44:33,030 : kivy : All child threads stopped.

@@ -1,0 +1,97 @@
+2019-11-25 19:23:07,555 : kivy : Factory: 194 symbols loaded
+2019-11-25 19:23:08,149 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-11-25 19:23:08,508 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-11-25 19:23:08,508 : kivy : Video: Provider: gstplayer
+2019-11-25 19:23:08,837 : kivy : Loading MPF-MC controller
+2019-11-25 19:23:08,837 : mpfmc : Mission Pinball Framework Media Controller v0.50.8
+2019-11-25 19:23:08,837 : mpfmc : Mission Pinball Framework Game Engine v0.50.17
+2019-11-25 19:23:08,837 : mpfmc : Machine path: D:\POKEMON - 3 - GYMS DISPLAYS
+2019-11-25 19:23:08,852 : ConfigProcessor : Config file in cache changed: D:\POKEMON - 3 - GYMS DISPLAYS\config\config
+2019-11-25 19:23:10,352 : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-11-25 19:23:10,571 : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpfmc\mcconfig.yaml
+2019-11-25 19:23:10,571 : ConfigProcessor : Loading config from file D:\POKEMON - 3 - GYMS DISPLAYS\config\config.
+2019-11-25 19:23:10,758 : ConfigProcessor : Loading config: D:\POKEMON - 3 - GYMS DISPLAYS\config\config
+2019-11-25 19:23:10,774 : ConfigProcessor : Loading config: D:\POKEMON - 3 - GYMS DISPLAYS\config\player_variables.yaml
+2019-11-25 19:23:10,790 : ConfigProcessor : Loading config: D:\POKEMON - 3 - GYMS DISPLAYS\config\key_mapping.yaml
+2019-11-25 19:23:10,805 : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\69e9e8261b2a7a7fe237ef0e6090f00e.mpf_cache
+2019-11-25 19:23:10,805 : mpfmc : Starting clock at 60.0Hz
+2019-11-25 19:23:10,899 : kivy : Text: Provider: sdl2
+2019-11-25 19:23:12,540 : kivy : OSC: using <thread> for socket
+2019-11-25 19:23:12,555 : kivy : Window: Provider: sdl2
+2019-11-25 19:23:12,826 : kivy : GL: Using the "OpenGL" graphics system
+2019-11-25 19:23:12,829 : kivy : GL: GLEW initialization succeeded
+2019-11-25 19:23:12,830 : kivy : GL: Backend used <glew>
+2019-11-25 19:23:12,831 : kivy : GL: OpenGL version <b'4.4.0 - Build 20.19.15.4835'>
+2019-11-25 19:23:12,832 : kivy : GL: OpenGL vendor <b'Intel'>
+2019-11-25 19:23:12,832 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics'>
+2019-11-25 19:23:12,833 : kivy : GL: OpenGL parsed version: 4, 4
+2019-11-25 19:23:12,833 : kivy : GL: Shading version <b'4.40 - Build 20.19.15.4835'>
+2019-11-25 19:23:12,833 : kivy : GL: Texture max size <16384>
+2019-11-25 19:23:12,834 : kivy : GL: Texture max units <32>
+2019-11-25 19:23:12,884 : kivy : Shader: fragment shader: <b"WARNING: 0:7: '' :  #version directive missing">
+2019-11-25 19:23:12,886 : kivy : Shader: vertex shader: <b"WARNING: 0:7: '' :  #version directive missing">
+2019-11-25 19:23:12,904 : kivy : Window: auto add sdl2 input provider
+2019-11-25 19:23:12,905 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2019-11-25 19:23:12,955 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2019-11-25 19:23:15,003 : AudioInterface : Initialized
+2019-11-25 19:23:15,005 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2019-11-25 19:23:15,017 : kivy : Base: Start application main loop
+2019-11-25 19:23:15,089 : mpfmc : Display: Setting 'window' as default display
+2019-11-25 19:23:15,260 : kivy : Base: Leaving application in progress...
+2019-11-25 19:23:15,261 : kivy : Invalid widget config: {'layout_3_mini': {'target': 'window'}}
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpfmc\config_collections\widget.py", line 43, in process_widget
+    widget_cls = WidgetCollection.type_map[config['type']]
+KeyError: 'type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpfmc\config_collections\widget.py", line 50, in process_widget
+    config['type']))
+KeyError: 'type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpfmc\commands\mc.py", line 189, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\python34\lib\site-packages\kivy\app.py", line 828, in run
+    runTouchApp()
+  File "c:\python34\lib\site-packages\kivy\base.py", line 504, in runTouchApp
+    EventLoop.window.mainloop()
+  File "c:\python34\lib\site-packages\kivy\core\window\window_sdl2.py", line 663, in mainloop
+    self._mainloop()
+  File "c:\python34\lib\site-packages\kivy\core\window\window_sdl2.py", line 405, in _mainloop
+    EventLoop.idle()
+  File "c:\python34\lib\site-packages\kivy\base.py", line 339, in idle
+    Clock.tick()
+  File "c:\python34\lib\site-packages\kivy\clock.py", line 581, in tick
+    self._process_events()
+  File "kivy\_clock.pyx", line 367, in kivy._clock.CyClockBase._process_events (kivy\_clock.c:7700)
+  File "kivy\_clock.pyx", line 397, in kivy._clock.CyClockBase._process_events (kivy\_clock.c:7577)
+  File "kivy\_clock.pyx", line 395, in kivy._clock.CyClockBase._process_events (kivy\_clock.c:7498)
+  File "kivy\_clock.pyx", line 167, in kivy._clock.ClockEvent.tick (kivy\_clock.c:3490)
+  File "c:\python34\lib\site-packages\mpfmc\uix\display.py", line 200, in _displays_initialized
+    self.mc.displays_initialized()
+  File "c:\python34\lib\site-packages\mpfmc\core\mc.py", line 336, in displays_initialized
+    self._init()
+  File "c:\python34\lib\site-packages\mpfmc\core\mc.py", line 360, in _init
+    self.events.process_event_queue()
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 729, in process_event_queue
+    **event[3])
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 698, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 656, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\python34\lib\site-packages\mpfmc\core\config_collection.py", line 50, in create_entries_from_root_config
+    self.create_entries(self.mc.machine_config[self.config_section])
+  File "c:\python34\lib\site-packages\mpfmc\core\config_collection.py", line 61, in create_entries
+    self[name] = self.process_config(settings)
+  File "c:\python34\lib\site-packages\mpfmc\config_collections\slide.py", line 33, in process_config
+    config['widgets'][i] = self.mc.widgets.process_widget(widget)
+  File "c:\python34\lib\site-packages\mpfmc\config_collections\widget.py", line 52, in process_widget
+    raise ValueError("Invalid widget config: {}".format(config))
+ValueError: Invalid widget config: {'layout_3_mini': {'target': 'window'}}
+2019-11-25 19:23:15,284 : kivy : Stopping child threads... (1 remaining)
+2019-11-25 19:23:16,092 : kivy : All child threads stopped.

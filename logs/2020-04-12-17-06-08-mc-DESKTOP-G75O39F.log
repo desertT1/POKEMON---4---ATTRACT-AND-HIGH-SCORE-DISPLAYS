@@ -1,0 +1,3 @@
+2020-04-12 17:06:08,742 : kivy : Factory: 184 symbols loaded
+2020-04-12 17:06:09,029 : kivy : Image: Providers: img_tex, img_dds, img_pil, img_gif (img_sdl2, img_ffpyplayer ignored)
+2020-04-12 17:06:09,320 : kivy : Video: Provider: null(['video_ffmpeg', 'video_ffpyplayer'] ignored)

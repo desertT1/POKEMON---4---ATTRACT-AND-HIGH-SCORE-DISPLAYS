@@ -1,0 +1,89 @@
+2020-04-25 15:59:17,980 : INFO : Machine : Mission Pinball Framework Core Engine v0.53.3
+2020-04-25 15:59:17,981 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\almac\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2020-04-25-15-59-17-mpf-DESKTOP-G75O39F.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2020-04-25 15:59:17,981 : INFO : Machine : MPF path: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf
+2020-04-25 15:59:17,981 : INFO : Machine : Machine path: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS
+2020-04-25 15:59:17,981 : INFO : Machine : Platform: win32
+2020-04-25 15:59:17,981 : INFO : Machine : Python executable location: c:\users\almac\appdata\local\programs\python\python36\python.exe
+2020-04-25 15:59:17,982 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2020-04-25 15:59:17,982 : INFO : Machine : Machine config file #1: config.yaml
+2020-04-25 15:59:17,994 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\17efbceb844bb805dffe6c87f22744fb.mpf_cache
+2020-04-25 15:59:18,009 : INFO : Machine : Initialise MPF.
+2020-04-25 15:59:18,535 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-04-25 15:59:18,585 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 107, 'prev_value': None, 'change': True}
+2020-04-25 15:59:18,585 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.53.3', 'prev_value': None, 'change': True}
+2020-04-25 15:59:18,585 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.53.3, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-04-25 15:59:18,585 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2020-04-25 15:59:18,586 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None, 'change': True}
+2020-04-25 15:59:18,586 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2020-04-25 15:59:18,586 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2020-04-25 15:59:18,586 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.18362', 'prev_value': None, 'change': True}
+2020-04-25 15:59:18,586 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2020-04-25 15:59:18,586 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-04-25 15:59:18,626 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\c81a0f1062502e33bbed66b9eae15858.mpf_cache
+2020-04-25 15:59:18,628 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\1a49828cb8454c90fd195e3886327b9d.mpf_cache
+2020-04-25 15:59:18,630 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0c61b9df659d8368945fe529f085132e.mpf_cache
+2020-04-25 15:59:18,636 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\6dbb84b4a2bd3a6642f95ce5744c7797.mpf_cache
+2020-04-25 15:59:18,638 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5e332dad5466fb4d353f60c87864de4c.mpf_cache
+2020-04-25 15:59:18,640 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\201769dfbc23cf51d44452c1bfe1f92e.mpf_cache
+2020-04-25 15:59:18,642 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\dd4913724ea8e05b50af346c964d02e0.mpf_cache
+2020-04-25 15:59:18,644 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\2476b3e7b98dcc7e56449320299b63be.mpf_cache
+2020-04-25 15:59:18,646 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\d6bb1cdfa60c1f50f35785cba55875d1.mpf_cache
+2020-04-25 15:59:18,648 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5e23017ae2bff2a0239ff499da948ac3.mpf_cache
+2020-04-25 15:59:18,650 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5a22bfd3cd388f17bd2b6acbd36605ae.mpf_cache
+2020-04-25 15:59:18,652 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\47fed2ef5afbaf0c19527a565aa191d9.mpf_cache
+2020-04-25 15:59:18,654 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\b9fac23b74e0b513c055e4621b74ad7e.mpf_cache
+2020-04-25 15:59:18,656 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5903aae11c08aba35176e5c1f4c1be59.mpf_cache
+2020-04-25 15:59:18,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\e316602f2754df2a40ebb1b620c83c27.mpf_cache
+2020-04-25 15:59:18,660 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\8e537f3f1075ad5ff3f7e8ba8228812c.mpf_cache
+2020-04-25 15:59:18,662 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\f9a13da868835514a4e555019188716d.mpf_cache
+2020-04-25 15:59:18,664 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\ead1ab3e53925d446b3cb0becf429113.mpf_cache
+2020-04-25 15:59:18,670 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+2020-04-25 15:59:18,670 : INFO : ConfigProcessor : Loading config from file c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2020-04-25 15:59:18,672 : INFO : ConfigProcessor : Loading config: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2020-04-25 15:59:18,672 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml.
+2020-04-25 15:59:18,690 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+2020-04-25 15:59:18,691 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...600'}]}}}]",)>) at c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:99
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...600'}]}}}]",)>) at c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:99>
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 102, in _async_handler_done
+    future.result()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 110, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 259, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 177, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 113, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 178, in _load_config_file_and_return_loaded_files
+    self._check_sections(config, config_type, filename, ignore_unknown_sections)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 143, in _check_sections
+    raise ConfigFileError("Config should be a dict: {}".format(config), 1, self.log.name, filename)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigProcessor: Config should be a dict: [{'duration': '20s', 'slides': {'show_high_scores': {'widgets': [{'type': 'Text', 'text': 'HIGH SCORES', 'font_size': 60, 'bold': True, 'anchor_x': 'center', 'anchor_y': 'center', 'x': 'center', 'y': 'top-100'}, {'type': 'Text', 'text': '(machine|score1_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score1_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score1_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score2_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score2_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score2_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score3_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-280'}, {'type': 'Text', 'text': '(machine|score3_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-280'}, {'type': 'Text', 'text': '(machine|score3_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-280'}, {'type': 'Text', 'text': 'LOOP CHAMPION', 'font_size': 60, 'bold': True, 'anchor_x': 'center', 'anchor_y': 'center', 'x': 'center', 'y': 'top-500'}, {'type': 'Text', 'text': '(machine|loops1_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-600'}, {'type': 'Text', 'text': '(machine|loops1_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-600'}, {'type': 'Text', 'text': '(machine|loops1_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-600'}]}}}] Context: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml Error Code: CFE-ConfigProcessor-1 (https://docs.missionpinball.org/en/0.53/logs/CFE-ConfigProcessor-1.html)
+2020-04-25 15:59:18,693 : INFO : Machine : Starting the main run loop.
+2020-04-25 15:59:18,698 : INFO : Machine : Shutting down...
+2020-04-25 15:59:18,698 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-04-25 15:59:18,699 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 765, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 102, in _async_handler_done
+    future.result()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 110, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 259, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 177, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 113, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 178, in _load_config_file_and_return_loaded_files
+    self._check_sections(config, config_type, filename, ignore_unknown_sections)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 143, in _check_sections
+    raise ConfigFileError("Config should be a dict: {}".format(config), 1, self.log.name, filename)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigProcessor: Config should be a dict: [{'duration': '20s', 'slides': {'show_high_scores': {'widgets': [{'type': 'Text', 'text': 'HIGH SCORES', 'font_size': 60, 'bold': True, 'anchor_x': 'center', 'anchor_y': 'center', 'x': 'center', 'y': 'top-100'}, {'type': 'Text', 'text': '(machine|score1_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score1_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score1_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-200'}, {'type': 'Text', 'text': '(machine|score2_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score2_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score2_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-240'}, {'type': 'Text', 'text': '(machine|score3_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-280'}, {'type': 'Text', 'text': '(machine|score3_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-280'}, {'type': 'Text', 'text': '(machine|score3_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-280'}, {'type': 'Text', 'text': 'LOOP CHAMPION', 'font_size': 60, 'bold': True, 'anchor_x': 'center', 'anchor_y': 'center', 'x': 'center', 'y': 'top-500'}, {'type': 'Text', 'text': '(machine|loops1_label)', 'style': 'attract_mode_high_score_display_label', 'y': 'top-600'}, {'type': 'Text', 'text': '(machine|loops1_name)', 'style': 'attract_mode_high_score_display_name', 'y': 'top-600'}, {'type': 'Text', 'text': '(machine|loops1_value)', 'style': 'attract_mode_high_score_display_score', 'y': 'top-600'}]}}}] Context: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml Error Code: CFE-ConfigProcessor-1 (https://docs.missionpinball.org/en/0.53/logs/CFE-ConfigProcessor-1.html)
+2020-04-25 15:59:18,701 : INFO : root : MPF run loop ended.

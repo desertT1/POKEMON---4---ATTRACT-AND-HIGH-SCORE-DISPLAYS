@@ -1,0 +1,127 @@
+2020-04-11 22:19:22,792 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.9
+2020-04-11 22:19:22,792 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'syslog_address': None, 'force_platform': None, 'force_assets_load': False, 'mpfconfigfile': 'c:\\users\\mission pinball\\appdata\\local\\programs\\python\\python35\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'production': False, 'configfile': ['config.yaml'], 'mc_file_name': None, 'create_config_cache': True, 'loglevel': 15, 'no_sound': False, 'logfile': 'logs\\2020-04-11-22-19-22-mpf-DESKTOP-I5I6D25.log', 'pause': False, 'jsonlogging': False, 'bcp': True, 'consoleloglevel': 20, 'text_ui': True}
+2020-04-11 22:19:22,792 : INFO : Machine : MPF path: c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf
+2020-04-11 22:19:22,792 : INFO : Machine : Machine path: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS
+2020-04-11 22:19:22,792 : INFO : Machine : Platform: win32
+2020-04-11 22:19:22,792 : INFO : Machine : Python executable location: c:\users\mission pinball\appdata\local\programs\python\python35\python.exe
+2020-04-11 22:19:22,792 : INFO : Machine : Python version: 3.5.4 (64-bit)
+2020-04-11 22:19:22,792 : INFO : Machine : Machine config file #1: config.yaml
+2020-04-11 22:19:22,807 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\1d59add9599c514c5f7c5be61c73be75.mpf_cache
+2020-04-11 22:19:22,823 : INFO : Machine : Initialise MPF.
+2020-04-11 22:19:23,369 : INFO : FAST : Connecting to com4 at 921600bps
+2020-04-11 22:19:23,416 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2020-04-11 22:19:23,416 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.01', 'prev_value': None, 'change': True}
+2020-04-11 22:19:23,416 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2020-04-11 22:19:23,416 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2020-04-11 22:19:23,479 : INFO : FAST : Connecting to com5 at 921600bps
+2020-04-11 22:19:23,510 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2020-04-11 22:19:23,510 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2020-04-11 22:19:23,510 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2020-04-11 22:19:23,510 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-04-11 22:19:24,088 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 107, 'prev_value': None, 'change': True}
+2020-04-11 22:19:24,088 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.9', 'prev_value': None, 'change': True}
+2020-04-11 22:19:24,088 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.9, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-04-11 22:19:24,088 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.5.4', 'prev_value': None, 'change': True}
+2020-04-11 22:19:24,088 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None, 'change': True}
+2020-04-11 22:19:24,088 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2020-04-11 22:19:24,088 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2020-04-11 22:19:24,088 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.18362', 'prev_value': None, 'change': True}
+2020-04-11 22:19:24,088 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2020-04-11 22:19:24,088 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-04-11 22:19:24,291 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\ead1ab3e53925d446b3cb0becf429113.mpf_cache
+2020-04-11 22:19:24,323 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\5903aae11c08aba35176e5c1f4c1be59.mpf_cache
+2020-04-11 22:19:24,338 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\5e332dad5466fb4d353f60c87864de4c.mpf_cache
+2020-04-11 22:19:24,354 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\e316602f2754df2a40ebb1b620c83c27.mpf_cache
+2020-04-11 22:19:24,369 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\5a22bfd3cd388f17bd2b6acbd36605ae.mpf_cache
+2020-04-11 22:19:24,385 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\1a49828cb8454c90fd195e3886327b9d.mpf_cache
+2020-04-11 22:19:24,401 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\4c74177f109f95ed9599c78880646655.mpf_cache
+2020-04-11 22:19:24,448 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\b9fac23b74e0b513c055e4621b74ad7e.mpf_cache
+2020-04-11 22:19:24,463 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\47fed2ef5afbaf0c19527a565aa191d9.mpf_cache
+2020-04-11 22:19:24,479 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\3183d529c1c05723ae7f7f27f6d76374.mpf_cache
+2020-04-11 22:19:24,494 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\d6bb1cdfa60c1f50f35785cba55875d1.mpf_cache
+2020-04-11 22:19:24,510 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\0db36da4b9aa41dcdeae696ef4ec8d87.mpf_cache
+2020-04-11 22:19:24,526 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\2476b3e7b98dcc7e56449320299b63be.mpf_cache
+2020-04-11 22:19:24,541 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\32e6b619402cb4da5981e97ecb1f6408.mpf_cache
+2020-04-11 22:19:24,557 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\b51fa6c1189029eac07bf57001e3c2a0.mpf_cache
+2020-04-11 22:19:24,573 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\dd4913724ea8e05b50af346c964d02e0.mpf_cache
+2020-04-11 22:19:24,588 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\4ea733655e2f71aef4d6f646b7999fe0.mpf_cache
+2020-04-11 22:19:24,604 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\f9a13da868835514a4e555019188716d.mpf_cache
+2020-04-11 22:19:24,619 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\5b0c10fb1ea3d696f3389c798402fbbd.mpf_cache
+2020-04-11 22:19:24,635 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\0378f93b62c546ad0a14fc16b8462c41.mpf_cache
+2020-04-11 22:19:24,651 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\8e537f3f1075ad5ff3f7e8ba8228812c.mpf_cache
+2020-04-11 22:19:24,666 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c721f48534ae43d3f9c4e17312560aaa.mpf_cache
+2020-04-11 22:19:24,698 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c81a0f1062502e33bbed66b9eae15858.mpf_cache
+2020-04-11 22:19:24,713 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\201769dfbc23cf51d44452c1bfe1f92e.mpf_cache
+2020-04-11 22:19:24,729 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+2020-04-11 22:19:24,729 : INFO : ConfigProcessor : Loading config from file c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2020-04-11 22:19:24,744 : INFO : ConfigProcessor : Loading config: c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2020-04-11 22:19:24,744 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml.
+2020-04-11 22:19:24,885 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+2020-04-11 22:19:24,885 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...fig files.',)>) at c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...fig files.',)>) at c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\config_processor.py", line 145, in _load_config_file_and_return_loaded_files
+    if config_type not in self.config_validator.get_config_spec()[k][
+KeyError: 'mode_attract_started'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\events.py", line 127, in _run
+    self._callback(*self._args)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\futures.py", line 294, in result
+    raise self._exception
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\tasks.py", line 240, in _step
+    result = coro.send(None)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\config_processor.py", line 154, in _load_config_file_and_return_loaded_files
+    'files.'.format(k, filename, config_type))
+ValueError: Found a "mode_attract_started:" section in config file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml, but that section is not valid in mode config files.
+2020-04-11 22:19:24,901 : INFO : Machine : Starting the main run loop.
+2020-04-11 22:19:24,901 : INFO : Machine : Shutting down...
+2020-04-11 22:19:24,901 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-04-11 22:19:24,916 : ERROR : FAST : Stop called on serial connection com5
+2020-04-11 22:19:24,916 : ERROR : FAST : Stop called on serial connection com4
+2020-04-11 22:19:25,166 : ERROR : root : Found a "mode_attract_started:" section in config file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml, but that section is not valid in mode config files.
+Traceback (most recent call last):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\config_processor.py", line 145, in _load_config_file_and_return_loaded_files
+    if config_type not in self.config_validator.get_config_spec()[k][
+KeyError: 'mode_attract_started'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\machine.py", line 709, in run
+    self._run_loop()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\events.py", line 127, in _run
+    self._callback(*self._args)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\futures.py", line 294, in result
+    raise self._exception
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\asyncio\tasks.py", line 240, in _step
+    result = coro.send(None)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\mission pinball\appdata\local\programs\python\python35\lib\site-packages\mpf\core\config_processor.py", line 154, in _load_config_file_and_return_loaded_files
+    'files.'.format(k, filename, config_type))
+ValueError: Found a "mode_attract_started:" section in config file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml, but that section is not valid in mode config files.

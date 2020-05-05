@@ -1,0 +1,119 @@
+2020-04-25 15:58:30,757 : INFO : Machine : Mission Pinball Framework Core Engine v0.53.3
+2020-04-25 15:58:30,758 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\almac\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2020-04-25-15-58-30-mpf-DESKTOP-G75O39F.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2020-04-25 15:58:30,758 : INFO : Machine : MPF path: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf
+2020-04-25 15:58:30,758 : INFO : Machine : Machine path: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS
+2020-04-25 15:58:30,758 : INFO : Machine : Platform: win32
+2020-04-25 15:58:30,758 : INFO : Machine : Python executable location: c:\users\almac\appdata\local\programs\python\python36\python.exe
+2020-04-25 15:58:30,758 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2020-04-25 15:58:30,759 : INFO : Machine : Machine config file #1: config.yaml
+2020-04-25 15:58:30,770 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\config.yaml
+2020-04-25 15:58:30,771 : INFO : ConfigProcessor : Loading config from file c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml.
+2020-04-25 15:58:30,865 : INFO : ConfigProcessor : Loading config: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2020-04-25 15:58:30,876 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\config.yaml.
+2020-04-25 15:58:30,937 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\config.yaml
+2020-04-25 15:58:30,945 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\player_variables.yaml
+2020-04-25 15:58:30,951 : INFO : ConfigProcessor : Loading config: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\config\key_mapping.yaml
+2020-04-25 15:58:30,953 : INFO : ConfigProcessor : Config file cache created: C:\Users\almac\AppData\Local\Temp\17efbceb844bb805dffe6c87f22744fb.mpf_cache
+2020-04-25 15:58:30,955 : INFO : Machine : Initialise MPF.
+2020-04-25 15:58:31,510 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-04-25 15:58:31,561 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 107, 'prev_value': None, 'change': True}
+2020-04-25 15:58:31,562 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.53.3', 'prev_value': None, 'change': True}
+2020-04-25 15:58:31,562 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.53.3, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-04-25 15:58:31,562 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2020-04-25 15:58:31,562 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.18362-SP0', 'prev_value': None, 'change': True}
+2020-04-25 15:58:31,562 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2020-04-25 15:58:31,562 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2020-04-25 15:58:31,562 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.18362', 'prev_value': None, 'change': True}
+2020-04-25 15:58:31,562 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2020-04-25 15:58:31,562 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-04-25 15:58:31,602 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5a22bfd3cd388f17bd2b6acbd36605ae.mpf_cache
+2020-04-25 15:58:31,605 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5b0c10fb1ea3d696f3389c798402fbbd.mpf_cache
+2020-04-25 15:58:31,607 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\3183d529c1c05723ae7f7f27f6d76374.mpf_cache
+2020-04-25 15:58:31,609 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0db36da4b9aa41dcdeae696ef4ec8d87.mpf_cache
+2020-04-25 15:58:31,611 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0378f93b62c546ad0a14fc16b8462c41.mpf_cache
+2020-04-25 15:58:31,613 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\2476b3e7b98dcc7e56449320299b63be.mpf_cache
+2020-04-25 15:58:31,615 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\ead1ab3e53925d446b3cb0becf429113.mpf_cache
+2020-04-25 15:58:31,617 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\1a49828cb8454c90fd195e3886327b9d.mpf_cache
+2020-04-25 15:58:31,619 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\6dbb84b4a2bd3a6642f95ce5744c7797.mpf_cache
+2020-04-25 15:58:31,621 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5e23017ae2bff2a0239ff499da948ac3.mpf_cache
+2020-04-25 15:58:31,623 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\b9fac23b74e0b513c055e4621b74ad7e.mpf_cache
+2020-04-25 15:58:31,625 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\8e537f3f1075ad5ff3f7e8ba8228812c.mpf_cache
+2020-04-25 15:58:31,628 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\0c61b9df659d8368945fe529f085132e.mpf_cache
+2020-04-25 15:58:31,634 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\c81a0f1062502e33bbed66b9eae15858.mpf_cache
+2020-04-25 15:58:31,636 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\b51fa6c1189029eac07bf57001e3c2a0.mpf_cache
+2020-04-25 15:58:31,638 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\201769dfbc23cf51d44452c1bfe1f92e.mpf_cache
+2020-04-25 15:58:31,640 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\6a2515e5578170ee7c481918e8ad2f89.mpf_cache
+2020-04-25 15:58:31,645 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\32e6b619402cb4da5981e97ecb1f6408.mpf_cache
+2020-04-25 15:58:31,647 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5903aae11c08aba35176e5c1f4c1be59.mpf_cache
+2020-04-25 15:58:31,649 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\47fed2ef5afbaf0c19527a565aa191d9.mpf_cache
+2020-04-25 15:58:31,651 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\5e332dad5466fb4d353f60c87864de4c.mpf_cache
+2020-04-25 15:58:31,653 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\4ea733655e2f71aef4d6f646b7999fe0.mpf_cache
+2020-04-25 15:58:31,655 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\dd4913724ea8e05b50af346c964d02e0.mpf_cache
+2020-04-25 15:58:31,657 : INFO : ConfigProcessor : Loading config from cache: C:\Users\almac\AppData\Local\Temp\f9a13da868835514a4e555019188716d.mpf_cache
+2020-04-25 15:58:31,659 : WARNING : ConfigProcessor : Config file in cache changed: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+2020-04-25 15:58:31,659 : INFO : ConfigProcessor : Loading config from file c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2020-04-25 15:58:31,661 : INFO : ConfigProcessor : Loading config: c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2020-04-25 15:58:31,661 : INFO : ConfigProcessor : Loading config from file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml.
+2020-04-25 15:58:31,662 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tract.yaml',)>) at c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:99
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tract.yaml',)>) at c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:99>
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 192, in load
+    expected_version_str, version_str, filename))
+AssertionError: Version mismatch. Expected: #config_version=5 Actual: - duration: 20s Files: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 102, in _async_handler_done
+    future.result()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 110, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 259, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 177, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 113, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 169, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\file_manager.py", line 98, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 207, in load
+    raise ValueError(msg)
+ValueError: Error found in file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml: Version mismatch. Expected: #config_version=5 Actual: - duration: 20s Files: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+2020-04-25 15:58:31,664 : INFO : Machine : Starting the main run loop.
+2020-04-25 15:58:31,669 : INFO : Machine : Shutting down...
+2020-04-25 15:58:31,669 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-04-25 15:58:31,672 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 192, in load
+    expected_version_str, version_str, filename))
+AssertionError: Version mismatch. Expected: #config_version=5 Actual: - duration: 20s Files: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 765, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 102, in _async_handler_done
+    future.result()
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 110, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 259, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 177, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 113, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 169, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\core\file_manager.py", line 98, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\almac\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 207, in load
+    raise ValueError(msg)
+ValueError: Error found in file E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml: Version mismatch. Expected: #config_version=5 Actual: - duration: 20s Files: E:\POKEMON - 4 - ATTRACT AND HIGH SCORE DISPLAYS\modes\attract\config\attract.yaml
+2020-04-25 15:58:31,675 : INFO : root : MPF run loop ended.

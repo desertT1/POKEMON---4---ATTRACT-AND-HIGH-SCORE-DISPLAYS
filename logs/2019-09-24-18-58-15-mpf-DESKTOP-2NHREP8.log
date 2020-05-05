@@ -1,0 +1,80 @@
+2019-09-24 18:58:15,788 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.6
+2019-09-24 18:58:15,788 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'J:\\Python\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-09-24-18-58-15-mpf-DESKTOP-2NHREP8.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-09-24 18:58:15,788 : INFO : Machine : MPF path: J:\Python\lib\site-packages\mpf
+2019-09-24 18:58:15,788 : INFO : Machine : Machine path: J:\Pinball Code\POKEMON
+2019-09-24 18:58:15,788 : INFO : Machine : Platform: win32
+2019-09-24 18:58:15,788 : INFO : Machine : Python executable location: J:\Python\python.exe
+2019-09-24 18:58:15,788 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-09-24 18:58:15,788 : INFO : Machine : Machine config file #1: config.yaml
+2019-09-24 18:58:15,789 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\69e0444c0f6138f6d2261c567bcf50ad.mpf_cache
+2019-09-24 18:58:15,789 : INFO : Machine : Initialise MPF.
+2019-09-24 18:58:15,867 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-09-24 18:58:15,899 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-09-24 18:58:15,899 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.6', 'prev_value': None, 'change': True}
+2019-09-24 18:58:15,899 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.6, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-09-24 18:58:15,899 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-09-24 18:58:15,899 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.17134-SP0', 'prev_value': None, 'change': True}
+2019-09-24 18:58:15,899 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-09-24 18:58:15,899 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2019-09-24 18:58:15,899 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.17134', 'prev_value': None, 'change': True}
+2019-09-24 18:58:15,899 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-09-24 18:58:15,899 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-09-24 18:58:15,914 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\206a85769bf0b844ba22633966100a87.mpf_cache
+2019-09-24 18:58:15,933 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\2f6c6435e826e441dccd53350c4e6995.mpf_cache
+2019-09-24 18:58:15,935 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\0557c8573691a949dbe0d19a228380a0.mpf_cache
+2019-09-24 18:58:15,937 : WARNING : ConfigProcessor : Config file in cache changed: J:\Pinball Code\POKEMON\modes\modes_all\config\modes_all.yaml
+2019-09-24 18:58:15,937 : INFO : ConfigProcessor : Loading config from file J:\Pinball Code\POKEMON\modes\modes_all\config\modes_all.yaml.
+2019-09-24 18:58:15,938 : INFO : ConfigProcessor : Loading config: J:\Pinball Code\POKEMON\modes\modes_all\config\modes_all.yaml
+2019-09-24 18:58:15,939 : INFO : ConfigProcessor : Config file cache created: C:\Users\Chris\AppData\Local\Temp\9d5a078bb7ae6bf0c84aa1e20e128e4e.mpf_cache
+2019-09-24 18:58:15,941 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Chris\AppData\Local\Temp\b026998c18788086646f1fdaa380134c.mpf_cache
+2019-09-24 18:58:15,957 : INFO : EventManager : Event: ======'drop_target_bank_right_bank_up'====== Args={}
+2019-09-24 18:58:15,957 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-09-24 18:58:15,980 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2019-09-24 18:58:15,980 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-09-24 18:58:18,173 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-09-24 18:58:18,173 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2019-09-24 18:58:18,182 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,360 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-09-24 18:58:18,365 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2019-09-24 18:58:18,366 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 136, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,366 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 167, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,366 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 186.70270270270268, 'top': [828, 726, 724, 722, 706, 614, 516, 513, 504, 499], 'total': 148}, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,366 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'value': 1369, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,366 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_center'====== Args={'value': 314, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,367 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_left'====== Args={'value': 292, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,367 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right'====== Args={'value': 262, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,367 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 4000, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,367 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 5737, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,367 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_gym'====== Args={'value': 154, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,367 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 78, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,368 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bottom'====== Args={'value': 1169, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,368 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,368 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 953, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,368 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_top'====== Args={'value': 414, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,368 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 624, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,368 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 573, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,368 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 757, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,369 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 3068, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,369 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,369 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough'====== Args={'value': 833, 'prev_value': None, 'change': True}
+2019-09-24 18:58:18,369 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2019-09-24 18:58:18,370 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2019-09-24 18:58:18,370 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2019-09-24 18:58:18,375 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2019-09-24 18:58:18,376 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2019-09-24 18:58:18,377 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2019-09-24 18:58:18,377 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2019-09-24 18:58:18,377 : INFO : drop_target_bank.right_bank : All targets are already up. Will not reset bank.
+2019-09-24 18:58:18,378 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2019-09-24 18:58:18,378 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2019-09-24 18:58:18,378 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2019-09-24 18:58:18,378 : INFO : Mode.attract : Started. Priority: 10
+2019-09-24 18:58:18,379 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2019-09-24 18:58:18,379 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2019-09-24 18:58:18,379 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2019-09-24 18:58:18,379 : INFO : Machine : Starting the main run loop.
+2019-09-24 18:58:18,401 : INFO : EventManager : Event: ======'slide_attract_started_created'====== Args={'_from_bcp': True}
+2019-09-24 18:58:18,402 : INFO : EventManager : Event: ======'slide_attract_started_active'====== Args={'_from_bcp': True}
+2019-09-24 18:58:18,814 : INFO : Machine : Shutting down...
+2019-09-24 18:58:18,814 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-09-24 18:58:18,817 : INFO : root : MPF run loop ended.

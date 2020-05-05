@@ -1,0 +1,39 @@
+2019-11-26 17:57:38,586 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-11-26 17:57:38,586 : INFO : Machine : Command line arguments: {'force_assets_load': False, 'consoleloglevel': 20, 'logfile': 'logs\\2019-11-26-17-57-38-mpf-DESKTOP-I5I6D25.log', 'text_ui': True, 'pause': False, 'bcp': True, 'create_config_cache': True, 'production': False, 'force_platform': None, 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'mc_file_name': None, 'loglevel': 15, 'configfile': ['config.yaml'], 'no_load_cache': False, 'syslog_address': None}
+2019-11-26 17:57:38,601 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-11-26 17:57:38,601 : INFO : Machine : Machine path: D:\POKEMON - 3 - GYMS DISPLAYS
+2019-11-26 17:57:38,601 : INFO : Machine : Platform: win32
+2019-11-26 17:57:38,601 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-11-26 17:57:38,601 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-11-26 17:57:40,101 : INFO : Machine : Machine config file #1: config.yaml
+2019-11-26 17:57:40,117 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\397fad0162a41b7db123b3957565a4ff.mpf_cache
+2019-11-26 17:57:40,132 : INFO : Machine : Initialise MPF.
+2019-11-26 17:57:40,929 : INFO : FAST : Connecting to com4 at 921600bps
+2019-11-26 17:57:40,976 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-11-26 17:57:40,976 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-11-26 17:57:41,054 : INFO : FAST : Connecting to com5 at 921600bps
+2019-11-26 17:57:41,085 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-11-26 17:57:41,539 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\83c754771fb45e3fc54c6972ada6ad28.mpf_cache
+2019-11-26 17:57:41,554 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\fec8123b1b217d56ad0888fe76304234.mpf_cache
+2019-11-26 17:57:41,585 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\c8c985d122de6339937b15f5cde5ffe7.mpf_cache
+2019-11-26 17:57:41,617 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\67883f94a338018e00def423992c3471.mpf_cache
+2019-11-26 17:57:41,648 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\7f23218709f44a41086dfd04f42f7c3f.mpf_cache
+2019-11-26 17:57:41,679 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\10f8871b1481fbf59bf30d5b3d29537e.mpf_cache
+2019-11-26 17:57:41,710 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\050cf1c6f86beee4aa95d4daa6cae486.mpf_cache
+2019-11-26 17:57:41,726 : INFO : ConfigProcessor : Loading config from cache: C:\Users\MISSIO~1\AppData\Local\Temp\7c39c18794ea7f1f8101ccbb93a960ae.mpf_cache
+2019-11-26 17:57:41,757 : WARNING : ConfigProcessor : Cache file not found: C:\Users\MISSIO~1\AppData\Local\Temp\a5b14625a1eebb95fe3d4d36c1f80403.mpf_cache
+2019-11-26 17:57:41,757 : INFO : ConfigProcessor : Loading config from file D:\POKEMON - 3 - GYMS DISPLAYS\modes\pikachu\config\pikachu.yaml.
+2019-11-26 17:57:41,835 : INFO : ConfigProcessor : Loading config: D:\POKEMON - 3 - GYMS DISPLAYS\modes\pikachu\config\pikachu.yaml
+2019-11-26 17:57:41,835 : INFO : ConfigProcessor : Config file cache created: C:\Users\MISSIO~1\AppData\Local\Temp\a5b14625a1eebb95fe3d4d36c1f80403.mpf_cache
+2019-11-26 17:57:41,882 : DEBUG : coil.c_trough : Configuring device with settings: '{'pulse_events': {}, 'default_pulse_ms': 7, 'number': '1-1', 'default_recycle': False, 'default_hold_power': None, 'default_pulse_power': None, 'platform_settings': {}, 'max_pulse_ms': None, 'console_log': 'full', 'enable_events': {}, 'debug': True, 'psu': <psu.default>, 'platform': None, 'allow_enable': False, 'file_log': 'full', 'label': '%', 'max_pulse_power': 1.0, 'tags': [], 'max_hold_power': None, 'disable_events': {}}'
+2019-11-26 17:57:41,882 : DEBUG : coil.c_trough : Configuring device with settings: '{'pulse_events': {}, 'default_pulse_ms': 7, 'number': '1-1', 'default_recycle': False, 'default_hold_power': None, 'default_pulse_power': None, 'platform_settings': {'recycle_ms': None, 'connection': 'auto'}, 'max_pulse_ms': None, 'console_log': 'full', 'enable_events': {}, 'debug': True, 'psu': <psu.default>, 'platform': None, 'allow_enable': False, 'file_log': 'full', 'label': '%', 'max_pulse_power': 1.0, 'tags': [], 'max_hold_power': None, 'disable_events': {}}'
+2019-11-26 17:57:41,914 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'eject_coil_max_wait_ms': 200, 'entrance_events': {}, 'eject_timeouts': [], 'eject_targets': [<ball_device.bd_plunger>], 'hold_events': {}, 'player_controlled_eject_event': None, 'ball_switches': [<switch.s_trough>], 'jam_switch': None, 'exit_count_delay': 500, 'ball_search_order': 200, 'confirm_eject_switch': None, 'label': '%', 'console_log': 'full', 'target_on_unexpected_ball': None, 'confirm_eject_type': 'target', 'entrance_switch': None, 'eject_coil_jam_pulse': None, 'eject_coil_reorder_pulse': None, 'tags': ['home', 'trough'], 'ball_capacity': None, 'ball_missing_timeouts': [], 'hold_switches': [], 'auto_fire_on_unexpected_ball': True, 'eject_coil': <coil.c_trough>, 'entrance_event_timeout': 5.0, 'ball_missing_target': <playfield.playfield>, 'captures_from': <playfield.playfield>, 'eject_coil_retry_pulse': None, 'entrance_count_delay': 500, 'hold_coil_release_time': 1000, 'request_ball_events': [], 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'debug': True, 'idle_missing_ball_timeout': 5.0, 'eject_all_events': {}, 'hold_coil': None, 'max_eject_attempts': 0, 'confirm_eject_event': None, 'eject_events': {}, 'file_log': 'full', 'entrance_switch_full_timeout': 0, 'mechanical_eject': False}'
+2019-11-26 17:57:41,960 : INFO : SwitchController : Found active switch: s_drain
+2019-11-26 17:57:41,960 : INFO : SwitchController : Found active switch: s_drop_center
+2019-11-26 17:57:41,960 : INFO : SwitchController : Found active switch: s_drop_left
+2019-11-26 17:57:42,101 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-11-26 17:57:43,117 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-26 17:57:44,117 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-26 17:57:45,120 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-26 17:57:50,581 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-11-26 17:57:56,081 : WARNING : FAST : Port com4 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!

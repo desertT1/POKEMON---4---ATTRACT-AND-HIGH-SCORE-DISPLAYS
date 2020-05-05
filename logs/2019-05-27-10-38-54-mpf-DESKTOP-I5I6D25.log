@@ -1,0 +1,126 @@
+2019-05-27 10:38:55,129 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.17
+2019-05-27 10:38:55,129 : INFO : Machine : Command line arguments: {'configfile': ['config.yaml'], 'text_ui': True, 'no_load_cache': True, 'force_assets_load': False, 'production': False, 'force_platform': None, 'mc_file_name': None, 'bcp': True, 'create_config_cache': False, 'mpfconfigfile': 'c:\\python34\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'pause': False, 'consoleloglevel': 10, 'syslog_address': None, 'loglevel': 10, 'logfile': 'logs\\2019-05-27-10-38-54-mpf-DESKTOP-I5I6D25.log'}
+2019-05-27 10:38:55,129 : INFO : Machine : MPF path: c:\python34\lib\site-packages\mpf
+2019-05-27 10:38:55,144 : INFO : Machine : Machine path: D:\POKEMON
+2019-05-27 10:38:55,144 : INFO : Machine : Platform: win32
+2019-05-27 10:38:55,144 : INFO : Machine : Python executable location: c:\python34\python.exe
+2019-05-27 10:38:55,144 : INFO : Machine : Python version: 3.4.4 (64-bit)
+2019-05-27 10:38:56,707 : INFO : Machine : Machine config file #1: config.yaml
+2019-05-27 10:38:56,722 : INFO : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpf\mpfconfig.yaml.
+2019-05-27 10:38:56,722 : DEBUG : YAML File Interface : Loading file: c:\python34\lib\site-packages\mpf\mpfconfig.yaml
+2019-05-27 10:38:57,066 : INFO : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpf\mpfconfig.yaml
+2019-05-27 10:38:57,066 : INFO : ConfigProcessor : Loading config from file D:\POKEMON\config\config.yaml.
+2019-05-27 10:38:57,066 : DEBUG : YAML File Interface : Loading file: D:\POKEMON\config\config.yaml
+2019-05-27 10:38:57,472 : INFO : ConfigProcessor : Loading config: D:\POKEMON\config\config.yaml
+2019-05-27 10:38:57,488 : DEBUG : asyncio : Using selector: SelectSelector
+2019-05-27 10:38:57,535 : INFO : Machine : Initialise MPF.
+2019-05-27 10:38:57,957 : DEBUG : FAST : Configuring FAST hardware.
+2019-05-27 10:38:59,347 : INFO : FAST : Connecting to com4 at 921600bps
+2019-05-27 10:38:59,410 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.01
+2019-05-27 10:38:59,410 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'change': True, 'prev_value': None, 'value': '01.01'}
+2019-05-27 10:38:59,410 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'change': True, 'prev_value': None, 'value': 'FP-CPU-002-2'}
+2019-05-27 10:38:59,410 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-05-27 10:38:59,472 : INFO : FAST : Connecting to com5 at 921600bps
+2019-05-27 10:38:59,504 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-05-27 10:38:59,504 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'change': True, 'prev_value': None, 'value': '01.00'}
+2019-05-27 10:38:59,504 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'change': True, 'prev_value': None, 'value': 'FP-CPU-002-2'}
+2019-05-27 10:38:59,504 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'change': True, 'prev_value': None, 'value': 'FREE PLAY'}
+2019-05-27 10:39:00,129 : DEBUG : YAML File Interface : Loading file: D:\POKEMON\data/machine_vars.yaml
+2019-05-27 10:39:00,160 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'change': True, 'prev_value': None, 'value': 189}
+2019-05-27 10:39:00,160 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'change': True, 'prev_value': None, 'value': 'MPF v0.50.17'}
+2019-05-27 10:39:00,160 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'change': True, 'prev_value': None, 'value': 'MPF v0.50.17, Config version:5, Show version: 5, BCP version:1.1'}
+2019-05-27 10:39:00,160 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'change': True, 'prev_value': None, 'value': '3.4.4'}
+2019-05-27 10:39:00,160 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'change': True, 'prev_value': None, 'value': 'Windows-10-10.0.17134'}
+2019-05-27 10:39:00,160 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'change': True, 'prev_value': None, 'value': 'Windows'}
+2019-05-27 10:39:00,160 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'change': True, 'prev_value': None, 'value': '10'}
+2019-05-27 10:39:00,160 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'change': True, 'prev_value': None, 'value': '10.0.17134'}
+2019-05-27 10:39:00,160 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'change': True, 'prev_value': None, 'value': 'AMD64'}
+2019-05-27 10:39:00,160 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-05-27 10:39:00,957 : INFO : ConfigProcessor : Loading config from file c:\python34\lib\site-packages\mpf\modes\game\config\game.yaml.
+2019-05-27 10:39:00,957 : DEBUG : YAML File Interface : Loading file: c:\python34\lib\site-packages\mpf\modes\game\config\game.yaml
+2019-05-27 10:39:00,988 : INFO : ConfigProcessor : Loading config: c:\python34\lib\site-packages\mpf\modes\game\config\game.yaml
+2019-05-27 10:39:01,082 : DEBUG : ModeController : Loaded mode game
+2019-05-27 10:39:01,097 : INFO : ConfigProcessor : Loading config from file D:\POKEMON\modes\pichu\config\pichu.yaml.
+2019-05-27 10:39:01,097 : DEBUG : YAML File Interface : Loading file: D:\POKEMON\modes\pichu\config\pichu.yaml
+2019-05-27 10:39:01,175 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe..., column 3',)>) at c:\python34\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe..., column 3',)>) at c:\python34\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 194, in load
+    config = self.process(f)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 220, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\python34\lib\site-packages\ruamel\yaml\main.py", line 75, in load
+    return loader.get_single_data()
+  File "c:\python34\lib\site-packages\ruamel\yaml\constructor.py", line 57, in get_single_data
+    node = self.get_single_node()
+  File "c:\python34\lib\site-packages\ruamel\yaml\composer.py", line 46, in get_single_node
+    document = self.compose_document()
+  File "c:\python34\lib\site-packages\ruamel\yaml\composer.py", line 66, in compose_document
+    node = self.compose_node(None, None)
+  File "c:\python34\lib\site-packages\ruamel\yaml\composer.py", line 97, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "c:\python34\lib\site-packages\ruamel\yaml\composer.py", line 156, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "c:\python34\lib\site-packages\ruamel\yaml\composer.py", line 97, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "c:\python34\lib\site-packages\ruamel\yaml\composer.py", line 156, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "c:\python34\lib\site-packages\ruamel\yaml\composer.py", line 97, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "c:\python34\lib\site-packages\ruamel\yaml\composer.py", line 149, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+  File "c:\python34\lib\site-packages\ruamel\yaml\parser_.py", line 118, in check_event
+    self.current_event = self.state()
+  File "c:\python34\lib\site-packages\ruamel\yaml\parser_.py", line 490, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+  File "c:\python34\lib\site-packages\ruamel\yaml\scanner.py", line 129, in check_token
+    while self.need_more_tokens():
+  File "c:\python34\lib\site-packages\ruamel\yaml\scanner.py", line 163, in need_more_tokens
+    self.stale_possible_simple_keys()
+  File "c:\python34\lib\site-packages\ruamel\yaml\scanner.py", line 307, in stale_possible_simple_keys
+    "could not find expected ':'", self.get_mark())
+ruamel.yaml.scanner.ScannerError: while scanning a simple key
+  in "D:\POKEMON\modes\pichu\config\pichu.yaml", line 39, column 5
+could not find expected ':'
+  in "D:\POKEMON\modes\pichu\config\pichu.yaml", line 40, column 3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python34\lib\asyncio\events.py", line 125, in _run
+    self._callback(*self._args)
+  File "c:\python34\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\python34\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "c:\python34\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 113, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 262, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\python34\lib\site-packages\mpf\core\mode_controller.py", line 180, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 111, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 131, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\python34\lib\site-packages\mpf\core\file_manager.py", line 154, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 201, in load
+    raise ValueError(msg)
+ValueError: YAML error found in file D:\POKEMON\modes\pichu\config\pichu.yaml. Line 40,Position 3: while scanning a simple key
+  in "D:\POKEMON\modes\pichu\config\pichu.yaml", line 39, column 5
+could not find expected ':'
+  in "D:\POKEMON\modes\pichu\config\pichu.yaml", line 40, column 3
+2019-05-27 10:39:01,941 : ERROR : root : Exception is not set.
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\commands\game.py", line 208, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 661, in run
+    self.initialise_mpf()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 653, in initialise_mpf
+    if init.exception():
+  File "c:\python34\lib\asyncio\futures.py", line 288, in exception
+    raise InvalidStateError('Exception is not set.')
+asyncio.futures.InvalidStateError: Exception is not set.
